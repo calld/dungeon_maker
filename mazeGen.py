@@ -1,5 +1,5 @@
 import util
-from random import randrange
+from random import randrange, random
 
 crxval = [10, 18]
 
@@ -106,7 +106,7 @@ def make_floor(l_r, l_c):
 
     return m
 
-ch = [(' ', ' '), ('|', '-'), ('-', '\\'), ' ', ' ', ' ', ' ', 't', ' ', 'M']
+ch = [(' ', ' '), ('|', '-'), ('-', '\\'), ' ', ' ', 'G', 'E', 't', ' ', 'M']
 
 def print_floor(m):
     for r in range(m['r_len']):
@@ -122,6 +122,28 @@ def print_floor(m):
     print('+')
 
 m = make_floor(3, 3)
+
+spawn_points = []
+for r in range(m['r_len']):
+    for c in range(m['c_len']):
+        if(m['space'][r][c] == 9):
+            spawn_points.append((r, c))
+c = randrange(0, len(spawn_points))
+entrance = spawn_points[c]
+spawn_points = spawn_points[:c] + spawn_points[c+1:]
+m['space'][entrance[0]][entrance[1]] = 6
+
+c = randrange(0, len(spawn_points))
+entrance = spawn_points[c]
+spawn_points = spawn_points[:c] + spawn_points[c+1:]
+m['space'][entrance[0]][entrance[1]] = 5
+
+for spot in spawn_points:
+    if (random() < .4):
+        m['space'][spot[0]][spot[1]] = 8
+
+
+
 print_floor(m)
 
         
