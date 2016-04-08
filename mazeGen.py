@@ -85,6 +85,15 @@ def make_layout():
 
     return m
 
+# 0 = empty door,
+# 1 = wall,
+# 2 = door,
+# 5 = goal,
+# 6 = entrance,
+# 7 = reward,
+# 8 = empty,
+# 9 = monster
+
 def make_floor(l_r, l_c):
     m = {'hor': [[0 for c in range(30*l_c)] for r in range(30*l_r+1)],
          'ver': [[0 for c in range(30*l_c+1)] for r in range(30*l_r)],
@@ -104,9 +113,34 @@ def make_floor(l_r, l_c):
         m['ver'][r][0] = 1
         m['ver'][r][m['c_len']] = 1
 
+    spawn_points = []
+    for r in range(m['r_len']):
+        for c in range(m['c_len']):
+            if(m['space'][r][c] == 9):
+                spawn_points.append((r, c))
+    
+    c = randrange(0, len(spawn_points))
+    entrance = spawn_points[c]
+    spawn_points = spawn_points[:c] + spawn_points[c+1:]
+    m['space'][entrance[0]][entrance[1]] = 6
+
+    c = randrange(0, len(spawn_points))
+    entrance = spawn_points[c]
+    spawn_points = spawn_points[:c] + spawn_points[c+1:]
+    m['space'][entrance[0]][entrance[1]] = 5
+
+    for spot in spawn_points:
+        if (random() < .4):
+            m['space'][spot[0]][spot[1]] = 8
+        rand = random()
+        if (rand < .2):
+            m['space'][spot[0]][spot[1]] = 10
+        elif (rand > .9):
+            m['space'][spot[0]][spot[1]] = 11
+
     return m
 
-ch = [(' ', ' '), ('|', '-'), ('-', '\\'), ' ', ' ', 'G', 'E', 't', ' ', 'M']
+ch = [(' ', ' '), ('|', '-'), ('-', '\\'), ' ', ' ', 'G', 'E', 't', ' ', 'M', 'e', 'H']
 
 def print_floor(m):
     for r in range(m['r_len']):
@@ -121,28 +155,7 @@ def print_floor(m):
         print('+ {} '.format(ch[m['hor'][m['r_len']][c]][1]), end = '')
     print('+')
 
-m = make_floor(3, 3)
-
-spawn_points = []
-for r in range(m['r_len']):
-    for c in range(m['c_len']):
-        if(m['space'][r][c] == 9):
-            spawn_points.append((r, c))
-c = randrange(0, len(spawn_points))
-entrance = spawn_points[c]
-spawn_points = spawn_points[:c] + spawn_points[c+1:]
-m['space'][entrance[0]][entrance[1]] = 6
-
-c = randrange(0, len(spawn_points))
-entrance = spawn_points[c]
-spawn_points = spawn_points[:c] + spawn_points[c+1:]
-m['space'][entrance[0]][entrance[1]] = 5
-
-for spot in spawn_points:
-    if (random() < .4):
-        m['space'][spot[0]][spot[1]] = 8
-
-
+m = make_floor(4, 4)
 
 print_floor(m)
 

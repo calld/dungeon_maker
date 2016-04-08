@@ -58,13 +58,15 @@ crxp = {0: 10,
         29: 135000,
         30: 155000}
 
+cr = [0, 1/8, 1/4, 1/2, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30]
+
 def get_cr_list(lvl, player_count = 4, diff = 1):
     """get_cr_list(lvl, player_count = 4, diff = 1) -> list of (cr, number) for allowed monster groups
         -lvl: level of players
         -player_count: number of players, default 4
         -diff: difficulty, 0 = easy, 1 = medium(default), 2 = hard"""
     thr = (xpThreshold[lvl - 1][diff]*player_count, xpThreshold[lvl - 1][diff+1]*player_count)
-    result = []
+    result = []    
     for cr, xp in crxp.items():
         for x in range(player_count+2, 0, -1):
             total = xp*x*numberMult[x]

@@ -1,4 +1,5 @@
-from random import randrange
+from random import randrange, random
+from util import randdiff
 
 file = open('monster_list.txt', 'r')
 temp = []
@@ -32,7 +33,22 @@ monsters = {0: temp[0],
              21: temp[24],
              22: temp[25],
              23: temp[26],
-             24: temp[27]}
+             24: temp[27],
+            25: [''],
+            26: [''],
+            27: [''],
+            28: [''],
+            29: [''],
+            30: ['']}
 
 def randMonster(cr):
     return monsters[cr][randrange(0, len(monsters[cr]))]
+
+def randDoor(lvl):
+    door = {}
+    if(random() < (.1 + .01*lvl)):
+        door['lock'] = randdiff(lvl)
+    if(random() < (.1 + .005*lvl)):
+        door['hidden'] = randdiff(lvl)
+    door['strength'] = randdiff(lvl) + 2
+    return door
