@@ -66,7 +66,7 @@ def get_cr_list(lvl, player_count = 4, diff = 1):
         -player_count: number of players, default 4
         -diff: difficulty, 0 = easy, 1 = medium(default), 2 = hard"""
     thr = (xpThreshold[lvl - 1][diff]*player_count, xpThreshold[lvl - 1][diff+1]*player_count)
-    result = []    
+    result = []
     for cr, xp in crxp.items():
         for x in range(player_count+2, 0, -1):
             total = xp*x*numberMult[x]
@@ -82,6 +82,6 @@ def randomEncounter(lvl, player_count = 4, diff = 1):
     #options.append((0,0))
     return options[math.floor(random.triangular(0,len(options),0))]
 
-print(get_cr_list(1, player_count = 3, diff = 2))
+#print(get_cr_list(1, player_count = 3, diff = 2))
 """for x in range(25):
     print(randomEncounter(3, diff = 1))"""

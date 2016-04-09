@@ -1,5 +1,7 @@
 from random import randrange, random
 from util import randdiff
+import encounter
+import personality
 
 file = open('monster_list.txt', 'r')
 temp = []
@@ -50,5 +52,36 @@ def randDoor(lvl):
         door['lock'] = randdiff(lvl)
     if(random() < (.1 + .005*lvl)):
         door['hidden'] = randdiff(lvl)
-    door['strength'] = randdiff(lvl) + 2
+    door['strength'] = randdiff(lvl) + 5
     return door
+
+def get_encounter(lvl, num = 4, diff = 1):
+    """ get_encounter(lvl, num = 4, diff = 1): lvl = players' level, num = number of players, diff = (0 = easy, 1 = medium, 2 = hard)"""
+    temp = encounter.randomEncounter(lvl, player_count = num, diff = diff)
+    return (randMonster(temp[0]), temp[1])
+
+
+lvl = 12
+
+for d in range(3):
+    print(['\teasy e', '\tmedium M', '\thard H'][d])
+    for i in range(1, 13):
+        e = get_encounter(lvl, diff = d)
+        print('{}: {}, {}'.format(i, e[0], e[1]))
+    print()
+
+print('\tdoors')
+for i in range(1, 13):
+    door = randDoor(lvl)
+    print('{}: '.format(i), end = '')
+    for k, v in door.items():
+        print('{} {},'.format(k, v), end = '')
+    print()
+print()
+
+"""print('\tpersonality')
+for i in range(1, 21):
+    p = personality.randPersonality()
+    print('{}: type: {} alignment: {}'.format(i, p['type'], p['align']))
+    print(personality.formatParagraph(p['desc']))
+print()"""

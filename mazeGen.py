@@ -38,7 +38,7 @@ def rotate_section_half(m):
             'space': util.rotatehalf(m['space']),
             'r_len': m['r_len'],
             'c_len': m['c_len']}
-    
+
 
 def make_layout():
     m = {'hor': [[0 for c in range(30)] for r in range(31)],
@@ -118,7 +118,7 @@ def make_floor(l_r, l_c):
         for c in range(m['c_len']):
             if(m['space'][r][c] == 9):
                 spawn_points.append((r, c))
-    
+
     c = randrange(0, len(spawn_points))
     entrance = spawn_points[c]
     spawn_points = spawn_points[:c] + spawn_points[c+1:]
@@ -133,9 +133,9 @@ def make_floor(l_r, l_c):
         if (random() < .4):
             m['space'][spot[0]][spot[1]] = 8
         rand = random()
-        if (rand < .2):
+        if (rand < .4):
             m['space'][spot[0]][spot[1]] = 10
-        elif (rand > .9):
+        elif (rand > (1.0 - .05)):
             m['space'][spot[0]][spot[1]] = 11
 
     return m
@@ -158,7 +158,3 @@ def print_floor(m):
 m = make_floor(4, 4)
 
 print_floor(m)
-
-        
-
-    

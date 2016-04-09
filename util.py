@@ -1,4 +1,5 @@
 from random import randrange, random
+import math
 
 def randdiff(lvl):
     return randrange(math.ceil(9.6 + .4*lvl), math.floor(15.6 + .4*lvl))
@@ -30,7 +31,7 @@ def mirror(m):
         for c in range(len(m[r])):
             temp[r][len(m[r])-1-c] = m[r][c]
     return temp
-    
+
 
 # 0 = empty,
 # 1 = wall,
@@ -277,8 +278,8 @@ def make_large_section():
         m['space'][cross[0]+1][cross[1]+1] = 7
     m['space'][16][16] = 9
 
-    return m    
-    
+    return m
+
 """
 ch = [(' ', ' '), ('|', '-'), ('-', '\\'), ' ', ' ', ' ', ' ', 't', ' ', 'M']
 

@@ -84,6 +84,16 @@ MBtable = [(.116, 'ISTJ'),
            (.982, 'ENTP'),
            (1,    'ENTJ')]
 
+def formatParagraph(string, jump = 15):
+    s = string
+    i = jump
+    while(i < len(s)):
+        if(s[i] == ' '):
+            s = s[:i] + '\n' + s[i+1:]
+            i = i + jump
+        else:
+            i = i + 1
+
 def randPersonality():
     r = random()
     for i in range(len(MBtable)):
