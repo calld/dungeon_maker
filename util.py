@@ -4,6 +4,11 @@ import math
 def randdiff(lvl):
     return randrange(math.ceil(9.6 + .4*lvl), math.floor(15.6 + .4*lvl))
 
+def roll(n, s):
+    """rolls nds"""
+    return sum([randrange(1, s+1) for x in range(n)])
+    
+
 def rotateright(m):
     temp = [[0 for r in range(len(m))] for c in range(len(m[0]))]
     for r in range(len(m)):
@@ -65,8 +70,7 @@ def make_small_section():
         m['hor'][cross[0]][c] = 1
     if(door < 2):
         m['hor'][cross[0]][randrange(1, cross[1]-1)] = 2
-    if(random() < .2):
-        m['space'][1][1] = 7
+    m['space'][1][1] = 7
     m['space'][cross[0]-2][cross[1]-2] = 9
 
     # bottom left
@@ -81,8 +85,7 @@ def make_small_section():
         m['hor'][10][c] = 1
     if (door < 2):
         m['hor'][10][randrange(1, cross[1]-1)] = 2
-    if(random() < .2):
-        m['space'][cross[0]+1][1] = 7
+    m['space'][cross[0]+1][1] = 7
     m['space'][8][cross[1]-2] = 9
 
     # upper right
@@ -97,8 +100,7 @@ def make_small_section():
         m['hor'][cross[0]][c] = 1
     if (door < 2):
         m['hor'][cross[0]][randrange(cross[1]+1, 9)] = 2
-    if(random() < .2):
-        m['space'][1][cross[1]+1] = 7
+    m['space'][1][cross[1]+1] = 7
     m['space'][cross[0]-2][8] = 9
 
     # bottom right
@@ -113,8 +115,7 @@ def make_small_section():
         m['hor'][10][c] = 1
     if (door < 2):
         m['hor'][10][randrange(cross[1]+1, 9)] = 2
-    if(random() < .2):
-        m['space'][cross[0]+1][cross[1]+1] = 7
+    m['space'][cross[0]+1][cross[1]+1] = 7
     m['space'][8][8] = 9
 
     return m
@@ -158,6 +159,7 @@ def make_long_section():
     # -- down side
     if(ro < 2/3):
         m['hor'][cross[0]][randrange(1, cross[1])] = 2
+    m['space'][11][1] = 7
     m['space'][cross[0]-2][cross[1]-2] = 9
 
     ro = random()
@@ -168,8 +170,7 @@ def make_long_section():
     # -- down side
     if(ro < 2/3):
         m['hor'][18][randrange(0, cross[1])] = 2
-    if(random() < .2):
-        m['space'][cross[0]+1][1] = 7
+    m['space'][cross[0]+1][1] = 7
     m['space'][16][cross[1]-2] = 9
 
     ro = random()
@@ -180,8 +181,7 @@ def make_long_section():
     # -- down side
     if(ro < 2/3):
         m['hor'][cross[0]][randrange(cross[1], 10)] = 2
-    if(random() < .2):
-        m['space'][11][cross[1]+1] = 7
+    m['space'][11][cross[1]+1] = 7
     m['space'][cross[0]-2][8] = 9
 
     ro = random()
@@ -192,8 +192,7 @@ def make_long_section():
     # -- down side
     if(ro < 2/3):
         m['hor'][18][randrange(cross[1], 10)] = 2
-    if(random() < .2):
-        m['space'][cross[0]+1][cross[1]+1] = 7
+    m['space'][cross[0]+1][cross[1]+1] = 7
     m['space'][16][8] = 9
 
     return m
@@ -244,8 +243,7 @@ def make_large_section():
         m['ver'][randrange(0, cross[0])][cross[1]] = 2
     if(rand < 2/3):
         m['hor'][cross[0]][randrange(0, cross[1])] = 2
-    if(random() < .2):
-        m['space'][1][1] = 7
+    m['space'][1][1] = 7
     m['space'][cross[0]-2][cross[1]-2] = 9
 
     # bottom left
@@ -254,8 +252,7 @@ def make_large_section():
         m['ver'][randrange(cross[0], 18)][cross[1]] = 2
     if(rand < 2/3):
         m['hor'][18][randrange(0, cross[1])] = 2
-    if(random() < .2):
-        m['space'][cross[0]+1][1] = 7
+    m['space'][cross[0]+1][1] = 7
     m['space'][16][cross[1]-2] = 9
 
     # upper right
@@ -264,8 +261,7 @@ def make_large_section():
         m['ver'][randrange(0, cross[0])][18] = 2
     if(rand < 2/3):
         m['hor'][cross[0]][randrange(cross[1], 18)] = 2
-    if(random() < .2):
-        m['space'][1][cross[1]+1] = 7
+    m['space'][1][cross[1]+1] = 7
     m['space'][cross[0]-2][16] = 9
 
     #bottom right
@@ -274,8 +270,7 @@ def make_large_section():
         m['ver'][randrange(cross[0], 18)][18] = 2
     if(rand < 2/3):
         m['hor'][18][randrange(cross[1], 18)] = 2
-    if(random() < .2):
-        m['space'][cross[0]+1][cross[1]+1] = 7
+    m['space'][cross[0]+1][cross[1]+1] = 7
     m['space'][16][16] = 9
 
     return m

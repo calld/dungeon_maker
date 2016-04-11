@@ -82,6 +82,6 @@ def randomEncounter(lvl, player_count = 4, diff = 1):
     #options.append((0,0))
     return options[math.floor(random.triangular(0,len(options),0))]
 
-#print(get_cr_list(1, player_count = 3, diff = 2))
+# print(get_cr_list(3, player_count = 4, diff = 2))
 """for x in range(25):
     print(randomEncounter(3, diff = 1))"""

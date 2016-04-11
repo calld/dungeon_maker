@@ -61,7 +61,7 @@ def get_encounter(lvl, num = 4, diff = 1):
     return (randMonster(temp[0]), temp[1])
 
 
-lvl = 12
+"""lvl = 12
 
 for d in range(3):
     print(['\teasy e', '\tmedium M', '\thard H'][d])
@@ -77,7 +77,7 @@ for i in range(1, 13):
     for k, v in door.items():
         print('{} {},'.format(k, v), end = '')
     print()
-print()
+print()"""
 
 """print('\tpersonality')
 for i in range(1, 21):

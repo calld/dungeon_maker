@@ -60,6 +60,8 @@ def make_layout():
     m['ver'][cross[0]][30] = 2
     m['ver'][cross[0]+1][30] = 2
 
+    m['space'][cross[0]][cross[1]] = 9
+
     if(cross[0] < 15):
         if(cross[1] < 15):
             copy_section(m, util.make_small_section(), 0, 0)
@@ -125,22 +127,44 @@ def make_floor(l_r, l_c):
     m['space'][entrance[0]][entrance[1]] = 6
 
     c = randrange(0, len(spawn_points))
-    entrance = spawn_points[c]
+    entrance = spawn_points[c]#
     spawn_points = spawn_points[:c] + spawn_points[c+1:]
     m['space'][entrance[0]][entrance[1]] = 5
 
     for spot in spawn_points:
         if (random() < .4):
             m['space'][spot[0]][spot[1]] = 8
-        rand = random()
-        if (rand < .4):
-            m['space'][spot[0]][spot[1]] = 10
-        elif (rand > (1.0 - .05)):
-            m['space'][spot[0]][spot[1]] = 11
+        else:
+            rand = random()
+            if (rand < .4):
+                m['space'][spot[0]][spot[1]] = 10
+            elif (rand > (1.0 - .05)):
+                m['space'][spot[0]][spot[1]] = 11
+
+    reSp = []
+    for r in range(m['r_len']):
+        for c in range(m['c_len']):
+            if(m['space'][r][c] == 7):
+                reSp.append((r, c))
+
+    c = randrange(0, len(reSp))
+    horde = reSp[c]
+    reSp = reSp[:c] + reSp[c+1:]
+    m['space'][horde[0]][horde[1]] = 4
+
+    c = randrange(0, len(reSp))
+    horde = reSp[c]
+    reSp = reSp[:c] + reSp[c+1:]
+    m['space'][horde[0]][horde[1]] = 4
+
+    for spot in reSp:
+        if(random() < .4):
+            m['space'][spot[0]][spot[1]] = 8
 
     return m
 
-ch = [(' ', ' '), ('|', '-'), ('-', '\\'), ' ', ' ', 'G', 'E', 't', ' ', 'M', 'e', 'H']
+ch = [(' ', ' '), ('|', '-'), ('-', '\\'),
+      ' ', 'T', 'G', 'E', 't', ' ', 'M', 'e', 'H']
 
 def print_floor(m):
     for r in range(m['r_len']):
@@ -155,6 +179,3 @@ def print_floor(m):
         print('+ {} '.format(ch[m['hor'][m['r_len']][c]][1]), end = '')
     print('+')
 
-m = make_floor(4, 4)
-
-print_floor(m)
