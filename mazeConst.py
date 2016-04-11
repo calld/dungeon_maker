@@ -1,6 +1,7 @@
 import mazeGen as mg
 import mazeFiller as mf
 import treasure as trsr
+import pickle
 
 def spaceInfo(lvl, state, string):
     if(state == 4):
@@ -43,8 +44,19 @@ def genInfo(lvl, mp):
             'hor': [[edgeInfo(lvl, mp['hor'][r][c], s) for c in range(mp['c_len'])] for r in range(mp['r_len']+1)],
             'ver': [[edgeInfo(lvl, mp['ver'][r][c], s) for c in range(mp['c_len']+1)] for r in range(mp['r_len'])]}
 
-def makeDun(strength = [x for x in range(1, 21)], size = [(2, 2)]*6 + [(3, 3)]*7 + [(4, 4)]*4 + [(5,5)]*3):
+def makeDun(strength = [x for x in range(1, 21)], size = [(2, 2)]*4 + [(3, 3)]*7 + [(4, 4)]*5 + [(5,5)]*4):
     dun = {'floor': [mg.make_floor(x[0], x[1]) for x in size]}
     dun['desc'] = 'dungeon'
     dun['info'] = [genInfo(strength[x], dun['floor'][x]) for x in range(len(strength))]
     return dun
+
+def save(ob, name = 'temp.psav'):
+    file = open(name, mode = 'wb')
+    pickle.dump(ob, file)
+    file.close()
+
+def load(name = 'temp.psav'):
+    file = open(name, mode = 'rb')
+    res = pickle.load(file)
+    file.close()
+    return res
