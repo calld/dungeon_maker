@@ -1,4 +1,6 @@
-from random import random, randrange
+from random import random, randrange, triangular
+from util import randdiff
+import math
 
 MBstat = {
     'ISTJ' : {
@@ -84,7 +86,7 @@ MBtable = [(.116, 'ISTJ'),
            (.982, 'ENTP'),
            (1,    'ENTJ')]
 
-def formatParagraph(string, jump = 15):
+def formatParagraph(string, jump = 60):
     s = string
     i = jump
     while(i < len(s)):
@@ -94,6 +96,8 @@ def formatParagraph(string, jump = 15):
         else:
             i = i + 1
 
+    return s
+
 def randPersonality():
     r = random()
     for i in range(len(MBtable)):
@@ -102,3 +106,45 @@ def randPersonality():
                     'desc': MBstat[MBtable[i][1]]['desc'],
                     'align': MBstat[MBtable[i][1]]['align'][randrange(0, len(MBstat[MBtable[i][1]]['align']))]}
     return {}
+
+def randPersonEcounter(lvl):
+    state = ""
+    rand = random()
+    if(rand < (0.24 + lvl*0.01)):
+        state = "restrained"
+    elif(rand < 0.57):
+        state = "lost"
+    elif(rand < (0.58 + lvl*0.015)):
+        state = "cursed"
+    else:
+        state = "resting"
+
+    typ = ""
+    rand= random()
+    if(rand < 0.15):
+        typ =  "adventurer"
+    elif(rand < .75):
+        typ = "commoner"
+    elif(rand < .95):
+        typ = "merchant"
+    else:
+        typ = "royal"
+
+    sex, pronoun = [('male', 'he'),('female', 'she')][randrange(2)]
+
+    diff = randdiff(lvl)
+
+    racei = math.floor(triangular(0, 8.9999, 0))
+    race = ['Human', "Halfling", "Dwarf", 'Elf', "Gnome", "Dragonborn", "Half-Elf", "Half-Orc", "Tiefling"][racei]
+
+    common = 'speaks'
+    if(racei > 1 and random() < .1):
+        common = "doesn't speak"
+
+    bad = "isn't"
+    if(random() < .1):
+        bad = "is"
+
+    per = randPersonality()
+
+    return formatParagraph("Encounter: {1} {2} who {3} common, DC {4}, this {5} is currently {6}. alignment: {10}. {7} {8} evil. {7} is {9}".format('', sex, race, common, diff, typ, state, pronoun, bad, per['desc'], per['align']))

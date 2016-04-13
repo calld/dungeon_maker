@@ -132,14 +132,17 @@ def make_floor(l_r, l_c):
     m['space'][entrance[0]][entrance[1]] = 5
 
     for spot in spawn_points:
-        if (random() < .4):
+        rand = random()
+        if (rand < .4):
             m['space'][spot[0]][spot[1]] = 8
+        elif(rand < .68):
+            m['space'][spot[0]][spot[1]] = 10
+        elif(rand < .88):
+            m['space'][spot[0]][spot[1]] = 9
+        elif(rand < .98):
+            m['space'][spot[0]][spot[1]] = 11
         else:
-            rand = random()
-            if (rand < .4):
-                m['space'][spot[0]][spot[1]] = 10
-            elif (rand > (1.0 - .05)):
-                m['space'][spot[0]][spot[1]] = 11
+            m['space'][spot[0]][spot[1]] = 12
 
     reSp = []
     for r in range(m['r_len']):
@@ -163,7 +166,7 @@ def make_floor(l_r, l_c):
     return m
 
 ch = [(' ', ' '), ('|', '-'), ('-', '\\'),
-      ('S','S'), 'T', 'G', 'E', 't', ' ', 'M', 'e', 'H']
+      ('S','S'), 'T', 'G', 'E', 't', ' ', 'M', 'e', 'H', 'P']
 
 
 def print_floor(m):
@@ -178,4 +181,3 @@ def print_floor(m):
     for c in range(m['c_len']):
         print('+ {} '.format(ch[m['hor'][m['r_len']][c]][1]), end = '')
     print('+')
-

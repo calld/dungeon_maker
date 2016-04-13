@@ -5,6 +5,7 @@ import pickle
 import os
 from random import randrange
 from util import randdiff
+from personality import randPersonEcounter
 
 def spaceInfo(lvl, state, string):
     if(state == 4):
@@ -26,6 +27,8 @@ def spaceInfo(lvl, state, string):
     elif(state == 11):
         e = mf.get_encounter(lvl, diff = 2)
         return '{} {}'.format(e[1], e[0])
+    elif(state == 12):
+        return randPersonEcounter(lvl)
     else:
         return string
 
@@ -68,7 +71,7 @@ def load(name = 'temp.psav'):
     return res
 
 ch = [(' ', ' '), ('|', '-'), ('-', '\\'),
-      ('S','S'), 'T', 'G', 'E', 't', ' ', 'M', 'e', 'H']
+      ('S','S'), 'T', 'G', 'E', 't', ' ', 'M', 'e', 'H', 'P']
 
 def make_txt(dun, name = './temp'):
     d = os.path.dirname(name)
@@ -76,7 +79,9 @@ def make_txt(dun, name = './temp'):
         os.makedirs(name)
     cwd = os.getcwd()
     os.chdir(name)
-    
+
+    save(dun, name = "Full.dun")
+
     for floor in range(len(dun['floor'])):
         lines = ['   ' + ''.join(['+{: ^3X}'.format(c//16) for c in range(dun['floor'][floor]['c_len'])]) + '+\n']
 
@@ -96,7 +101,7 @@ def make_txt(dun, name = './temp'):
         lines[-1] = lines[-1] + '+{:0>3X}\n'.format(dun['floor'][floor]['r_len'])
 
         lines.append('   ' + ''.join(['+{: ^3X}'.format(c//16) for c in range(dun['floor'][floor]['c_len'])]) + '+\n')
-        
+
         dmap = open('Floor{:0>2d}Map.txt'.format(floor+1), 'w')
         dmap.writelines(lines)
         dmap.close()
@@ -109,7 +114,7 @@ def make_txt(dun, name = './temp'):
                     lines.append('({:2X}, {:2X}) : {}\n'.format(r, c, dun['info'][floor]['space'][r][c]))
 
         mref = open('Floor{:0>2d}MonRef.txt'.format(floor+1), 'w')
-        mref.writelines(lines)       
+        mref.writelines(lines)
         mref.close()
 
         lines = ['horizontal                                                   vertical\n']
@@ -139,7 +144,8 @@ def make_txt(dun, name = './temp'):
         dref.writelines(lines)
         dref.close()
 
-        
-        
+
+
     os.chdir(cwd)
-    
+
+make_txt(makeDun(), name = './dungeon')
