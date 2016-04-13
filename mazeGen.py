@@ -160,11 +160,11 @@ def make_floor(l_r, l_c):
     for spot in reSp:
         if(random() < .4):
             m['space'][spot[0]][spot[1]] = 8
-
     return m
 
 ch = [(' ', ' '), ('|', '-'), ('-', '\\'),
-      ' ', 'T', 'G', 'E', 't', ' ', 'M', 'e', 'H']
+      ('S','S'), 'T', 'G', 'E', 't', ' ', 'M', 'e', 'H']
+
 
 def print_floor(m):
     for r in range(m['r_len']):

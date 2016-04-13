@@ -1,0 +1,68 @@
+horizontal                                                   vertical
+( 4,  B) : door: strength: 18                               ( 1, 12) : door: locked: 12, strength: 21
+( 4,  D) : door: strength: 17                               ( 1, 28) : door: strength: 17
+( 4, 1A) : door: strength: 21                               ( 1, 30) : door: strength: 17
+( 4, 35) : door: hidden: 12, strength: 19                   ( 2,  4) : door: strength: 17
+( 6,  2) : door: strength: 21                               ( 2, 14) : door: strength: 17
+( 6,  6) : door: hidden: 13, strength: 19                   ( 2, 24) : door: strength: 19
+( 6, 29) : door: strength: 17                               ( 2, 38) : door: strength: 20
+( 6, 2B) : door: strength: 17                               ( 4,  A) : door: strength: 17
+( A,  6) : door: strength: 21                               ( 5,  C) : door: strength: 18
+( A, 21) : door: hidden: 13, strength: 17                   ( 5, 19) : door: locked: 16, strength: 18
+( A, 29) : door: strength: 20                               ( 6, 12) : door: strength: 20
+( A, 36) : door: strength: 17                               ( 6, 14) : door: strength: 21
+( A, 3A) : door: strength: 17                               ( 6, 2A) : door: strength: 18
+( C,  C) : door: hidden: 14, strength: 17                   ( 7,  A) : door: hidden: 14, strength: 19
+( C, 18) : door: locked: 13, strength: 21                   ( 7, 28) : door: strength: 19
+( C, 29) : door: strength: 20                               ( 7, 30) : door: strength: 17
+( C, 37) : door: locked: 13, strength: 19                   ( 8,  4) : door: strength: 21
+( F, 1A) : door: hidden: 14, strength: 21                   ( A, 1E) : door: strength: 18
+(10, 21) : door: strength: 18                               ( B, 1E) : door: locked: 16, strength: 19
+(10, 2F) : door: strength: 18                               ( D, 30) : door: strength: 17
+(12, 36) : door: locked: 13, strength: 18                   ( E,  9) : door: strength: 18
+(12, 39) : door: strength: 21                               ( E, 14) : door: strength: 20
+(14, 17) : door: strength: 17                               ( E, 19) : door: strength: 17
+(16,  7) : door: strength: 17                               ( F, 28) : door: locked: 16, strength: 18
+(18, 17) : door: strength: 17                               (10, 32) : door: strength: 21
+(18, 1B) : door: strength: 17                               (11, 14) : door: strength: 19
+(1A, 35) : door: hidden: 16, strength: 18                   (11, 19) : door: locked: 14, strength: 20
+(1E,  A) : door: strength: 19                               (12, 1E) : door: hidden: 16, strength: 18
+(1E,  B) : door: strength: 21                               (12, 32) : door: hidden: 15, strength: 20
+(1E, 12) : door: locked: 14, strength: 21                   (12, 37) : door: hidden: 13, strength: 18
+(1E, 13) : door: strength: 18                               (13, 1E) : door: hidden: 13, strength: 21
+(1E, 28) : door: strength: 17                               (15, 14) : door: strength: 17
+(1E, 29) : door: strength: 20                               (15, 28) : door: locked: 15, strength: 17
+(1E, 30) : door: strength: 17                               (15, 30) : door: strength: 19
+(1E, 31) : door: strength: 18                               (16, 12) : door: locked: 12, strength: 19
+(23,  1) : door: strength: 18                               (16, 19) : door: locked: 14, strength: 20
+(23,  B) : door: locked: 15, hidden: 14, strength: 20       (17, 32) : door: strength: 20
+(23,  C) : door: strength: 18                               (17, 37) : door: hidden: 15, strength: 20
+(23, 2C) : door: strength: 18                               (19,  9) : door: hidden: 13, strength: 20
+(24, 16) : door: hidden: 15, strength: 21                   (19, 19) : door: strength: 21
+(24, 25) : door: locked: 14, strength: 19                   (1A, 14) : door: hidden: 16, strength: 17
+(24, 39) : door: strength: 18                               (1C, 37) : door: locked: 16, strength: 17
+(28,  E) : door: strength: 21                               (1F, 19) : door: strength: 20
+(28, 1A) : door: strength: 18                               (1F, 32) : door: strength: 17
+(28, 26) : door: locked: 13, strength: 17                   (20,  A) : door: strength: 21
+(28, 33) : door: strength: 21                               (20, 12) : door: strength: 19
+(28, 39) : door: strength: 20                               (20, 23) : door: strength: 17
+(2A,  0) : door: strength: 21                               (21, 38) : door: strength: 21
+(2A,  C) : door: strength: 19                               (22,  C) : door: locked: 13, strength: 17
+(2A, 17) : door: strength: 20                               (22, 30) : door: strength: 18
+(2A, 1D) : door: strength: 17                               (23,  C) : door: strength: 20
+(2A, 1F) : door: strength: 17                               (25,  6) : door: strength: 21
+(2A, 26) : door: strength: 20                               (25,  A) : door: strength: 17
+(2A, 2B) : door: strength: 18                               (25, 14) : door: strength: 18
+(2A, 39) : door: strength: 19                               (26, 23) : door: strength: 19
+(2E, 1C) : door: strength: 17                               (26, 28) : door: hidden: 14, strength: 19
+(30, 21) : door: strength: 18                               (26, 32) : door: locked: 13, strength: 17
+(32,  8) : door: strength: 17                               (27, 2A) : door: strength: 17
+(32,  B) : door: strength: 17                               (27, 30) : door: strength: 21
+(32, 16) : door: hidden: 12, strength: 20                   (28, 1E) : door: strength: 20
+(32, 1A) : door: locked: 15, strength: 19                   (29, 1E) : door: strength: 20
+(32, 25) : door: strength: 17                               (2C, 19) : door: locked: 14, strength: 18
+(34, 2D) : door: strength: 19                               (2C, 33) : door: locked: 12, strength: 19
+(37, 1F) : door: strength: 17                               (2D, 28) : door: strength: 19
+(37, 24) : door: strength: 19                               (2E, 14) : door: strength: 20
+(38, 16) : door: strength: 18                               (2E, 19) : door: strength: 21
+(38, 19) : door: strength: 21                               (2E, 24) : door: strength: 19
