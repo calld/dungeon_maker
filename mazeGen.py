@@ -48,42 +48,93 @@ def make_layout():
          'c_len': 30
         }
 
-    cross = (crxval[randrange(2)], crxval[randrange(2)])
-
-    m['hor'][0][cross[1]] = 2
-    m['hor'][0][cross[1]+1] = 2
-    m['hor'][30][cross[1]] = 2
-    m['hor'][30][cross[1]+1] = 2
-
-    m['ver'][cross[0]][0] = 2
-    m['ver'][cross[0]+1][0] = 2
-    m['ver'][cross[0]][30] = 2
-    m['ver'][cross[0]+1][30] = 2
-
-    m['space'][cross[0]][cross[1]] = 9
-
-    if(cross[0] < 15):
-        if(cross[1] < 15):
-            copy_section(m, util.make_small_section(), 0, 0)
-            copy_section(m, rotate_section_right(util.make_long_section()), 0, cross[1]+2)
-            copy_section(m, rotate_section_left(util.make_wide_section()), cross[0]+2, 0)
-            copy_section(m, rotate_section_half(util.make_large_section()), cross[0]+2, cross[1]+2)
+    for x in range(30):
+        if (x == 10 or x == 11 or x == 18 or x == 19):
+            m['hor'][0][x] = 2
+            m['hor'][30][x] = 2
+            m['ver'][x][0] = 2
+            m['ver'][x][30] = 2
         else:
-            copy_section(m, util.make_wide_section(), 0, 0)
-            copy_section(m, rotate_section_right(util.make_small_section()), 0, cross[1]+2)
-            copy_section(m, rotate_section_left(util.make_large_section()), cross[0]+2, 0)
-            copy_section(m, rotate_section_half(util.make_long_section()), cross[0]+2, cross[1]+2)
+            m['hor'][0][x] = 1
+            m['hor'][30][x] = 1
+            m['ver'][x][0] = 1
+            m['ver'][x][30] = 1
+    
+    layType = random()
+    rotate = []
+    f = lambda x: x
+    rotate.append(f)
+    f = lambda x: rotate_section_right(x)
+    rotate.append(f)
+    f = lambda x: rotate_section_half(x)
+    rotate.append(f)
+    f = lambda x: rotate_section_left(x)
+    rotate.append(f)
+    if(layType < .1):
+        f = lambda: util.make_small_section()
+        #4 10s
+        copy_section(m, rotate[randrange(4)](f()), 4, 4)
+        copy_section(m, rotate[randrange(4)](f()), 4, 16)
+        copy_section(m, rotate[randrange(4)](f()), 16, 4)
+        copy_section(m, rotate[randrange(4)](f()), 16, 16)
+
+        m['space'][1][1] = 9
+        m['space'][1][28] = 9
+        m['space'][28][1] = 9
+        m['space'][28][28] = 9
+        m['space'][14][14] = 7
+        
+    elif(layType < .45):
+        i = randrange(2)
+        j = 1 - i
+        f = [lambda: util.make_long_section(), lambda: util.make_wide_section()][i]
+        #4 18s
+        copy_section(m, rotate[0](f()), 0, 0)
+        copy_section(m, rotate[1](f()), 0, crxval[i]+2)
+        copy_section(m, rotate[2](f()), crxval[i]+2, crxval[j]+2)
+        copy_section(m, rotate[3](f()), crxval[j]+2, 0)
+
+        m['space'][14][14] = 9
+        
+    elif(layType < .65):
+        i = randrange(2)
+        f = [lambda: util.make_long_section(), lambda: util.make_wide_section()][i]
+        #30, 2 10s, 18
+        copy_section(m, rotate[0](util.make_large_section()), 0, 0)
+        copy_section(m, rotate[1](util.make_small_section()), 0, 20)
+        copy_section(m, rotate[2](f()), (12, 20)[i], (20, 12)[i])
+        copy_section(m, rotate[3](util.make_small_section()), 20, 0)
+
+        m['space'][(21,13)[i]][(13,21)[i]] = 9
+
+        m = rotate[randrange(4)](m) 
     else:
-        if(cross[1] < 15):
-            copy_section(m, util.make_long_section(), 0, 0)
-            copy_section(m, rotate_section_right(util.make_large_section()), 0, cross[1]+2)
-            copy_section(m, rotate_section_left(util.make_small_section()), cross[0]+2, 0)
-            copy_section(m, rotate_section_half(util.make_wide_section()), cross[0]+2, cross[1]+2)
+        cross = (crxval[randrange(2)], crxval[randrange(2)])
+        
+        m['space'][cross[0]][cross[1]] = 9
+
+        if(cross[0] < 15):
+            if(cross[1] < 15):
+                copy_section(m, util.make_small_section(), 0, 0)
+                copy_section(m, rotate_section_right(util.make_long_section()), 0, cross[1]+2)
+                copy_section(m, rotate_section_left(util.make_wide_section()), cross[0]+2, 0)
+                copy_section(m, rotate_section_half(util.make_large_section()), cross[0]+2, cross[1]+2)
+            else:
+                copy_section(m, util.make_wide_section(), 0, 0)
+                copy_section(m, rotate_section_right(util.make_small_section()), 0, cross[1]+2)
+                copy_section(m, rotate_section_left(util.make_large_section()), cross[0]+2, 0)
+                copy_section(m, rotate_section_half(util.make_long_section()), cross[0]+2, cross[1]+2)
         else:
-            copy_section(m, util.make_large_section(), 0, 0)
-            copy_section(m, rotate_section_right(util.make_wide_section()), 0, cross[1]+2)
-            copy_section(m, rotate_section_left(util.make_long_section()), cross[0]+2, 0)
-            copy_section(m, rotate_section_half(util.make_small_section()), cross[0]+2, cross[1]+2)
+            if(cross[1] < 15):
+                copy_section(m, util.make_long_section(), 0, 0)
+                copy_section(m, rotate_section_right(util.make_large_section()), 0, cross[1]+2)
+                copy_section(m, rotate_section_left(util.make_small_section()), cross[0]+2, 0)
+                copy_section(m, rotate_section_half(util.make_wide_section()), cross[0]+2, cross[1]+2)
+            else:
+                copy_section(m, util.make_large_section(), 0, 0)
+                copy_section(m, rotate_section_right(util.make_wide_section()), 0, cross[1]+2)
+                copy_section(m, rotate_section_left(util.make_long_section()), cross[0]+2, 0)
+                copy_section(m, rotate_section_half(util.make_small_section()), cross[0]+2, cross[1]+2)
 
     return m
 
@@ -163,7 +214,37 @@ def make_floor(l_r, l_c):
     for spot in reSp:
         if(random() < .4):
             m['space'][spot[0]][spot[1]] = 8
+
+    vdoors = []
+    hdoors = []
+    for r in range(m['r_len']):
+        for c in range(m['c_len']):
+            if (m['ver'][r][c] == 2):
+                vdoors.append((r, c))
+            if (m['hor'][r][c] == 2):
+                hdoors.append((r, c))
+
+    for door in vdoors:
+        if(random() < .15 and not chkBD(door, m)):
+            m['ver'][door[0]][door[1]] = 3
+
+    for door in hdoors:
+        if(random() < .15 and not chkBD(door, m)):
+            m['hor'][door[0]][door[1]] = 3
+
     return m
+
+
+def chkBD(pos, m):
+    """pos[0] = r, p[1] = c checks if position is adjecent to a door, m is the map"""
+    cur = False
+    for x in [-1, 1]:
+        if(pos[0] + x >= 0 and pos[0] + x < m['r_len']):
+            cur = cur or m['ver'][pos[0]+x][pos[1]] == 2
+        if(pos[1] + x >= 0 and pos[1] + x < m['c_len']):
+            cur = cur or m['hor'][pos[0]][pos[1]+x] == 2
+
+    return cur
 
 ch = [(' ', ' '), ('|', '-'), ('-', '\\'),
       ('S','S'), 'T', 'G', 'E', 't', ' ', 'M', 'e', 'H', 'P']

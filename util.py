@@ -143,7 +143,7 @@ def make_long_section():
     for x in range(12, 18):
         m['ver'][x][0] = 1
 
-    cross = (randrange(12, 17), randrange(4, 7))
+    cross = (14, randrange(4, 7))
     for c in range(10):
         m['hor'][cross[0]][c] = 1
         m['hor'][18][c] = 1

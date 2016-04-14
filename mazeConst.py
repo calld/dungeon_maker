@@ -38,6 +38,13 @@ def edgeInfo(lvl, state, string):
         door = mf.randDoor(lvl)
         if('lock' in door):
             s = s + 'locked: {}, '.format(door['lock'])
+        s = s + 'strength: {}'.format(door['strength'])
+        return s
+    if(state == 3):
+        s = 'door: '
+        door = mf.randSDoor(lvl)
+        if('lock' in door):
+            s = s + 'locked: {}, '.format(door['lock'])
         if('hidden' in door):
             s = s + 'hidden: {}, '.format(door['hidden'])
         s = s + 'strength: {}'.format(door['strength'])
@@ -76,6 +83,7 @@ ch = [(' ', ' '), ('|', '-'), ('-', '\\'),
 def make_txt(dun, name = './temp'):
     d = os.path.dirname(name)
     if (not os.path.exists(d)):
+        print('making dir')
         os.makedirs(name)
     cwd = os.getcwd()
     os.chdir(name)

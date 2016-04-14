@@ -121,14 +121,20 @@ def randPersonEcounter(lvl):
 
     typ = ""
     rand= random()
-    if(rand < 0.15):
-        typ =  "adventurer"
+    if(rand < 0.3):
+        typ = ["druid", "knight", "mage", "priest", "scout", "minstrel"][randrange(6)]
     elif(rand < .75):
         typ = "commoner"
+        lvl = 1
     elif(rand < .95):
         typ = "merchant"
+        if(lvl > 2):
+            lvl = lvl - 2
+        else:
+            lvl = 1 
     else:
         typ = "royal"
+        lvl = lvl - 1
 
     sex, pronoun = [('male', 'he'),('female', 'she')][randrange(2)]
 

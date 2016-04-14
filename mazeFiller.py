@@ -50,9 +50,12 @@ def randDoor(lvl):
     door = {}
     if(random() < (.1 + .01*lvl)):
         door['lock'] = randdiff(lvl)
-    if(random() < (.1 + .005*lvl)):
-        door['hidden'] = randdiff(lvl)
     door['strength'] = randdiff(lvl) + 5
+    return door
+
+def randSDoor(lvl):
+    door = randDoor(lvl)
+    door['hidden'] = randdiff(lvl)
     return door
 
 def get_encounter(lvl, num = 4, diff = 1):
