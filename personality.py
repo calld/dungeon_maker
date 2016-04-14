@@ -1,6 +1,7 @@
 from random import random, randrange, triangular
 from util import randdiff
 import math
+import NameGen as ng
 
 MBstat = {
     'ISTJ' : {
@@ -136,12 +137,22 @@ def randPersonEcounter(lvl):
         typ = "royal"
         lvl = lvl - 1
 
-    sex, pronoun = [('male', 'he'),('female', 'she')][randrange(2)]
+    sex, pronoun, gender = [('male', 'he', True),('female', 'she', False)][randrange(2)]
 
     diff = randdiff(lvl)
 
     racei = math.floor(triangular(0, 8.9999, 0))
     race = ['Human', "Halfling", "Dwarf", 'Elf', "Gnome", "Dragonborn", "Half-Elf", "Half-Orc", "Tiefling"][racei]
+
+    name = [lambda x: ng.HumanName(x),
+            lambda x: ng.HalflingName(x),
+            lambda x: ng.DwarfName(x),
+            lambda x: ng.ElfName(x),
+            lambda x: ng.GnomeName(x),
+            lambda x: ng.DragonbornName(x),
+            [lambda x: ng.HumanName(x), lambda x: ng.ElfName(x)][randrange(2)],
+            lambda x: ng.OrcName(x),
+            lambda x: ng.TieflingName(x)][racei](gender)
 
     common = 'speaks'
     if(racei > 1 and random() < .1):
@@ -153,4 +164,4 @@ def randPersonEcounter(lvl):
 
     per = randPersonality()
 
-    return formatParagraph("Encounter: {1} {2} who {3} common, DC {4}, this {5} is currently {6}. alignment: {10}. {7} {8} evil. {7} is {9}".format('', sex, race, common, diff, typ, state, pronoun, bad, per['desc'], per['align']))
+    return formatParagraph("Encounter: {0} is a {1} {2} who {3} common, DC {4}, this {5} is currently {6}. alignment: {10}. {7} {8} evil. {7} is {9}".format(name, sex, race, common, diff, typ, state, pronoun, bad, per['desc'], per['align']))
