@@ -1,608 +1,563 @@
-( 1,  1) : 0 cp, 0 sp, 0 ep, 900 gp, 10 pp, hidden(no monster encounter): 18, Clue to goal: (19, Nature)
-( 1,  5) : 0 cp, 0 sp, 0 ep, 30 gp, 14 pp, hidden(no monster encounter): 17, Clue to treasure2: (17, Arcana)
-( 1, 10) : 0 cp, 0 sp, 0 ep, 1100 gp, 30 pp, hidden(no monster encounter): 19, Clue to treasure1: (16, Religion)
-( 1, 1C) : 0 cp, 0 sp, 0 ep, 130 gp, 0 pp, hidden(no monster encounter): 15, Clue to goal: (15, Arcana)
-( 1, 2C) : 0 cp, 0 sp, 0 ep, 150 gp, 0 pp, hidden(no monster encounter): 18, Clue to treasure2: (18, History)
-( 1, 35) : 0 cp, 0 sp, 0 ep, 1000 gp, 30 pp, hidden(no monster encounter): 18, Clue to goal: (17, Religion)
-( 1, 3A) : 0 cp, 0 sp, 0 ep, 900 gp, 40 pp, hidden(no monster encounter): 15, Clue to treasure2: (18, Investigation)
-( 1, 3D) : 0 cp, 0 sp, 0 ep, 5000 gp, 1300 pp and 12 500 gp gems, 1 Magic Item(table F) and 4 Magic Item(table G)
-( 1, 41) : 0 cp, 0 sp, 0 ep, 110 gp, 0 pp, hidden(no monster encounter): 16, Clue to treasure1: (19, Arcana)
-( 1, 4B) : 0 cp, 0 sp, 0 ep, 500 gp, 70 pp, hidden(no monster encounter): 19, Clue to treasure1: (19, Religion)
-( 1, 5B) : 0 cp, 0 sp, 0 ep, 50 gp, 9 pp, hidden(no monster encounter): 16, Clue to treasure1: (16, History)
-( 1, 61) : 0 cp, 1100 sp, 0 ep, 300 gp, 0 pp, hidden(no monster encounter): 19, Clue to treasure1: (18, Religion)
-( 1, 6C) : 0 cp, 0 sp, 0 ep, 90 gp, 14 pp, hidden(no monster encounter): 16, Clue to treasure2: (19, Nature)
-( 1, 76) : 0 cp, 0 sp, 0 ep, 160 gp, 0 pp, hidden(no monster encounter): 18, Clue to treasure1: (18, Arcana)
-( 2, 3E) : 1 Erinyes
-( 2, 44) : 1 Vampire
-( 2, 48) : 3 Drow mage
-( 2, 4C) : 2 Chain devil
-( 2, 67) : 1 Archmage
-( 2, 6F) : 3 Helmed horror
-( 3,  8) : 3 Mind flayer
-( 3, 2B) : 1 Death tyrant (not in lair)
-( 3, 2F) : Encounter: Shestendeliath Nadarr is a male Dragonborn who speaks
-common, DC 17, this mage is currently resting. alignment: LN.
-he isn't evil. he is Warmhearted, conscientious, and cooperative.
-Want harmony in their environment, work with determination to
-establish it. Like to work with others to complete tasks accurately
-and on time. Loyal, follow through even in small matters. Notice
-what others need in their day-by-day lives and try to provide
-it. Want to be appreciated for who they are and for what they
-contribute.
-( 3, 38) : 1 Adult copper dragon
-( 3, 5E) : 1 Adult bronze dragon
-( 4, 21) : 2 Oni
-( 4, 26) : 2 Xorn
-( 5,  D) : 1 Roc
-( 5, 13) : 3 Beholder zombie
-( 5, 4B) : 0 cp, 0 sp, 0 ep, 60 gp, 0 pp, hidden(no monster encounter): 17, Clue to treasure1: (18, Nature)
-( 5, 53) : 0 cp, 0 sp, 0 ep, 500 gp, 30 pp, hidden(no monster encounter): 18, Clue to treasure2: (19, Religion)
-( 5, 6C) : 0 cp, 0 sp, 0 ep, 800 gp, 110 pp, hidden(no monster encounter): 15, Clue to treasure2: (17, History)
-( 6,  5) : 0 cp, 0 sp, 0 ep, 300 gp, 50 pp, hidden(no monster encounter): 19, Clue to treasure1: (16, Investigation)
-( 6, 30) : 0 cp, 0 sp, 0 ep, 600 gp, 10 pp, hidden(no monster encounter): 16, Clue to treasure1: (19, Nature)
-( 6, 35) : 0 cp, 0 sp, 0 ep, 1000 gp, 30 pp, hidden(no monster encounter): 17, Clue to goal: (15, Investigation)
-( 6, 61) : 0 cp, 0 sp, 0 ep, 900 gp, 60 pp, hidden(no monster encounter): 16, Clue to treasure2: (19, Nature)
-( 7, 1F) : 0 cp, 0 sp, 0 ep, 400 gp, 10 pp, hidden(no monster encounter): 15, Clue to goal: (17, Nature)
-( 8, 10) : 0 cp, 0 sp, 0 ep, 600 gp, 30 pp, hidden(no monster encounter): 19, Clue to treasure1: (18, Investigation)
-( 8, 1C) : 0 cp, 0 sp, 0 ep, 800 gp, 40 pp, hidden(no monster encounter): 18, Clue to treasure1: (18, Nature)
-( 8, 26) : 1 Archmage
-( 8, 48) : 1 Adult blue dragon
-( 8, 5E) : 1 Nalfeshnee
-( A, 28) : 2 Yuan-ti abomination
-( B,  1) : 0 cp, 0 sp, 600 ep, 500 gp, 0 pp, hidden(no monster encounter): 18, Clue to treasure1: (19, Nature)
-( B,  6) : 0 cp, 1100 sp, 0 ep, 400 gp, 0 pp, hidden(no monster encounter): 16, Clue to treasure1: (16, Investigation)
-( B, 58) : 0 cp, 0 sp, 0 ep, 160 gp, 0 pp, hidden(no monster encounter): 17, Clue to treasure1: (15, Investigation)
-( C,  8) : 2 Mezzoloth
-( C, 51) : 1 Vampire (warrior)
-( C, 57) : 1 Rakshasa
-( D, 26) : 2 Chasme
-( D, 2B) : 1 Deva
-( D, 35) : 1 Archmage
-( D, 44) : 1 Death tyrant (in lair)
-( D, 62) : 1 Adult black dragon
-( E, 1F) : 0 cp, 0 sp, 100 ep, 400 gp, 0 pp, hidden(no monster encounter): 16, Clue to goal: (19, Nature)
-( E, 23) : 0 cp, 0 sp, 0 ep, 900 gp, 20 pp, hidden(no monster encounter): 17, Clue to treasure2: (19, History)
-( E, 32) : 0 cp, 0 sp, 0 ep, 70 gp, 0 pp, hidden(no monster encounter): 16, Clue to treasure2: (15, Nature)
-( E, 3A) : 0 cp, 0 sp, 0 ep, 700 gp, 30 pp, hidden(no monster encounter): 18, Clue to treasure2: (18, Investigation)
-( E, 3D) : 0 cp, 0 sp, 0 ep, 500 gp, 50 pp, hidden(no monster encounter): 19, Clue to treasure2: (18, Investigation)
-( E, 41) : 0 cp, 1500 sp, 0 ep, 100 gp, 0 pp, hidden(no monster encounter): 15, Clue to treasure2: (18, History)
-( E, 4A) : 2 Roper
-( E, 5B) : 0 cp, 0 sp, 0 ep, 700 gp, 10 pp, hidden(no monster encounter): 18, Clue to goal: (15, Investigation)
-( E, 60) : 0 cp, 0 sp, 0 ep, 400 gp, 10 pp, hidden(no monster encounter): 19, Clue to treasure2: (18, History)
-( F,  6) : 0 cp, 0 sp, 0 ep, 900 gp, 10 pp, hidden(no monster encounter): 16, Clue to goal: (17, Investigation)
-( F, 58) : 0 cp, 0 sp, 0 ep, 200 gp, 0 pp, hidden(no monster encounter): 16, Clue to treasure2: (16, Arcana)
-(10,  D) : 1 Horned devil
-(10, 13) : 2 Invisible stalker
-(10, 51) : 1 Treant
-(10, 57) : 1 Death tyrant (in lair)
-(10, 67) : 1 Bone devil
-(11, 20) : 1 Behir
-(11, 26) : 1 Djinni
-(11, 2B) : 3 Wereboar
-(11, 35) : 1 Mummy lord (in lair)
-(11, 3E) : 1 Vampire (warrior)
-(11, 44) : 3 Blue slaad
-(12,  A) : 1 Death slaad
-(12, 1F) : 0 cp, 0 sp, 0 ep, 500 gp, 60 pp, hidden(no monster encounter): 18, Clue to goal: (17, Investigation)
-(12, 23) : 0 cp, 1300 sp, 0 ep, 200 gp, 0 pp, hidden(no monster encounter): 16, Clue to treasure2: (19, Arcana)
-(12, 41) : 0 cp, 0 sp, 0 ep, 120 gp, 0 pp, hidden(no monster encounter): 17, Clue to goal: (19, Arcana)
-(12, 5B) : 0 cp, 0 sp, 500 ep, 300 gp, 0 pp, hidden(no monster encounter): 16, Clue to treasure1: (19, Investigation)
-(12, 60) : 0 cp, 0 sp, 0 ep, 1200 gp, 30 pp, hidden(no monster encounter): 17, Clue to treasure1: (17, Investigation)
-(15,  8) : 2 Barbed devil
-(15,  D) : 1 Ice devil
-(15, 15) : 2 Green hag (in coven)
-(15, 19) : 2 Githzerai zerth
-(15, 20) : 3 Salamander
-(15, 26) : 3 Shambling mound
-(15, 3F) : 1 Mummy lord (not in lair)
-(15, 49) : 1 Storm giant
-(15, 4D) : 1 Djinni
-(15, 51) : 1 Young gold dragon
-(15, 5C) : 4 Troll
-(15, 62) : 1 Young gold dragon
-(15, 6A) : 1 Fire giant
-(15, 6F) : 1 Stone golem
-(16, 16) : 0 cp, 600 sp, 0 ep, 200 gp, 0 pp, hidden(no monster encounter): 16, Clue to treasure1: (15, Arcana)
-(16, 1C) : 0 cp, 0 sp, 0 ep, 1000 gp, 30 pp, hidden(no monster encounter): 16, Clue to treasure2: (19, Nature)
-(16, 5B) : 0 cp, 0 sp, 0 ep, 600 gp, 20 pp, hidden(no monster encounter): 16, Clue to goal: (15, Nature)
-(16, 5F) : 0 cp, 0 sp, 0 ep, 1100 gp, 20 pp, hidden(no monster encounter): 15, Clue to goal: (15, Investigation)
-(17,  1) : 0 cp, 0 sp, 600 ep, 200 gp, 0 pp, hidden(no monster encounter): 16, Clue to goal: (17, History)
-(17,  6) : 0 cp, 0 sp, 0 ep, 160 gp, 0 pp, hidden(no monster encounter): 15, Clue to treasure1: (15, History)
-(17, 42) : 0 cp, 0 sp, 0 ep, 1000 gp, 50 pp, hidden(no monster encounter): 15, Clue to treasure1: (18, History)
-(17, 71) : 0 cp, 1500 sp, 0 ep, 500 gp, 0 pp, hidden(no monster encounter): 15, Clue to treasure1: (19, Arcana)
-(17, 76) : 0 cp, 0 sp, 0 ep, 170 gp, 0 pp, hidden(no monster encounter): 18, Clue to treasure2: (15, Nature)
-(18,  E) : 0 cp, 0 sp, 100 ep, 300 gp, 0 pp, hidden(no monster encounter): 16, Clue to goal: (15, Arcana)
-(18, 12) : 0 cp, 0 sp, 100 ep, 400 gp, 0 pp, hidden(no monster encounter): 15, Clue to goal: (19, Arcana)
-(18, 1F) : 0 cp, 0 sp, 500 ep, 200 gp, 0 pp, hidden(no monster encounter): 15, Clue to treasure2: (17, Nature)
-(18, 23) : 0 cp, 600 sp, 0 ep, 500 gp, 0 pp, hidden(no monster encounter): 19, Clue to goal: (19, Investigation)
-(18, 4A) : 0 cp, 0 sp, 0 ep, 800 gp, 10 pp, hidden(no monster encounter): 17, Clue to treasure1: (16, Investigation)
-(18, 54) : 0 cp, 1300 sp, 0 ep, 600 gp, 0 pp, hidden(no monster encounter): 18, Clue to goal: (15, Arcana)
-(18, 58) : 0 cp, 0 sp, 0 ep, 700 gp, 100 pp, hidden(no monster encounter): 17, Clue to goal: (18, Nature)
-(19, 15) : 1 Efreeti
-(19, 19) : 1 Young blue dragon
-(19, 5C) : 1 Vampire(spellcaster)
-(19, 62) : 1 Death tyrant (in lair)
-(1A,  3) : 5 Succubus
-(1A, 3F) : 3 Drow mage
-(1A, 44) : 1 Fire giant
-(1B,  D) : 1 Adult copper dragon
-(1B, 20) : 2 Earth elemental
-(1B, 26) : 2 Drider
-(1B, 49) : 1 Death tyrant (not in lair)
-(1B, 4D) : 1 Yochlol
-(1B, 51) : 1 Remorhaz
-(1B, 57) : 1 Djinni
-(1C,  1) : 0 cp, 1000 sp, 0 ep, 500 gp, 0 pp, hidden(no monster encounter): 15, Clue to treasure1: (18, Nature)
-(1C,  6) : 0 cp, 0 sp, 0 ep, 900 gp, 30 pp, hidden(no monster encounter): 19, Clue to treasure2: (17, Arcana)
-(1C, 12) : 0 cp, 0 sp, 0 ep, 1100 gp, 30 pp, hidden(no monster encounter): 16, Clue to treasure2: (15, Arcana)
-(1C, 16) : 0 cp, 0 sp, 0 ep, 400 gp, 60 pp, hidden(no monster encounter): 16, Clue to goal: (16, Arcana)
-(1C, 1F) : 0 cp, 1200 sp, 0 ep, 500 gp, 0 pp, hidden(no monster encounter): 19, Clue to treasure2: (17, Nature)
-(1C, 32) : 0 cp, 0 sp, 600 ep, 600 gp, 0 pp, hidden(no monster encounter): 17, Clue to treasure1: (16, History)
-(1C, 3D) : 0 cp, 0 sp, 0 ep, 1200 gp, 30 pp, hidden(no monster encounter): 16, Clue to treasure2: (18, History)
-(1C, 42) : 0 cp, 0 sp, 0 ep, 900 gp, 30 pp, hidden(no monster encounter): 18, Clue to treasure1: (16, Investigation)
-(1C, 4A) : 0 cp, 1300 sp, 0 ep, 100 gp, 0 pp, hidden(no monster encounter): 16, Clue to treasure1: (19, History)
-(1C, 4E) : 0 cp, 0 sp, 0 ep, 800 gp, 10 pp, hidden(no monster encounter): 16, Clue to treasure1: (19, History)
-(1C, 58) : 0 cp, 0 sp, 400 ep, 200 gp, 0 pp, hidden(no monster encounter): 18, Clue to goal: (16, Religion)
-(1C, 71) : 0 cp, 0 sp, 200 ep, 400 gp, 0 pp, hidden(no monster encounter): 16, Clue to treasure1: (15, Religion)
-(1C, 76) : 0 cp, 1400 sp, 0 ep, 100 gp, 0 pp, hidden(no monster encounter): 15, Clue to goal: (17, History)
-(1F,  B) : 0 cp, 0 sp, 0 ep, 700 gp, 80 pp, hidden(no monster encounter): 19, Clue to treasure2: (15, History)
-(1F,  F) : 0 cp, 0 sp, 0 ep, 1000 gp, 40 pp, hidden(no monster encounter): 16, Clue to treasure1: (17, Nature)
-(1F, 17) : 0 cp, 1400 sp, 0 ep, 200 gp, 0 pp, hidden(no monster encounter): 16, Clue to goal: (18, Nature)
-(1F, 1C) : 0 cp, 0 sp, 0 ep, 600 gp, 40 pp, hidden(no monster encounter): 15, Clue to goal: (16, Religion)
-(1F, 1F) : 0 cp, 0 sp, 300 ep, 600 gp, 0 pp, hidden(no monster encounter): 18, Clue to treasure2: (19, History)
-(1F, 24) : 0 cp, 0 sp, 0 ep, 190 gp, 0 pp, hidden(no monster encounter): 18, Clue to goal: (18, History)
-(1F, 3D) : 0 cp, 0 sp, 0 ep, 900 gp, 10 pp, hidden(no monster encounter): 15, Clue to treasure2: (19, Investigation)
-(1F, 43) : 0 cp, 0 sp, 0 ep, 400 gp, 20 pp, hidden(no monster encounter): 17, Clue to goal: (16, Investigation)
-(1F, 4A) : 0 cp, 0 sp, 0 ep, 700 gp, 50 pp, hidden(no monster encounter): 18, Clue to treasure2: (16, Investigation)
-(1F, 4E) : 0 cp, 1300 sp, 0 ep, 600 gp, 0 pp, hidden(no monster encounter): 18, Clue to treasure2: (18, Nature)
-(1F, 53) : 0 cp, 0 sp, 0 ep, 80 gp, 9 pp, hidden(no monster encounter): 18, Clue to goal: (16, Nature)
-(1F, 58) : 0 cp, 0 sp, 0 ep, 900 gp, 40 pp, hidden(no monster encounter): 19, Clue to treasure2: (17, Investigation)
-(1F, 5B) : 1 Purple worm
-(1F, 76) : Encounter: Olga Rein is a female Human who speaks common, DC
-14, this merchant is currently restrained. alignment: NG. she
-isn't evil. she is Frank, decisive, assume leadership readily.
-Quickly see illogical and inefficient procedures and policies,
-develop and implement comprehensive systems to solve organizational
-problems. Enjoy long-term planning and goal setting. Usually
-well informed, well read, enjoy expanding their knowledge and
-passing it on to others. Forceful in presenting their ideas.
-(20,  C) : Encounter: Morgran Frostbeard is a male Dwarf who speaks common,
-DC 18, this merchant is currently lost. alignment: NN. he is
+( 1,  7) : 0 cp, 0 sp, 0 ep, 170 gp, 0 pp, hidden(no monster encounter): 17, Clue to treasure1: (19, Nature)
+( 1, 1F) : 0 cp, 0 sp, 0 ep, 1200 gp, 50 pp, hidden(no monster encounter): 19, Clue to goal: (15, Religion)
+( 1, 2C) : 0 cp, 0 sp, 0 ep, 800 gp, 50 pp, hidden(no monster encounter): 18, Clue to treasure1: (17, Nature)
+( 1, 30) : 0 cp, 0 sp, 0 ep, 500 gp, 60 pp, hidden(no monster encounter): 16, Clue to treasure2: (16, History)
+( 1, 5B) : 0 cp, 0 sp, 0 ep, 1200 gp, 10 pp, hidden(no monster encounter): 16, Clue to treasure2: (19, Arcana)
+( 1, 60) : 0 cp, 1200 sp, 0 ep, 500 gp, 0 pp, hidden(no monster encounter): 15, Clue to treasure2: (17, Arcana)
+( 1, 65) : 0 cp, 0 sp, 0 ep, 14000 gp, 2200 pp and 8 1000 gp gems and 5 Magic Ttems(table C)
+( 1, 69) : 0 cp, 0 sp, 0 ep, 130 gp, 0 pp, hidden(no monster encounter): 17, Clue to treasure2: (15, Religion)
+( 1, 72) : 0 cp, 0 sp, 0 ep, 1000 gp, 60 pp, hidden(no monster encounter): 15, Clue to treasure2: (17, Arcana)
+( 2,  4) : 1 Gray slaad
+( 2,  8) : 1 Arcanaloth
+( 3, 2B) : 1 Horned devil
+( 3, 2F) : 1 Beholder (in lair)
+( 3, 33) : 1 Yochlol
+( 3, 37) : 1 Bone devil
+( 4, 21) : 4 Giant scorpion
+( 4, 26) : 1 Storm giant
+( 4, 66) : 1 Erinyes
+( 4, 75) : 2 Githyanki knight
+( 5, 3D) : 0 cp, 0 sp, 0 ep, 700 gp, 30 pp, hidden(no monster encounter): 19, Clue to treasure2: (18, History)
+( 5, 43) : 0 cp, 0 sp, 0 ep, 600 gp, 20 pp, hidden(no monster encounter): 15, Clue to treasure2: (18, Arcana)
+( 6, 30) : 0 cp, 0 sp, 0 ep, 700 gp, 60 pp, hidden(no monster encounter): 18, Clue to treasure2: (16, Investigation)
+( 6, 56) : 1 Fomorian
+( 7, 60) : 0 cp, 1300 sp, 0 ep, 600 gp, 0 pp, hidden(no monster encounter): 19, Clue to treasure1: (16, History)
+( 7, 69) : 0 cp, 2100 sp, 0 ep, 100 gp, 0 pp, hidden(no monster encounter): 17, Clue to treasure1: (16, Nature)
+( 7, 72) : 0 cp, 1500 sp, 0 ep, 300 gp, 0 pp, hidden(no monster encounter): 17, Clue to treasure2: (17, History)
+( 7, 76) : 0 cp, 0 sp, 0 ep, 500 gp, 20 pp, hidden(no monster encounter): 17, Clue to treasure2: (18, Religion)
+( 8,  8) : 2 Oni
+( 8, 21) : 1 Efreeti
+( 8, 26) : 2 Banshee
+( 8, 2B) : 1 Purple worm
+( 8, 2F) : 1 Gray slaad
+( 8, 33) : 1 Clay golem
+( 8, 40) : 1 Ice devil
+( 8, 44) : 1 Young bronze dragon
+( 8, 5D) : 1 Guardian naga
+( 8, 62) : 1 Assassin
+( 8, 6A) : 2 Vrock
+( 8, 6F) : 1 Behir
+( 8, 75) : stairs up
+( 9, 58) : 0 cp, 0 sp, 0 ep, 400 gp, 30 pp, hidden(no monster encounter): 19, Clue to goal: (19, Nature)
+( A, 28) : 1 Yound reg dragon
+( B,  1) : 0 cp, 0 sp, 100 ep, 100 gp, 0 pp, hidden(no monster encounter): 16, Clue to goal: (15, Religion)
+( B,  D) : 2 Yuan-ti abomination
+( B, 12) : 2 Hobgoblin warlord
+( B, 42) : 0 cp, 0 sp, 0 ep, 700 gp, 50 pp, hidden(no monster encounter): 16, Clue to treasure1: (19, Arcana)
+( C, 3F) : 1 Young Silver dragon
+( D, 22) : 5 Lizard king/queen
+( D, 26) : 1 Guardian naga
+( D, 2B) : 1 Purple worm
+( D, 37) : 2 Young bronze dragon
+( D, 66) : 1 Adult copper dragon
+( D, 6A) : 1 Rakshasa
+( D, 6F) : 2 Blue slaad
+( D, 75) : 1 Nycaloth
+( E,  F) : 0 cp, 0 sp, 0 ep, 1000 gp, 60 pp, hidden(no monster encounter): 16, Clue to goal: (19, Investigation)
+( E, 1F) : 0 cp, 0 sp, 0 ep, 600 gp, 100 pp, hidden(no monster encounter): 17, Clue to treasure2: (19, Religion)
+( E, 25) : 0 cp, 0 sp, 0 ep, 1000 gp, 90 pp, hidden(no monster encounter): 19, Clue to goal: (17, Religion)
+( E, 76) : 0 cp, 0 sp, 0 ep, 90 gp, 7 pp, hidden(no monster encounter): 16, Clue to treasure1: (15, Investigation)
+( F,  5) : 0 cp, 0 sp, 0 ep, 400 gp, 40 pp, hidden(no monster encounter): 16, Clue to goal: (17, Religion)
+(10,  2) : 1 Stone golem
+(10,  D) : 1 Green slaad
+(10, 44) : 1 Remorhaz
+(10, 49) : 2 Giant crocodile
+(10, 56) : stairs down
+(11, 22) : 1 Stone golem
+(11, 26) : 1 Marid
+(11, 6F) : 1 Erinyes
+(12, 25) : 0 cp, 0 sp, 0 ep, 1100 gp, 50 pp, hidden(no monster encounter): 18, Clue to treasure1: (16, Religion)
+(12, 3A) : 0 cp, 0 sp, 0 ep, 800 gp, 10 pp, hidden(no monster encounter): 18, Clue to treasure2: (19, History)
+(12, 46) : 2 Chasme
+(12, 72) : 0 cp, 0 sp, 0 ep, 600 gp, 40 pp, hidden(no monster encounter): 15, Clue to treasure1: (16, History)
+(12, 76) : 0 cp, 0 sp, 0 ep, 70 gp, 0 pp, hidden(no monster encounter): 19, Clue to treasure2: (16, Religion)
+(15,  2) : 1 Young gold dragon
+(15,  D) : 1 Deva
+(15, 11) : 4 Banshee
+(15, 15) : 1 Adult white dragon
+(15, 1A) : 1 Ice devil
+(15, 26) : 1 Behir
+(15, 2B) : 1 Vampire (warrior)
+(15, 3E) : 2 Mage
+(15, 44) : 2 Bulette
+(15, 55) : 2 Stone giant
+(15, 6F) : 1 Cloaker
+(15, 75) : 1 Erinyes
+(16, 17) : 0 cp, 0 sp, 0 ep, 190 gp, 0 pp, hidden(no monster encounter): 16, Clue to treasure2: (15, History)
+(16, 4A) : 0 cp, 1400 sp, 0 ep, 100 gp, 0 pp, hidden(no monster encounter): 16, Clue to treasure2: (15, Religion)
+(16, 4E) : 0 cp, 0 sp, 0 ep, 130 gp, 0 pp, hidden(no monster encounter): 17, Clue to treasure1: (15, History)
+(17,  E) : 0 cp, 0 sp, 0 ep, 500 gp, 50 pp, hidden(no monster encounter): 16, Clue to goal: (15, Investigation)
+(18,  1) : 0 cp, 0 sp, 500 ep, 600 gp, 0 pp, hidden(no monster encounter): 19, Clue to treasure1: (17, Investigation)
+(18, 3D) : 0 cp, 0 sp, 0 ep, 400 gp, 30 pp, hidden(no monster encounter): 15, Clue to treasure1: (15, History)
+(18, 41) : 0 cp, 0 sp, 0 ep, 700 gp, 20 pp, hidden(no monster encounter): 18, Clue to goal: (19, Investigation)
+(18, 58) : 0 cp, 2100 sp, 0 ep, 100 gp, 0 pp, hidden(no monster encounter): 16, Clue to goal: (18, History)
+(19, 15) : 2 Young copper dragon
+(19, 1A) : 1 Mummy lord (not in lair)
+(19, 49) : 1 Djinni
+(1A,  D) : 1 Deva
+(1B,  8) : 4 Lamia
+(1B, 3E) : 1 Abominable yeti
+(1B, 44) : 1 Gray slaad
+(1B, 55) : 1 Guardian naga
+(1C,  1) : 0 cp, 0 sp, 300 ep, 400 gp, 0 pp, hidden(no monster encounter): 15, Clue to goal: (16, History)
+(1C,  5) : 0 cp, 1400 sp, 0 ep, 600 gp, 0 pp, hidden(no monster encounter): 19, Clue to goal: (17, Nature)
+(1C,  E) : 0 cp, 1300 sp, 0 ep, 200 gp, 0 pp, hidden(no monster encounter): 16, Clue to treasure2: (15, Religion)
+(1C, 17) : 0 cp, 0 sp, 0 ep, 110 gp, 8 pp, hidden(no monster encounter): 17, Clue to treasure1: (18, Investigation)
+(1C, 1C) : 0 cp, 0 sp, 0 ep, 700 gp, 10 pp, hidden(no monster encounter): 16, Clue to goal: (17, Religion)
+(1C, 1F) : 0 cp, 0 sp, 0 ep, 150 gp, 0 pp, hidden(no monster encounter): 18, Clue to goal: (19, Religion)
+(1C, 34) : 0 cp, 0 sp, 0 ep, 90 gp, 13 pp, hidden(no monster encounter): 15, Clue to goal: (16, Investigation)
+(1C, 4A) : 0 cp, 0 sp, 0 ep, 150 gp, 0 pp, hidden(no monster encounter): 18, Clue to treasure2: (18, Religion)
+(1C, 4E) : 0 cp, 0 sp, 0 ep, 900 gp, 70 pp, hidden(no monster encounter): 15, Clue to treasure2: (19, Nature)
+(1C, 52) : 0 cp, 0 sp, 0 ep, 120 gp, 0 pp, hidden(no monster encounter): 17, Clue to treasure1: (18, History)
+(1C, 58) : 0 cp, 0 sp, 200 ep, 200 gp, 0 pp, hidden(no monster encounter): 18, Clue to goal: (16, Nature)
+(1C, 72) : 0 cp, 0 sp, 0 ep, 1000 gp, 60 pp, hidden(no monster encounter): 16, Clue to treasure2: (18, History)
+(1F,  1) : 0 cp, 2100 sp, 0 ep, 100 gp, 0 pp, hidden(no monster encounter): 15, Clue to goal: (19, Investigation)
+(1F,  B) : 0 cp, 900 sp, 0 ep, 100 gp, 0 pp, hidden(no monster encounter): 17, Clue to goal: (17, Religion)
+(1F,  F) : 0 cp, 0 sp, 500 ep, 400 gp, 0 pp, hidden(no monster encounter): 16, Clue to goal: (16, Religion)
+(1F, 17) : 0 cp, 800 sp, 0 ep, 300 gp, 0 pp, hidden(no monster encounter): 16, Clue to treasure2: (18, Nature)
+(1F, 1F) : 0 cp, 0 sp, 0 ep, 90 gp, 0 pp, hidden(no monster encounter): 16, Clue to goal: (15, History)
+(1F, 24) : 0 cp, 0 sp, 600 ep, 500 gp, 0 pp, hidden(no monster encounter): 15, Clue to treasure1: (18, Nature)
+(1F, 2C) : 0 cp, 1700 sp, 0 ep, 200 gp, 0 pp, hidden(no monster encounter): 19, Clue to treasure1: (18, History)
+(1F, 30) : 0 cp, 0 sp, 300 ep, 100 gp, 0 pp, hidden(no monster encounter): 18, Clue to treasure1: (16, History)
+(1F, 3A) : 0 cp, 2000 sp, 0 ep, 500 gp, 0 pp, hidden(no monster encounter): 16, Clue to goal: (18, Religion)
+(1F, 3D) : 0 cp, 0 sp, 0 ep, 130 gp, 0 pp, hidden(no monster encounter): 16, Clue to goal: (15, Investigation)
+(1F, 46) : 0 cp, 1100 sp, 0 ep, 300 gp, 0 pp, hidden(no monster encounter): 15, Clue to treasure2: (16, Arcana)
+(1F, 58) : 0 cp, 0 sp, 0 ep, 800 gp, 20 pp, hidden(no monster encounter): 19, Clue to treasure2: (18, Arcana)
+(1F, 5B) : 0 cp, 800 sp, 0 ep, 500 gp, 0 pp, hidden(no monster encounter): 15, Clue to goal: (18, Religion)
+(1F, 61) : 0 cp, 0 sp, 0 ep, 700 gp, 50 pp, hidden(no monster encounter): 16, Clue to goal: (16, Nature)
+(1F, 68) : 0 cp, 0 sp, 0 ep, 500 gp, 10 pp, hidden(no monster encounter): 18, Clue to treasure2: (16, Religion)
+(1F, 6C) : 0 cp, 0 sp, 0 ep, 600 gp, 50 pp, hidden(no monster encounter): 18, Clue to treasure2: (16, History)
+(20, 21) : 1 Death tyrant (not in lair)
+(20, 26) : 1 Guardian naga
+(20, 6F) : 2 Wraith
+(20, 75) : 2 Vampire spawn
+(21,  8) : 2 Blue slaad
+(21, 4C) : 2 Young remorhaz
+(21, 5E) : 4 Hook horror
+(21, 62) : 1 Archmage
+(21, 67) : 1 Deva
+(21, 6B) : 1 Yound reg dragon
+(22,  C) : 1 Treant
+(22, 10) : 1 Abominable yeti
+(22, 1A) : Encounter: Sannl Balderk is a female Dwarf who speaks common,
+DC 11, this commoner is currently restrained. alignment: NN.
+she isn't evil. she is Tolerant and flexible, quiet observers
+until a problem appears, then act quickly to find workable solutions.
+Analyze what makes things work and readily get through large
+amounts of data to isolate the core of practical problems. Interested
+in cause and effect, organize facts using logical principles,
+value efficiency.
+(22, 37) : 1 Archmage
+(22, 51) : 1 Young gold dragon
+(23, 1F) : 0 cp, 0 sp, 0 ep, 500 gp, 60 pp, hidden(no monster encounter): 15, Clue to treasure2: (19, Investigation)
+(23, 24) : 0 cp, 0 sp, 200 ep, 100 gp, 0 pp, hidden(no monster encounter): 16, Clue to treasure2: (17, Nature)
+(23, 2C) : 0 cp, 0 sp, 0 ep, 100 gp, 0 pp, hidden(no monster encounter): 16, Clue to treasure2: (15, Religion)
+(23, 30) : 0 cp, 0 sp, 0 ep, 1000 gp, 70 pp, hidden(no monster encounter): 18, Clue to goal: (17, Investigation)
+(23, 72) : 0 cp, 0 sp, 0 ep, 130 gp, 0 pp, hidden(no monster encounter): 19, Clue to treasure1: (16, Religion)
+(24,  5) : 0 cp, 0 sp, 0 ep, 900 gp, 40 pp, hidden(no monster encounter): 18, Clue to treasure1: (18, History)
+(24, 3D) : 0 cp, 0 sp, 0 ep, 700 gp, 50 pp, hidden(no monster encounter): 15, Clue to goal: (18, Arcana)
+(24, 46) : 0 cp, 0 sp, 0 ep, 700 gp, 60 pp, hidden(no monster encounter): 16, Clue to goal: (16, Nature)
+(24, 61) : 0 cp, 1600 sp, 0 ep, 400 gp, 0 pp, hidden(no monster encounter): 17, Clue to treasure2: (18, Nature)
+(24, 6C) : 0 cp, 0 sp, 0 ep, 700 gp, 10 pp, hidden(no monster encounter): 18, Clue to goal: (16, Arcana)
+(25,  F) : 0 cp, 0 sp, 0 ep, 500 gp, 60 pp, hidden(no monster encounter): 17, Clue to treasure1: (17, Investigation)
+(25, 17) : 0 cp, 0 sp, 0 ep, 90 gp, 7 pp, hidden(no monster encounter): 19, Clue to goal: (19, Arcana)
+(25, 1C) : 0 cp, 0 sp, 0 ep, 100 gp, 17 pp, hidden(no monster encounter): 16, Clue to treasure1: (15, History)
+(25, 34) : 0 cp, 1500 sp, 0 ep, 300 gp, 0 pp, hidden(no monster encounter): 16, Clue to treasure2: (15, Investigation)
+(26,  2) : 1 Arcanaloth
+(26,  8) : 1 Arcanaloth
+(26,  C) : 1 Yound reg dragon
+(26, 10) : 2 Mage
+(26, 15) : 1 Glabrezu
+(26, 1A) : 1 Aboleth
+(26, 21) : 1 Glabrezu
+(26, 26) : 2 Young black dragon
+(26, 2B) : Encounter: Eldeth Ironfist is a female Dwarf who speaks common,
+DC 17, this priest is currently restrained. alignment: NG. she
+isn't evil. she is Outgoing, friendly, and accepting. Exuberant
+lovers of life, people, and material comforts. Enjoy working
+with others to make things happen. Bring common sense and a
+realistic approach to their work, and make work fun. Flexible
+and spontaneous, adapt readily to new people and environments.
+Learn best by trying a new skill with other people.
+(26, 2F) : 1 Assassin
+(26, 33) : 1 Mummy lord (not in lair)
+(26, 5E) : 2 Ettin
+(26, 62) : 2 Red slaad
+(26, 67) : 1 Yound reg dragon
+(26, 6B) : 1 Young gold dragon
+(26, 6F) : 1 Stone golem
+(26, 75) : 1 Arcanaloth
+(29, 23) : 0 cp, 1600 sp, 0 ep, 200 gp, 0 pp, hidden(no monster encounter): 15, Clue to treasure1: (16, Nature)
+(29, 58) : 0 cp, 0 sp, 0 ep, 80 gp, 15 pp, hidden(no monster encounter): 17, Clue to treasure2: (17, History)
+(2A, 15) : 1 Purple worm
+(2A, 1B) : 1 Archmage
+(2A, 26) : 1 Fomorian
+(2A, 56) : 2 Fire elemental
+(2A, 62) : 1 Ultroloth
+(2B,  8) : 1 Adult brass dragon
+(2B, 33) : 2 Yuan-ti abomination
+(2B, 75) : 4 Giant scorpion
+(2C,  7) : 0 cp, 0 sp, 600 ep, 200 gp, 0 pp, hidden(no monster encounter): 18, Clue to treasure2: (17, Nature)
+(2C,  E) : 1 Green slaad
+(2C, 3A) : 0 cp, 1400 sp, 0 ep, 400 gp, 0 pp, hidden(no monster encounter): 16, Clue to treasure1: (19, History)
+(2C, 68) : 1 Erinyes
+(2C, 72) : 0 cp, 0 sp, 400 ep, 300 gp, 0 pp, hidden(no monster encounter): 19, Clue to treasure2: (19, Nature)
+(2C, 76) : 0 cp, 0 sp, 0 ep, 1000 gp, 40 pp, hidden(no monster encounter): 15, Clue to treasure1: (15, History)
+(2D, 18) : 0 cp, 0 sp, 0 ep, 80 gp, 9 pp, hidden(no monster encounter): 19, Clue to treasure1: (17, Investigation)
+(2D, 1C) : 0 cp, 0 sp, 600 ep, 600 gp, 0 pp, hidden(no monster encounter): 16, Clue to goal: (16, Arcana)
+(2D, 23) : 0 cp, 0 sp, 0 ep, 600 gp, 90 pp, hidden(no monster encounter): 17, Clue to goal: (15, Investigation)
+(2D, 58) : 0 cp, 0 sp, 0 ep, 800 gp, 40 pp, hidden(no monster encounter): 15, Clue to goal: (15, Investigation)
+(2E, 15) : 1 Behir
+(2E, 51) : 1 Bone devil
+(2E, 56) : Encounter: Kethra Moslana is a female Human who speaks common,
+DC 14, this commoner is currently restrained. alignment: LN.
+she isn't evil. she is Quiet, friendly, responsible, and conscientious.
+Committed and steady in meeting their obligations. Thorough,
+painstaking, and accurate. Loyal, considerate, notice and remember
+specifics about people who are important to them, concerned
+with how others feel. Strive to create an orderly and harmonious
+environment at work and at home.
+(2E, 5D) : 2 Drow mage
+(2E, 62) : 1 Marid
+(2F, 6F) : 1 Arcanaloth
+(2F, 75) : 1 Vampire(spellcaster)
+(30,  1) : 0 cp, 1500 sp, 0 ep, 600 gp, 0 pp, hidden(no monster encounter): 15, Clue to goal: (15, History)
+(30,  7) : 0 cp, 1600 sp, 0 ep, 100 gp, 0 pp, hidden(no monster encounter): 18, Clue to goal: (19, Religion)
+(30, 34) : 0 cp, 0 sp, 0 ep, 400 gp, 20 pp, hidden(no monster encounter): 17, Clue to goal: (17, Investigation)
+(30, 3A) : 0 cp, 0 sp, 0 ep, 1000 gp, 60 pp, hidden(no monster encounter): 18, Clue to treasure2: (16, History)
+(30, 72) : 0 cp, 0 sp, 200 ep, 500 gp, 0 pp, hidden(no monster encounter): 17, Clue to treasure2: (19, Nature)
+(30, 76) : 0 cp, 0 sp, 400 ep, 600 gp, 0 pp, hidden(no monster encounter): 15, Clue to treasure1: (17, History)
+(33,  4) : 4 Knight
+(33,  8) : 2 Incubus
+(33,  D) : 2 Fomorian
+(33, 11) : 2 Githzerai zerth
+(33, 15) : 2 Chasme
+(33, 1B) : 1 Arcanaloth
+(33, 26) : 2 Gnoll fang of Yeenoghu
+(33, 2A) : 1 Glabrezu
+(33, 2E) : Encounter: Clethtinthiallor Harann is a female Dragonborn who
+speaks common, DC 17, this knight is currently lost. alignment:
+LG. she isn't evil. she is Seek to develop logical explanations
+for everything that interests them. Theoretical and abstract,
+interested more in ideas than in social interaction. Quiet,
+contained, flexible, and adaptable. Have unusual ability to
+focus in depth to solve problems in their area of interest.
+Skeptical, sometimes critical, always analytical.
+(33, 38) : Encounter: Clethtinthiallor Thava is a female Dragonborn who
+speaks common, DC 14, this royal is currently restrained. alignment:
+LN. she isn't evil. she is Quiet, friendly, responsible, and
+conscientious. Committed and steady in meeting their obligations.
+Thorough, painstaking, and accurate. Loyal, considerate, notice
+and remember specifics about people who are important to them,
+concerned with how others feel. Strive to create an orderly
+and harmonious environment at work and at home.
+(33, 44) : 2 Chuul
+(33, 48) : 1 Treant
+(33, 4C) : 5 Gargoyle
+(33, 51) : 1 Gynosphinx
+(33, 5C) : 1 Young red shadow dragon
+(33, 6F) : 2 Young white dragon
+(33, 74) : 1 Githyanki knight
+(34, 18) : 0 cp, 0 sp, 0 ep, 110 gp, 0 pp, hidden(no monster encounter): 19, Clue to treasure2: (19, Arcana)
+(34, 35) : 0 cp, 0 sp, 0 ep, 1100 gp, 50 pp, hidden(no monster encounter): 16, Clue to goal: (19, Nature)
+(34, 3A) : 0 cp, 0 sp, 0 ep, 80 gp, 0 pp, hidden(no monster encounter): 17, Clue to goal: (16, Nature)
+(34, 71) : 0 cp, 0 sp, 0 ep, 700 gp, 40 pp, hidden(no monster encounter): 15, Clue to goal: (17, Investigation)
+(35,  1) : 0 cp, 0 sp, 0 ep, 900 gp, 30 pp, hidden(no monster encounter): 19, Clue to treasure1: (17, Religion)
+(35,  7) : 0 cp, 0 sp, 0 ep, 130 gp, 0 pp, hidden(no monster encounter): 15, Clue to goal: (17, Arcana)
+(35, 52) : 0 cp, 0 sp, 0 ep, 500 gp, 100 pp, hidden(no monster encounter): 15, Clue to treasure2: (16, Religion)
+(36, 29) : 0 cp, 0 sp, 0 ep, 130 gp, 0 pp, hidden(no monster encounter): 17, Clue to treasure2: (18, History)
+(36, 47) : 0 cp, 0 sp, 0 ep, 900 gp, 10 pp, hidden(no monster encounter): 19, Clue to goal: (15, Nature)
+(36, 5F) : 0 cp, 0 sp, 0 ep, 130 gp, 0 pp, hidden(no monster encounter): 16, Clue to treasure1: (19, Nature)
+(36, 65) : 0 cp, 0 sp, 0 ep, 1000 gp, 20 pp, hidden(no monster encounter): 15, Clue to goal: (16, Nature)
+(36, 69) : 0 cp, 0 sp, 0 ep, 800 gp, 10 pp, hidden(no monster encounter): 19, Clue to goal: (19, Arcana)
+(37, 20) : 1 Aboleth
+(37, 26) : 1 Vampire(spellcaster)
+(37, 38) : 2 Mage
+(37, 6F) : 2 Gladiator
+(37, 74) : 2 Werebear
+(38,  D) : 1 Young red shadow dragon
+(38, 11) : 2 Mind flayer
+(38, 3F) : 1 Yochlol
+(38, 55) : 1 Yound reg dragon
+(39, 2A) : 2 Barlgura
+(39, 2E) : 4 Owlbear
+(39, 48) : 1 Stone golem
+(39, 4C) : 2 Weretiger
+(3A,  7) : 0 cp, 1500 sp, 0 ep, 200 gp, 0 pp, hidden(no monster encounter): 18, Clue to treasure2: (18, Nature)
+(3A,  E) : 0 cp, 0 sp, 0 ep, 800 gp, 20 pp, hidden(no monster encounter): 15, Clue to treasure2: (16, Investigation)
+(3A, 12) : 0 cp, 0 sp, 0 ep, 1000 gp, 10 pp, hidden(no monster encounter): 17, Clue to treasure1: (18, Nature)
+(3A, 1F) : 0 cp, 0 sp, 0 ep, 70 gp, 0 pp, hidden(no monster encounter): 19, Clue to goal: (17, History)
+(3A, 23) : 0 cp, 1600 sp, 0 ep, 200 gp, 0 pp, hidden(no monster encounter): 16, Clue to goal: (15, Nature)
+(3A, 29) : 0 cp, 0 sp, 0 ep, 110 gp, 15 pp, hidden(no monster encounter): 19, Clue to goal: (15, Investigation)
+(3A, 2D) : 0 cp, 1100 sp, 0 ep, 200 gp, 0 pp, hidden(no monster encounter): 19, Clue to treasure1: (18, Nature)
+(3A, 35) : 0 cp, 1600 sp, 0 ep, 600 gp, 0 pp, hidden(no monster encounter): 19, Clue to treasure2: (15, History)
+(3A, 3A) : 0 cp, 0 sp, 100 ep, 600 gp, 0 pp, hidden(no monster encounter): 17, Clue to treasure1: (17, Nature)
+(3A, 3D) : 0 cp, 0 sp, 0 ep, 500 gp, 60 pp, hidden(no monster encounter): 15, Clue to treasure1: (16, Investigation)
+(3A, 42) : 0 cp, 0 sp, 0 ep, 500 gp, 40 pp, hidden(no monster encounter): 16, Clue to treasure1: (15, Investigation)
+(3A, 58) : 0 cp, 0 sp, 0 ep, 30 gp, 10 pp, hidden(no monster encounter): 17, Clue to treasure1: (17, History)
+(3A, 5B) : 0 cp, 0 sp, 0 ep, 800 gp, 30 pp, hidden(no monster encounter): 15, Clue to goal: (17, Religion)
+(3A, 5F) : 0 cp, 0 sp, 0 ep, 800 gp, 50 pp, hidden(no monster encounter): 19, Clue to treasure2: (15, Religion)
+(3A, 76) : 0 cp, 1900 sp, 0 ep, 400 gp, 0 pp, hidden(no monster encounter): 18, Clue to treasure2: (16, Investigation)
+(3D,  1) : 0 cp, 0 sp, 0 ep, 800 gp, 10 pp, hidden(no monster encounter): 16, Clue to treasure1: (15, Arcana)
+(3D,  6) : 0 cp, 0 sp, 0 ep, 140 gp, 0 pp, hidden(no monster encounter): 16, Clue to treasure2: (17, History)
+(3D, 1C) : 0 cp, 0 sp, 0 ep, 700 gp, 40 pp, hidden(no monster encounter): 16, Clue to treasure1: (15, Nature)
+(3D, 1F) : 0 cp, 1900 sp, 0 ep, 400 gp, 0 pp, hidden(no monster encounter): 15, Clue to treasure1: (19, Investigation)
+(3D, 3A) : 0 cp, 0 sp, 0 ep, 40 gp, 12 pp, hidden(no monster encounter): 15, Clue to treasure2: (17, Nature)
+(3D, 3D) : 3 Wraithbear
+(3D, 69) : 0 cp, 1700 sp, 0 ep, 500 gp, 0 pp, hidden(no monster encounter): 15, Clue to treasure1: (17, Investigation)
+(3D, 76) : 0 cp, 0 sp, 0 ep, 80 gp, 9 pp, hidden(no monster encounter): 18, Clue to treasure1: (17, Investigation)
+(3E, 73) : 2 Flesh golem
+(40,  3) : 1 Cloud giant
+(40,  8) : 2 Mind flayer
+(41, 1F) : 0 cp, 0 sp, 0 ep, 500 gp, 60 pp, hidden(no monster encounter): 16, Clue to treasure2: (16, Investigation)
+(41, 24) : 0 cp, 0 sp, 0 ep, 170 gp, 0 pp, hidden(no monster encounter): 17, Clue to treasure2: (16, Arcana)
+(41, 70) : 0 cp, 1600 sp, 0 ep, 600 gp, 0 pp, hidden(no monster encounter): 19, Clue to goal: (15, Arcana)
+(43,  1) : 0 cp, 0 sp, 0 ep, 70 gp, 12 pp, hidden(no monster encounter): 18, Clue to goal: (18, Arcana)
+(43, 4D) : 0 cp, 0 sp, 0 ep, 800 gp, 10 pp, hidden(no monster encounter): 17, Clue to treasure2: (19, Religion)
+(44,  3) : 1 Erinyes
+(44,  8) : 2 Wraith
+(44, 21) : 1 Erinyes
+(44, 26) : 1 Arcanaloth
+(44, 6F) : 1 Vampire(spellcaster)
+(45, 44) : 1 Yound reg dragon
+(46, 35) : 2 Air Elemental
+(47,  1) : 0 cp, 1500 sp, 0 ep, 600 gp, 0 pp, hidden(no monster encounter): 15, Clue to goal: (18, History)
+(47,  6) : 0 cp, 0 sp, 0 ep, 800 gp, 50 pp, hidden(no monster encounter): 19, Clue to treasure2: (15, Investigation)
+(48,  3) : 1 Stone golem
+(48,  8) : Encounter: Stedd Hornraven is a male Human who speaks common,
+DC 19, this knight is currently lost. alignment: NN. he isn't
+evil. he is Warmly enthusiastic and imaginative. See life as
+full of possibilities. Make connections between events and information
+very quickly, and confidently proceed based on the patterns
+they see. Want a lot of affirmation from others, and readily
+give appreciation and support. Spontaneous and flexible, often
+rely on their ability to improvise and their verbal fluency.
+(48, 1B) : 2 Shield guardian
+(48, 21) : 1 Erinyes
+(49, 3A) : 0 cp, 0 sp, 0 ep, 800 gp, 60 pp, hidden(no monster encounter): 19, Clue to goal: (18, Arcana)
+(49, 6F) : 1 Marid
+(4A, 4A) : 0 cp, 0 sp, 0 ep, 1000 gp, 80 pp, hidden(no monster encounter): 18, Clue to treasure2: (19, Arcana)
+(4B,  6) : 0 cp, 1300 sp, 0 ep, 600 gp, 0 pp, hidden(no monster encounter): 18, Clue to treasure1: (16, Investigation)
+(4B, 18) : 0 cp, 0 sp, 0 ep, 140 gp, 0 pp, hidden(no monster encounter): 17, Clue to treasure1: (16, Religion)
+(4B, 1C) : 0 cp, 0 sp, 0 ep, 400 gp, 30 pp, hidden(no monster encounter): 18, Clue to goal: (15, Investigation)
+(4B, 1F) : 0 cp, 0 sp, 200 ep, 200 gp, 0 pp, hidden(no monster encounter): 17, Clue to goal: (16, Investigation)
+(4B, 24) : 300 cp, 7000 sp, 0 ep, 2500 gp, 100 pp and 15 50 gp gems and 2 Magic Items(table F)
+(4C,  3) : 3 Vampire spawn
+(4C,  8) : 1 Deva
+(4C, 21) : 2 Banshee
+(4D, 42) : 1 Adult bronze dragon
+(4D, 48) : 4 Knight
+(4E,  A) : 1 Abominable yeti
+(4E, 28) : 1 Vampire
+(4F, 41) : 0 cp, 1400 sp, 0 ep, 300 gp, 0 pp, hidden(no monster encounter): 19, Clue to treasure2: (17, Nature)
+(4F, 45) : 0 cp, 1200 sp, 0 ep, 300 gp, 0 pp, hidden(no monster encounter): 18, Clue to treasure2: (15, Arcana)
+(4F, 50) : 0 cp, 1800 sp, 0 ep, 400 gp, 0 pp, hidden(no monster encounter): 18, Clue to goal: (16, History)
+(51,  3) : 2 Orc war chief
+(51,  D) : 1 Young Silver dragon
+(51, 11) : Encounter: Silaqui IIphelkiir (Gemblossom) is a female Elf who
+speaks common, DC 14, this merchant is currently cursed. alignment:
+CG. she isn't evil. she is Outgoing, friendly, and accepting.
+Exuberant lovers of life, people, and material comforts. Enjoy
+working with others to make things happen. Bring common sense
+and a realistic approach to their work, and make work fun. Flexible
+and spontaneous, adapt readily to new people and environments.
+Learn best by trying a new skill with other people.
+(51, 15) : 1 Archmage
+(51, 1A) : 1 Young Silver dragon
+(51, 21) : 1 Adult black dragon
+(51, 26) : 4 Minotaur
+(51, 2B) : 4 Wight
+(51, 2F) : 1 Arcanaloth
+(51, 33) : 1 Drow priestess of Lolth
+(51, 39) : 1 Purple worm
+(51, 67) : 1 Arcanaloth
+(52,  1) : 0 cp, 0 sp, 0 ep, 160 gp, 0 pp, hidden(no monster encounter): 18, Clue to treasure1: (18, Nature)
+(52,  6) : 0 cp, 0 sp, 400 ep, 300 gp, 0 pp, hidden(no monster encounter): 15, Clue to treasure2: (18, Religion)
+(52, 1F) : 0 cp, 0 sp, 0 ep, 1000 gp, 60 pp, hidden(no monster encounter): 19, Clue to treasure2: (16, Investigation)
+(52, 24) : 0 cp, 1400 sp, 0 ep, 500 gp, 0 pp, hidden(no monster encounter): 15, Clue to treasure2: (16, Arcana)
+(52, 2C) : 0 cp, 1100 sp, 0 ep, 300 gp, 0 pp, hidden(no monster encounter): 19, Clue to treasure2: (18, Investigation)
+(52, 30) : 0 cp, 0 sp, 400 ep, 200 gp, 0 pp, hidden(no monster encounter): 16, Clue to treasure2: (16, Nature)
+(52, 42) : 3 Barbed devil
+(52, 53) : 2 Young green dragon
+(52, 5B) : 0 cp, 0 sp, 0 ep, 150 gp, 0 pp, hidden(no monster encounter): 15, Clue to treasure2: (16, Arcana)
+(53,  E) : 0 cp, 0 sp, 0 ep, 120 gp, 0 pp, hidden(no monster encounter): 16, Clue to treasure2: (16, Religion)
+(53, 12) : 0 cp, 0 sp, 0 ep, 170 gp, 0 pp, hidden(no monster encounter): 18, Clue to treasure2: (19, Nature)
+(54, 45) : 0 cp, 1400 sp, 0 ep, 500 gp, 0 pp, hidden(no monster encounter): 18, Clue to goal: (18, History)
+(54, 54) : 0 cp, 0 sp, 400 ep, 500 gp, 0 pp, hidden(no monster encounter): 16, Clue to goal: (19, Investigation)
+(54, 71) : 0 cp, 0 sp, 0 ep, 400 gp, 20 pp, hidden(no monster encounter): 17, Clue to goal: (15, Nature)
+(55,  3) : 1 Ice devil
+(55, 21) : 1 Adult brass dragon
+(55, 26) : 1 Vampire(spellcaster)
+(55, 2B) : 1 Cloud giant
+(55, 2F) : 1 Remorhaz
+(55, 62) : 2 Sea hag (in coven)
+(56,  D) : 1 Deva
+(56, 11) : 2 Giant shark
+(56, 33) : 2 Oni
+(56, 39) : 1 Adult brass dragon
+(56, 67) : 2 Drow priestess of Lolth
+(57, 1A) : 1 Yound reg dragon
+(57, 6F) : 4 Mummy
+(57, 74) : 2 Sahuagin baron
+(58,  1) : 0 cp, 0 sp, 0 ep, 1200 gp, 40 pp, hidden(no monster encounter): 15, Clue to treasure2: (17, Investigation)
+(58,  6) : 0 cp, 0 sp, 0 ep, 700 gp, 20 pp, hidden(no monster encounter): 16, Clue to treasure1: (18, History)
+(58,  E) : 0 cp, 0 sp, 400 ep, 400 gp, 0 pp, hidden(no monster encounter): 16, Clue to goal: (17, Religion)
+(58, 12) : 0 cp, 0 sp, 0 ep, 30 gp, 7 pp, hidden(no monster encounter): 18, Clue to goal: (16, Religion)
+(58, 17) : 0 cp, 1300 sp, 0 ep, 300 gp, 0 pp, hidden(no monster encounter): 18, Clue to goal: (16, Investigation)
+(58, 1F) : 0 cp, 1200 sp, 0 ep, 100 gp, 0 pp, hidden(no monster encounter): 18, Clue to treasure1: (19, Religion)
+(58, 24) : 0 cp, 0 sp, 0 ep, 900 gp, 50 pp, hidden(no monster encounter): 18, Clue to treasure1: (15, Nature)
+(58, 2C) : 0 cp, 900 sp, 0 ep, 500 gp, 0 pp, hidden(no monster encounter): 19, Clue to goal: (17, Religion)
+(58, 30) : 0 cp, 0 sp, 100 ep, 200 gp, 0 pp, hidden(no monster encounter): 15, Clue to treasure2: (16, Investigation)
+(58, 36) : 0 cp, 900 sp, 0 ep, 200 gp, 0 pp, hidden(no monster encounter): 15, Clue to treasure1: (17, Religion)
+(58, 3D) : 4 Black pudding
+(58, 58) : 1 Young green dragon
+(58, 5B) : 0 cp, 0 sp, 500 ep, 300 gp, 0 pp, hidden(no monster encounter): 18, Clue to goal: (18, Religion)
+(58, 5F) : 0 cp, 0 sp, 0 ep, 170 gp, 0 pp, hidden(no monster encounter): 15, Clue to treasure1: (15, Investigation)
+(58, 68) : 0 cp, 0 sp, 0 ep, 500 gp, 50 pp, hidden(no monster encounter): 16, Clue to treasure2: (18, Arcana)
+(58, 6C) : 0 cp, 0 sp, 0 ep, 600 gp, 60 pp, hidden(no monster encounter): 15, Clue to treasure2: (15, Nature)
+(58, 71) : 0 cp, 0 sp, 300 ep, 600 gp, 0 pp, hidden(no monster encounter): 19, Clue to treasure2: (15, Religion)
+(58, 76) : 0 cp, 0 sp, 0 ep, 700 gp, 50 pp, hidden(no monster encounter): 16, Clue to treasure1: (16, History)
+(5B,  6) : 0 cp, 1900 sp, 0 ep, 200 gp, 0 pp, hidden(no monster encounter): 19, Clue to goal: (17, History)
+(5B,  B) : 0 cp, 0 sp, 0 ep, 500 gp, 40 pp, hidden(no monster encounter): 15, Clue to goal: (18, Religion)
+(5B,  F) : 0 cp, 0 sp, 100 ep, 500 gp, 0 pp, hidden(no monster encounter): 16, Clue to goal: (18, Investigation)
+(5B, 18) : 0 cp, 0 sp, 0 ep, 600 gp, 60 pp, hidden(no monster encounter): 16, Clue to goal: (19, History)
+(5B, 1F) : 0 cp, 0 sp, 300 ep, 200 gp, 0 pp, hidden(no monster encounter): 17, Clue to treasure2: (19, Religion)
+(5B, 25) : 0 cp, 0 sp, 0 ep, 160 gp, 0 pp, hidden(no monster encounter): 17, Clue to treasure2: (17, Investigation)
+(5B, 2C) : 0 cp, 0 sp, 0 ep, 500 gp, 20 pp, hidden(no monster encounter): 19, Clue to treasure1: (15, Investigation)
+(5B, 34) : 0 cp, 0 sp, 0 ep, 400 gp, 70 pp, hidden(no monster encounter): 17, Clue to goal: (17, History)
+(5B, 3D) : 1 Fire giant
+(5B, 58) : 2 Green slaad
+(5B, 5B) : 0 cp, 0 sp, 0 ep, 40 gp, 0 pp, hidden(no monster encounter): 19, Clue to treasure2: (19, Arcana)
+(5B, 5F) : 0 cp, 0 sp, 0 ep, 160 gp, 0 pp, hidden(no monster encounter): 15, Clue to treasure2: (17, Religion)
+(5B, 68) : 0 cp, 0 sp, 400 ep, 100 gp, 0 pp, hidden(no monster encounter): 17, Clue to goal: (15, Religion)
+(5B, 6C) : 0 cp, 0 sp, 0 ep, 600 gp, 20 pp, hidden(no monster encounter): 18, Clue to goal: (18, Arcana)
+(5B, 71) : 0 cp, 0 sp, 0 ep, 800 gp, 50 pp, hidden(no monster encounter): 18, Clue to treasure2: (18, Investigation)
+(5B, 76) : 0 cp, 0 sp, 0 ep, 500 gp, 10 pp, hidden(no monster encounter): 19, Clue to goal: (17, Arcana)
+(5C,  8) : 1 Djinni
+(5C,  C) : 5 Weretiger
+(5C, 10) : 1 Yound reg dragon
+(5C, 2B) : 1 Behir
+(5C, 2F) : 1 Archmage
+(5C, 67) : 1 Vampire (warrior)
+(5C, 6B) : 2 Tyrannosaurus rex
+(5D, 15) : 2 Vampire spawn
+(5D, 22) : 1 Bone devil
+(5D, 26) : 2 Troll
+(5D, 6F) : 2 Giant crocodile
+(5D, 74) : 1 Guardian naga
+(5E, 33) : 1 Bone devil
+(5E, 37) : 4 Black pudding
+(5E, 5C) : 1 Archmage
+(5F,  1) : 0 cp, 0 sp, 0 ep, 700 gp, 50 pp, hidden(no monster encounter): 18, Clue to treasure1: (19, Religion)
+(5F,  B) : 0 cp, 0 sp, 0 ep, 1200 gp, 30 pp, hidden(no monster encounter): 15, Clue to treasure1: (16, History)
+(5F,  F) : 0 cp, 0 sp, 300 ep, 300 gp, 0 pp, hidden(no monster encounter): 19, Clue to treasure1: (18, Arcana)
+(5F, 2C) : 0 cp, 0 sp, 0 ep, 400 gp, 10 pp, hidden(no monster encounter): 15, Clue to goal: (15, Investigation)
+(5F, 46) : 1 Beholder (not in lair)
+(5F, 4D) : 3 Triceratops
+(60, 18) : 0 cp, 0 sp, 0 ep, 800 gp, 60 pp, hidden(no monster encounter): 19, Clue to goal: (18, Investigation)
+(60, 1F) : 0 cp, 0 sp, 0 ep, 900 gp, 40 pp, hidden(no monster encounter): 18, Clue to treasure2: (18, Nature)
+(60, 25) : 0 cp, 0 sp, 0 ep, 160 gp, 0 pp, hidden(no monster encounter): 15, Clue to treasure2: (15, Religion)
+(60, 71) : 0 cp, 0 sp, 0 ep, 800 gp, 10 pp, hidden(no monster encounter): 17, Clue to treasure1: (15, Investigation)
+(60, 76) : 0 cp, 800 sp, 0 ep, 400 gp, 0 pp, hidden(no monster encounter): 19, Clue to treasure2: (19, History)
+(61, 34) : 0 cp, 0 sp, 0 ep, 800 gp, 30 pp, hidden(no monster encounter): 15, Clue to goal: (18, Arcana)
+(61, 3A) : 0 cp, 0 sp, 400 ep, 600 gp, 0 pp, hidden(no monster encounter): 18, Clue to treasure2: (16, History)
+(61, 4F) : 0 cp, 0 sp, 0 ep, 800 gp, 50 pp, hidden(no monster encounter): 18, Clue to treasure2: (19, Religion)
+(61, 54) : 0 cp, 2000 sp, 0 ep, 500 gp, 0 pp, hidden(no monster encounter): 17, Clue to treasure2: (16, History)
+(61, 5B) : 0 cp, 0 sp, 0 ep, 180 gp, 0 pp, hidden(no monster encounter): 19, Clue to goal: (16, Nature)
+(61, 5F) : 0 cp, 0 sp, 100 ep, 600 gp, 0 pp, hidden(no monster encounter): 18, Clue to treasure2: (17, Investigation)
+(62,  8) : 1 Efreeti
+(62, 15) : 2 Barbed devil
+(62, 1B) : Encounter: Orei Rein is a male Half-Elf who speaks common, DC
+16, this druid is currently lost. alignment: LG. he isn't evil.
+he is Quiet, friendly, responsible, and conscientious. Committed
+and steady in meeting their obligations. Thorough, painstaking,
+and accurate. Loyal, considerate, notice and remember specifics
+about people who are important to them, concerned with how others
+feel. Strive to create an orderly and harmonious environment
+at work and at home.
+(62, 22) : 2 Wraithbear
+(62, 26) : 4 Flameskull
+(62, 2B) : 1 Adult green dragon
+(62, 2F) : 4 Bone naga
+(62, 33) : 2 Water elemental
+(62, 37) : 1 Young Silver dragon
+(62, 43) : 0 cp, 1100 sp, 0 ep, 300 gp, 0 pp, hidden(no monster encounter): 15, Clue to goal: (18, Religion)
+(62, 48) : 0 cp, 0 sp, 0 ep, 170 gp, 0 pp, hidden(no monster encounter): 15, Clue to treasure2: (19, Religion)
+(62, 62) : 4 Flameskull
+(62, 6B) : 1 Arcanaloth
+(62, 74) : 2 Night hag (in coven)
+(64, 4D) : 4 Grell
+(64, 52) : 2 Succubus
+(65, 41) : 4 Orc war chief
+(65, 46) : 1 Nycaloth
+(65, 61) : 0 cp, 0 sp, 0 ep, 900 gp, 20 pp, hidden(no monster encounter): 18, Clue to goal: (15, Religion)
+(66, 43) : 0 cp, 0 sp, 0 ep, 600 gp, 30 pp, hidden(no monster encounter): 15, Clue to treasure2: (18, Nature)
+(66, 48) : 0 cp, 0 sp, 0 ep, 300 gp, 30 pp, hidden(no monster encounter): 17, Clue to treasure1: (16, Religion)
+(66, 4F) : 0 cp, 1300 sp, 0 ep, 100 gp, 0 pp, hidden(no monster encounter): 15, Clue to treasure2: (18, Religion)
+(66, 62) : 2 Chuul
+(67, 15) : 4 Kuo-toa monitor
+(67, 1A) : 1 Aboleth
+(67, 20) : 1 Archmage
+(67, 2B) : 2 Succubus
+(67, 37) : 1 Arcanaloth
+(67, 6F) : 1 Cloud giant
+(67, 74) : Encounter: Morgran Gorunn is a male Dwarf who speaks common,
+DC 16, this scout is currently cursed. alignment: NN. he is
 evil. he is Seek to develop logical explanations for everything
 that interests them. Theoretical and abstract, interested more
 in ideas than in social interaction. Quiet, contained, flexible,
 and adaptable. Have unusual ability to focus in depth to solve
 problems in their area of interest. Skeptical, sometimes critical,
 always analytical.
-(20, 10) : 1 Yound reg dragon
-(20, 2A) : 2 Cyclops
-(20, 2E) : 2 Young blue dragon
-(20, 39) : 5 Ettin
-(20, 44) : 1 Death slaad
-(20, 49) : 1 Adult black dragon
-(20, 4D) : 2 Yound reg dragon
-(21,  4) : 1 Young Silver dragon
-(21,  8) : 2 Shambling mound
-(21, 15) : 1 Arcanaloth
-(21, 51) : 4 Beholder zombie
-(22, 21) : 2 Fire elemental
-(22, 26) : 2 Night hag (in coven)
-(23,  B) : 0 cp, 0 sp, 300 ep, 200 gp, 0 pp, hidden(no monster encounter): 15, Clue to treasure1: (18, Nature)
-(23,  F) : 0 cp, 800 sp, 0 ep, 100 gp, 0 pp, hidden(no monster encounter): 18, Clue to treasure1: (16, Arcana)
-(23, 2D) : 0 cp, 0 sp, 0 ep, 140 gp, 0 pp, hidden(no monster encounter): 17, Clue to treasure1: (19, History)
-(23, 36) : 0 cp, 0 sp, 0 ep, 900 gp, 10 pp, hidden(no monster encounter): 18, Clue to goal: (18, Nature)
-(23, 3A) : 0 cp, 0 sp, 0 ep, 1200 gp, 10 pp, hidden(no monster encounter): 17, Clue to goal: (17, Religion)
-(23, 4A) : 0 cp, 0 sp, 0 ep, 700 gp, 40 pp, hidden(no monster encounter): 19, Clue to treasure1: (18, Investigation)
-(23, 4E) : 0 cp, 0 sp, 0 ep, 1000 gp, 50 pp, hidden(no monster encounter): 19, Clue to goal: (19, Religion)
-(23, 5F) : 1 Beholder (in lair)
-(23, 65) : 2 Githyanki knight
-(23, 6B) : 1 Adult copper dragon
-(23, 70) : 1 Erinyes
-(24,  7) : 0 cp, 0 sp, 0 ep, 500 gp, 40 pp, hidden(no monster encounter): 17, Clue to treasure2: (17, History)
-(24, 17) : 0 cp, 0 sp, 0 ep, 1000 gp, 40 pp, hidden(no monster encounter): 18, Clue to goal: (19, Nature)
-(24, 53) : 0 cp, 0 sp, 0 ep, 200 gp, 0 pp, hidden(no monster encounter): 15, Clue to goal: (18, History)
-(24, 58) : 0 cp, 0 sp, 0 ep, 700 gp, 10 pp, hidden(no monster encounter): 15, Clue to treasure1: (18, Nature)
-(25, 1F) : 0 cp, 0 sp, 0 ep, 800 gp, 30 pp, hidden(no monster encounter): 18, Clue to treasure1: (15, Investigation)
-(25, 24) : 0 cp, 0 sp, 0 ep, 1100 gp, 100 pp, hidden(no monster encounter): 17, Clue to goal: (19, Religion)
-(25, 6D) : 0 cp, 0 sp, 0 ep, 700 gp, 40 pp, hidden(no monster encounter): 19, Clue to treasure2: (15, History)
-(25, 72) : 0 cp, 0 sp, 0 ep, 80 gp, 8 pp, hidden(no monster encounter): 15, Clue to goal: (17, Religion)
-(26,  4) : 2 Young blue dragon
-(26,  C) : stairs up
-(26, 10) : 1 Ice devil
-(26, 1A) : Encounter: Errich Underbough is a male Halfling who speaks common,
-DC 11, this commoner is currently resting. alignment: NG. he
-isn't evil. he is Outgoing, friendly, and accepting. Exuberant
-lovers of life, people, and material comforts. Enjoy working
-with others to make things happen. Bring common sense and a
-realistic approach to their work, and make work fun. Flexible
-and spontaneous, adapt readily to new people and environments.
-Learn best by trying a new skill with other people.
-(26, 21) : 3 Hillgiant
-(26, 2A) : 1 Adult brass dragon
-(26, 2E) : 2 Water elemental
-(26, 39) : stairs down
-(26, 40) : 2 Treant
-(26, 49) : Encounter: Mindartis Galanodel (Moonwhisper) is a male Elf who
-speaks common, DC 19, this minstrel is currently restrained.
-alignment: NG. he isn't evil. he is Quiet, serious, earn success
-by thoroughness and dependability. Practical, matter-of-fact,
-realistic, and responsible. Decide logically what should be
-done and work toward it steadily, regardless of distractions.
-Take pleasure in making everything orderly and organized - their
-work, their home, their life. Value traditions and loyalty.
-(26, 4D) : 2 Gladiator
-(26, 56) : 2 Drider
-(28, 5F) : 1 Yound reg dragon
-(28, 65) : 3 Chuul
-(28, 70) : 1 Yound reg dragon
-(29, 43) : 0 cp, 0 sp, 0 ep, 120 gp, 0 pp, hidden(no monster encounter): 15, Clue to treasure2: (17, Religion)
-(2A, 40) : 3 Banshee
-(2A, 62) : 0 cp, 0 sp, 0 ep, 900 gp, 20 pp, hidden(no monster encounter): 19, Clue to treasure1: (16, Nature)
-(2A, 72) : 0 cp, 0 sp, 0 ep, 1100 gp, 50 pp, hidden(no monster encounter): 17, Clue to goal: (15, Religion)
-(2B,  6) : 1 Rakshasa
-(2B, 20) : 1 Aboleth
-(2B, 2E) : 1 Horned devil
-(2B, 33) : 1 Purple worm
-(2B, 38) : 1 Clay golem
-(2B, 51) : 5 Flameskull
-(2B, 57) : 3 Young black dragon
-(2C, 1C) : 0 cp, 800 sp, 0 ep, 400 gp, 0 pp, hidden(no monster encounter): 17, Clue to treasure1: (16, Arcana)
-(2C, 35) : 0 cp, 0 sp, 0 ep, 900 gp, 50 pp, hidden(no monster encounter): 17, Clue to treasure1: (19, Religion)
-(2C, 3A) : 0 cp, 0 sp, 0 ep, 800 gp, 40 pp, hidden(no monster encounter): 16, Clue to treasure1: (19, Religion)
-(2C, 4A) : 2 Deva
-(2C, 54) : 0 cp, 1600 sp, 0 ep, 400 gp, 0 pp, hidden(no monster encounter): 17, Clue to goal: (17, Investigation)
-(2C, 58) : 0 cp, 1200 sp, 0 ep, 600 gp, 0 pp, hidden(no monster encounter): 17, Clue to goal: (16, Investigation)
-(2D, 3D) : 0 cp, 0 sp, 0 ep, 1000 gp, 20 pp, hidden(no monster encounter): 18, Clue to treasure2: (18, Investigation)
-(2D, 43) : 0 cp, 0 sp, 0 ep, 210 gp, 0 pp, hidden(no monster encounter): 19, Clue to treasure2: (17, Arcana)
-(2E, 40) : 1 Archmage
-(2F, 15) : 3 Drider
-(2F, 1B) : 2 Revenant
-(2F, 33) : 2 Mind flayer
-(2F, 38) : 1 Bone devil
-(2F, 51) : 2 Drow priestess of Lolth
-(2F, 5F) : 0 cp, 0 sp, 0 ep, 700 gp, 60 pp, hidden(no monster encounter): 19, Clue to treasure2: (19, Investigation)
-(2F, 63) : 0 cp, 2000 sp, 0 ep, 500 gp, 0 pp, hidden(no monster encounter): 17, Clue to treasure2: (15, Religion)
-(2F, 6B) : 0 cp, 0 sp, 0 ep, 140 gp, 0 pp, hidden(no monster encounter): 17, Clue to treasure2: (16, Religion)
-(2F, 6F) : 0 cp, 0 sp, 0 ep, 600 gp, 60 pp, hidden(no monster encounter): 15, Clue to treasure2: (19, Religion)
-(30, 54) : 0 cp, 1100 sp, 0 ep, 100 gp, 0 pp, hidden(no monster encounter): 19, Clue to treasure1: (15, Investigation)
-(30, 58) : 0 cp, 0 sp, 0 ep, 210 gp, 0 pp, hidden(no monster encounter): 17, Clue to treasure2: (15, Religion)
-(30, 60) : 1 Erinyes
-(30, 66) : 1 Dao
-(30, 72) : 1 Young blue dragon
-(33, 37) : 1 Aboleth
-(33, 44) : Encounter: Kristryd Frostbeard is a female Dwarf who speaks common,
-DC 11, this commoner is currently resting. alignment: LN. she
-isn't evil. she is Quiet, friendly, responsible, and conscientious.
-Committed and steady in meeting their obligations. Thorough,
-painstaking, and accurate. Loyal, considerate, notice and remember
-specifics about people who are important to them, concerned
-with how others feel. Strive to create an orderly and harmonious
-environment at work and at home.
-(33, 48) : 2 Wyvern
-(33, 4C) : 1 Yound reg dragon
-(33, 55) : 1 Archmage
-(33, 63) : 0 cp, 0 sp, 0 ep, 300 gp, 30 pp, hidden(no monster encounter): 18, Clue to goal: (18, Arcana)
-(33, 6B) : 0 cp, 0 sp, 500 ep, 300 gp, 0 pp, hidden(no monster encounter): 19, Clue to treasure1: (16, Religion)
-(34, 23) : 0 cp, 1300 sp, 0 ep, 200 gp, 0 pp, hidden(no monster encounter): 17, Clue to treasure1: (18, History)
-(34, 52) : 0 cp, 0 sp, 0 ep, 800 gp, 40 pp, hidden(no monster encounter): 19, Clue to goal: (18, Nature)
-(35, 16) : 0 cp, 0 sp, 100 ep, 100 gp, 0 pp, hidden(no monster encounter): 16, Clue to treasure1: (18, Investigation)
-(35, 34) : 0 cp, 0 sp, 0 ep, 600 gp, 40 pp, hidden(no monster encounter): 15, Clue to treasure1: (17, History)
-(36, 47) : 0 cp, 1200 sp, 0 ep, 200 gp, 0 pp, hidden(no monster encounter): 18, Clue to goal: (15, Religion)
-(36, 6C) : 1 Roc
-(37,  6) : 2 Githzerai zerth
-(37, 10) : 1 Death tyrant (not in lair)
-(37, 51) : 1 Fire giant
-(37, 55) : 1 Abominable yeti
-(38, 15) : 1 Gynosphinx
-(39, 4C) : 1 Bone devil
-(3A, 16) : 0 cp, 0 sp, 0 ep, 500 gp, 30 pp, hidden(no monster encounter): 16, Clue to treasure2: (15, History)
-(3A, 23) : 0 cp, 0 sp, 0 ep, 500 gp, 10 pp, hidden(no monster encounter): 17, Clue to treasure2: (15, Religion)
-(3A, 34) : 0 cp, 0 sp, 0 ep, 600 gp, 10 pp, hidden(no monster encounter): 16, Clue to treasure2: (19, Religion)
-(3A, 3A) : 0 cp, 0 sp, 400 ep, 600 gp, 0 pp, hidden(no monster encounter): 16, Clue to treasure2: (19, Religion)
-(3A, 3D) : 0 cp, 0 sp, 0 ep, 130 gp, 0 pp, hidden(no monster encounter): 16, Clue to treasure1: (15, History)
-(3A, 41) : 0 cp, 2100 sp, 0 ep, 100 gp, 0 pp, hidden(no monster encounter): 17, Clue to treasure1: (15, Arcana)
-(3A, 47) : 0 cp, 0 sp, 0 ep, 600 gp, 60 pp, hidden(no monster encounter): 18, Clue to goal: (19, Nature)
-(3A, 4B) : 0 cp, 0 sp, 500 ep, 300 gp, 0 pp, hidden(no monster encounter): 15, Clue to goal: (16, Religion)
-(3A, 52) : 0 cp, 0 sp, 0 ep, 70 gp, 0 pp, hidden(no monster encounter): 16, Clue to goal: (15, Arcana)
-(3A, 5B) : 2 Vampire spawn
-(3D,  1) : 0 cp, 0 sp, 0 ep, 700 gp, 10 pp, hidden(no monster encounter): 16, Clue to treasure2: (16, Arcana)
-(3D, 12) : 0 cp, 0 sp, 0 ep, 800 gp, 60 pp, hidden(no monster encounter): 15, Clue to treasure1: (18, Arcana)
-(3D, 1C) : 0 cp, 0 sp, 0 ep, 50 gp, 11 pp, hidden(no monster encounter): 16, Clue to treasure1: (19, History)
-(3D, 1F) : 0 cp, 0 sp, 0 ep, 900 gp, 50 pp, hidden(no monster encounter): 15, Clue to treasure2: (16, Arcana)
-(3D, 30) : 0 cp, 0 sp, 0 ep, 50 gp, 8 pp, hidden(no monster encounter): 18, Clue to treasure1: (17, Religion)
-(3D, 35) : 0 cp, 0 sp, 0 ep, 500 gp, 30 pp, hidden(no monster encounter): 18, Clue to treasure2: (17, Religion)
-(3D, 3D) : 2 Night hag (in coven)
-(3D, 58) : 1 Stone golem
-(3D, 5B) : 0 cp, 0 sp, 400 ep, 300 gp, 0 pp, hidden(no monster encounter): 17, Clue to treasure1: (17, History)
-(3D, 5F) : 0 cp, 0 sp, 0 ep, 120 gp, 0 pp, hidden(no monster encounter): 16, Clue to goal: (15, History)
-(3D, 65) : 0 cp, 1700 sp, 0 ep, 300 gp, 0 pp, hidden(no monster encounter): 19, Clue to goal: (19, Arcana)
-(3D, 69) : 0 cp, 0 sp, 100 ep, 200 gp, 0 pp, hidden(no monster encounter): 15, Clue to treasure1: (17, Investigation)
-(3D, 76) : 0 cp, 0 sp, 400 ep, 100 gp, 0 pp, hidden(no monster encounter): 17, Clue to treasure1: (16, Investigation)
-(3E, 74) : 2 Glabrezu
-(3F,  D) : 1 Behir
-(3F, 11) : 2 Galeb duhr
-(3F, 66) : 2 Stone giant
-(40, 15) : Encounter: Delmirev Jheri is a female Dragonborn who doesn't
-speak common, DC 16, this mage is currently restrained. alignment:
-NG. she isn't evil. she is Tolerant and flexible, quiet observers
-until a problem appears, then act quickly to find workable solutions.
-Analyze what makes things work and readily get through large
-amounts of data to isolate the core of practical problems. Interested
-in cause and effect, organize facts using logical principles,
-value efficiency.
-(40, 1A) : 1 Vampire (warrior)
-(40, 2F) : 1 Erinyes
-(40, 62) : 1 Ice devil
-(41, 4D) : 3 Oni
-(41, 51) : 1 Treant
-(41, 76) : 0 cp, 0 sp, 0 ep, 50 gp, 14 pp, hidden(no monster encounter): 18, Clue to goal: (17, Religion)
-(42,  E) : 0 cp, 0 sp, 0 ep, 70 gp, 0 pp, hidden(no monster encounter): 19, Clue to treasure1: (19, Nature)
-(42, 12) : 0 cp, 1400 sp, 0 ep, 100 gp, 0 pp, hidden(no monster encounter): 18, Clue to goal: (17, Nature)
-(42, 65) : 0 cp, 0 sp, 0 ep, 500 gp, 10 pp, hidden(no monster encounter): 15, Clue to treasure1: (15, Arcana)
-(43,  1) : 0 cp, 0 sp, 0 ep, 180 gp, 0 pp, hidden(no monster encounter): 18, Clue to treasure2: (18, History)
-(43, 23) : 0 cp, 1400 sp, 0 ep, 300 gp, 0 pp, hidden(no monster encounter): 18, Clue to treasure2: (16, Nature)
-(43, 30) : 0 cp, 0 sp, 0 ep, 50 gp, 12 pp, hidden(no monster encounter): 18, Clue to goal: (17, History)
-(43, 42) : 1 Behir
-(43, 4E) : 0 cp, 0 sp, 0 ep, 14000 gp, 1000 pp and 9 1000 gp gems and 1 Magic Item(table E)
-(43, 54) : 0 cp, 0 sp, 0 ep, 700 gp, 50 pp, hidden(no monster encounter): 15, Clue to treasure1: (16, Arcana)
-(44,  3) : 1 Beholder (not in lair)
-(44, 2B) : 2 Salamander
-(44, 38) : 1 Fire giant
-(44, 62) : 1 Bone devil
-(44, 66) : 2 Water elemental
-(44, 6F) : 5 Spectator
-(44, 74) : 1 Marid
-(46, 28) : 1 Guardian naga
-(46, 4D) : 2 Vrock
-(47,  1) : 0 cp, 0 sp, 0 ep, 700 gp, 40 pp, hidden(no monster encounter): 19, Clue to treasure2: (18, Arcana)
-(47,  6) : 0 cp, 1700 sp, 0 ep, 300 gp, 0 pp, hidden(no monster encounter): 16, Clue to goal: (19, Arcana)
-(48,  3) : Encounter: Morgran Balderk is a male Dwarf who speaks common,
-DC 17, this merchant is currently lost. alignment: LG. he isn't
-evil. he is Quiet, friendly, responsible, and conscientious.
-Committed and steady in meeting their obligations. Thorough,
-painstaking, and accurate. Loyal, considerate, notice and remember
-specifics about people who are important to them, concerned
-with how others feel. Strive to create an orderly and harmonious
-environment at work and at home.
-(48, 4E) : 0 cp, 0 sp, 0 ep, 600 gp, 40 pp, hidden(no monster encounter): 15, Clue to goal: (16, Arcana)
-(48, 54) : 0 cp, 0 sp, 0 ep, 120 gp, 0 pp, hidden(no monster encounter): 18, Clue to treasure1: (16, Arcana)
-(49, 15) : 2 Spirit naga
-(49, 26) : 1 Erinyes
-(49, 67) : 2 Githzerai zerth
-(49, 6D) : 1 Storm giant
-(4A,  E) : 1 Fire giant
-(4A, 1C) : 0 cp, 0 sp, 0 ep, 700 gp, 40 pp, hidden(no monster encounter): 19, Clue to treasure1: (15, Nature)
-(4B,  6) : 0 cp, 0 sp, 0 ep, 1000 gp, 10 pp, hidden(no monster encounter): 18, Clue to goal: (19, Arcana)
-(4C,  8) : 2 Blue slaad
-(4C, 62) : 1 Adult white dragon
-(4D, 15) : 2 Githzerai zerth
-(4D, 19) : 1 Marilith
-(4D, 26) : Encounter: Loopmottin Aleslosh Ningel is a female Gnome who speaks
-common, DC 15, this commoner is currently cursed. alignment:
-NG. she isn't evil. she is Quiet, friendly, responsible, and
-conscientious. Committed and steady in meeting their obligations.
-Thorough, painstaking, and accurate. Loyal, considerate, notice
-and remember specifics about people who are important to them,
-concerned with how others feel. Strive to create an orderly
-and harmonious environment at work and at home.
-(4D, 42) : 0 cp, 0 sp, 0 ep, 200 gp, 0 pp, hidden(no monster encounter): 16, Clue to treasure2: (19, History)
-(4D, 48) : 0 cp, 500 sp, 0 ep, 500 gp, 0 pp, hidden(no monster encounter): 15, Clue to goal: (15, Investigation)
-(4D, 4D) : 0 cp, 0 sp, 0 ep, 1100 gp, 40 pp, hidden(no monster encounter): 16, Clue to goal: (17, History)
-(4E, 1C) : 0 cp, 0 sp, 0 ep, 600 gp, 30 pp, hidden(no monster encounter): 16, Clue to treasure2: (16, Religion)
-(4E, 1F) : 0 cp, 1400 sp, 0 ep, 500 gp, 0 pp, hidden(no monster encounter): 16, Clue to treasure1: (16, History)
-(4E, 24) : 0 cp, 0 sp, 0 ep, 90 gp, 12 pp, hidden(no monster encounter): 17, Clue to treasure1: (19, Nature)
-(4F, 41) : 1 Death tyrant (not in lair)
-(4F, 45) : 1 Ultroloth
-(51,  3) : 3 Yuan-ti abomination
-(51, 1A) : 1 Young blue dragon
-(51, 21) : 2 Wraith
-(52,  1) : 0 cp, 0 sp, 0 ep, 600 gp, 30 pp, hidden(no monster encounter): 17, Clue to treasure2: (17, Arcana)
-(52, 1C) : 0 cp, 0 sp, 0 ep, 600 gp, 10 pp, hidden(no monster encounter): 17, Clue to treasure2: (16, Religion)
-(52, 1F) : 0 cp, 1600 sp, 0 ep, 500 gp, 0 pp, hidden(no monster encounter): 18, Clue to treasure2: (17, History)
-(52, 24) : 0 cp, 0 sp, 600 ep, 300 gp, 0 pp, hidden(no monster encounter): 18, Clue to treasure2: (18, Religion)
-(52, 34) : 0 cp, 0 sp, 0 ep, 200 gp, 40 pp, hidden(no monster encounter): 19, Clue to treasure1: (18, Religion)
-(52, 42) : 0 cp, 1400 sp, 0 ep, 400 gp, 0 pp, hidden(no monster encounter): 15, Clue to goal: (19, Nature)
-(52, 48) : 0 cp, 0 sp, 0 ep, 80 gp, 10 pp, hidden(no monster encounter): 18, Clue to treasure1: (16, History)
-(52, 5B) : 0 cp, 0 sp, 0 ep, 190 gp, 0 pp, hidden(no monster encounter): 18, Clue to goal: (17, Nature)
-(53, 4D) : 0 cp, 1900 sp, 0 ep, 300 gp, 0 pp, hidden(no monster encounter): 17, Clue to goal: (15, Religion)
-(53, 53) : 0 cp, 0 sp, 0 ep, 100 gp, 0 pp, hidden(no monster encounter): 18, Clue to treasure1: (17, Arcana)
-(54,  B) : 0 cp, 0 sp, 200 ep, 600 gp, 0 pp, hidden(no monster encounter): 15, Clue to goal: (19, History)
-(54, 41) : 1 Cloud giant
-(54, 45) : 1 Young blue dragon
-(54, 50) : 6 Rhinoceros
-(54, 54) : 1 Gray slaad
-(54, 6A) : 0 cp, 1000 sp, 0 ep, 200 gp, 0 pp, hidden(no monster encounter): 15, Clue to treasure2: (15, Investigation)
-(54, 76) : 0 cp, 0 sp, 0 ep, 110 gp, 0 pp, hidden(no monster encounter): 18, Clue to treasure2: (16, Religion)
-(55, 15) : 2 Young brass dragon
-(55, 26) : 1 Mummy lord (not in lair)
-(55, 2B) : 5 Basilisk
-(55, 37) : 2 Young gold dragon
-(55, 5C) : 2 Chimera
-(57,  C) : 1 Young red shadow dragon
-(57, 67) : 2 Young Silver dragon
-(57, 6D) : 2 Mage
-(58,  1) : 0 cp, 0 sp, 0 ep, 700 gp, 40 pp, hidden(no monster encounter): 18, Clue to treasure1: (15, Religion)
-(58,  B) : 0 cp, 0 sp, 600 ep, 600 gp, 0 pp, hidden(no monster encounter): 16, Clue to treasure2: (16, History)
-(58, 1C) : 0 cp, 0 sp, 500 ep, 100 gp, 0 pp, hidden(no monster encounter): 17, Clue to treasure2: (16, Investigation)
-(58, 1F) : 0 cp, 1200 sp, 0 ep, 300 gp, 0 pp, hidden(no monster encounter): 15, Clue to treasure1: (17, Arcana)
-(58, 24) : 0 cp, 0 sp, 300 ep, 400 gp, 0 pp, hidden(no monster encounter): 19, Clue to treasure2: (18, Religion)
-(58, 34) : 0 cp, 0 sp, 0 ep, 900 gp, 60 pp, hidden(no monster encounter): 17, Clue to treasure1: (17, History)
-(58, 3D) : 2 Mage
-(58, 58) : 1 Storm giant
-(58, 5B) : 0 cp, 0 sp, 100 ep, 400 gp, 0 pp, hidden(no monster encounter): 15, Clue to goal: (18, Investigation)
-(58, 5F) : 0 cp, 900 sp, 0 ep, 400 gp, 0 pp, hidden(no monster encounter): 15, Clue to treasure2: (16, Investigation)
-(58, 76) : 0 cp, 0 sp, 400 ep, 600 gp, 0 pp, hidden(no monster encounter): 18, Clue to treasure2: (15, Investigation)
-(5B,  1) : 0 cp, 0 sp, 0 ep, 120 gp, 0 pp, hidden(no monster encounter): 15, Clue to goal: (19, Nature)
-(5B,  7) : 0 cp, 0 sp, 0 ep, 100 gp, 0 pp, hidden(no monster encounter): 16, Clue to goal: (16, Religion)
-(5B,  E) : 0 cp, 0 sp, 0 ep, 170 gp, 0 pp, hidden(no monster encounter): 19, Clue to treasure1: (15, Religion)
-(5B, 1F) : 0 cp, 0 sp, 100 ep, 200 gp, 0 pp, hidden(no monster encounter): 19, Clue to goal: (15, Religion)
-(5B, 2C) : 0 cp, 0 sp, 0 ep, 240 gp, 0 pp, hidden(no monster encounter): 16, Clue to treasure2: (19, Nature)
-(5B, 30) : 0 cp, 0 sp, 0 ep, 600 gp, 30 pp, hidden(no monster encounter): 17, Clue to treasure2: (17, Investigation)
-(5B, 36) : 0 cp, 1100 sp, 0 ep, 300 gp, 0 pp, hidden(no monster encounter): 15, Clue to treasure1: (18, History)
-(5B, 3A) : 0 cp, 0 sp, 0 ep, 700 gp, 50 pp, hidden(no monster encounter): 15, Clue to goal: (15, Arcana)
-(5B, 3D) : 0 cp, 1400 sp, 0 ep, 500 gp, 0 pp, hidden(no monster encounter): 16, Clue to treasure1: (18, Arcana)
-(5B, 41) : 0 cp, 0 sp, 0 ep, 1000 gp, 50 pp, hidden(no monster encounter): 19, Clue to goal: (16, Religion)
-(5B, 47) : 0 cp, 0 sp, 500 ep, 100 gp, 0 pp, hidden(no monster encounter): 17, Clue to treasure1: (17, Nature)
-(5B, 4B) : 0 cp, 800 sp, 0 ep, 400 gp, 0 pp, hidden(no monster encounter): 15, Clue to goal: (17, History)
-(5B, 54) : 0 cp, 1700 sp, 0 ep, 400 gp, 0 pp, hidden(no monster encounter): 17, Clue to treasure1: (15, Investigation)
-(5B, 5B) : 0 cp, 900 sp, 0 ep, 300 gp, 0 pp, hidden(no monster encounter): 19, Clue to goal: (16, Nature)
-(5B, 60) : 0 cp, 0 sp, 0 ep, 600 gp, 40 pp, hidden(no monster encounter): 15, Clue to goal: (17, Arcana)
-(5B, 70) : 0 cp, 0 sp, 600 ep, 300 gp, 0 pp, hidden(no monster encounter): 18, Clue to treasure2: (17, Arcana)
-(5C, 11) : 2 Young green dragon
-(5C, 2F) : 3 Githzerai zerth
-(5C, 39) : 1 Young Silver dragon
-(5C, 44) : 3 Galeb duhr
-(5D, 5D) : 1 Roc
-(5E,  4) : 1 Adult blue dragon
-(5E, 48) : 1 Adult silver dragon
-(5E, 66) : 1 Vampire(spellcaster)
-(5E, 6A) : 1 Young red shadow dragon
-(5E, 6F) : 4 Air Elemental
-(5E, 73) : 1 Dao
-(5F,  E) : 0 cp, 0 sp, 0 ep, 100 gp, 0 pp, hidden(no monster encounter): 18, Clue to treasure2: (19, Investigation)
-(5F, 2C) : 0 cp, 0 sp, 0 ep, 700 gp, 10 pp, hidden(no monster encounter): 15, Clue to treasure1: (17, History)
-(5F, 30) : 0 cp, 0 sp, 0 ep, 900 gp, 10 pp, hidden(no monster encounter): 19, Clue to treasure2: (15, Religion)
-(5F, 36) : 0 cp, 0 sp, 600 ep, 600 gp, 0 pp, hidden(no monster encounter): 17, Clue to goal: (16, Religion)
-(5F, 3D) : 0 cp, 0 sp, 0 ep, 900 gp, 60 pp, hidden(no monster encounter): 17, Clue to treasure1: (15, Investigation)
-(60, 5B) : 0 cp, 700 sp, 0 ep, 400 gp, 0 pp, hidden(no monster encounter): 17, Clue to goal: (17, Investigation)
-(61,  7) : 0 cp, 0 sp, 0 ep, 800 gp, 20 pp, hidden(no monster encounter): 17, Clue to treasure2: (16, Nature)
-(61, 17) : 0 cp, 0 sp, 0 ep, 170 gp, 0 pp, hidden(no monster encounter): 15, Clue to goal: (15, Nature)
-(61, 1C) : 0 cp, 0 sp, 0 ep, 500 gp, 60 pp, hidden(no monster encounter): 18, Clue to treasure2: (19, Religion)
-(61, 24) : 0 cp, 0 sp, 0 ep, 1100 gp, 40 pp, hidden(no monster encounter): 18, Clue to treasure1: (15, Nature)
-(61, 47) : 0 cp, 0 sp, 600 ep, 600 gp, 0 pp, hidden(no monster encounter): 18, Clue to treasure2: (19, Investigation)
-(61, 58) : 0 cp, 900 sp, 0 ep, 300 gp, 0 pp, hidden(no monster encounter): 15, Clue to treasure1: (17, Religion)
-(62,  8) : 2 Young white dragon
-(62,  D) : 2 Giant ape
-(62, 1A) : 1 Clay golem
-(62, 26) : 1 Yound reg dragon
-(62, 2B) : 1 Ultroloth
-(62, 33) : 1 Ultroloth
-(62, 39) : 1 Gray slaad
-(62, 3E) : 1 Archmage
-(62, 51) : 1 Aboleth
-(62, 5D) : 1 Adult black dragon
-(62, 62) : 1 Gynosphinx
-(62, 66) : 2 Young black dragon
-(62, 6F) : 2 Hydra
-(64, 28) : 1 Stone golem
-(65,  1) : 0 cp, 0 sp, 0 ep, 20 gp, 9 pp, hidden(no monster encounter): 19, Clue to goal: (15, History)
-(65, 54) : 0 cp, 0 sp, 0 ep, 190 gp, 0 pp, hidden(no monster encounter): 18, Clue to goal: (18, History)
-(65, 72) : 0 cp, 0 sp, 0 ep, 1000 gp, 70 pp, hidden(no monster encounter): 18, Clue to treasure1: (15, History)
-(65, 76) : 0 cp, 1900 sp, 0 ep, 100 gp, 0 pp, hidden(no monster encounter): 17, Clue to goal: (18, Arcana)
-(66,  3) : 2 Shield guardian
-(66,  8) : 1 Death tyrant (in lair)
-(66, 51) : 1 Glabrezu
-(66, 57) : 1 Marid
-(67, 15) : 1 Adult black dragon
-(67, 19) : 1 Dao
-(67, 22) : 1 Gynosphinx
-(67, 26) : 1 Young gold dragon
-(67, 2B) : 1 Gynosphinx
-(67, 38) : 2 Chasme
-(67, 3F) : 1 Yound reg dragon
-(67, 44) : Encounter: Nedda Goodbarrel is a female Halfling who speaks common,
-DC 12, this commoner is currently restrained. alignment: LG.
-she isn't evil. she is Practical, realistic, matter-of-fact.
-Decisive, quickly move to implement decisions. Organize projects
-and people to get things done, focus on getting results in the
-most efficient way possible. Take care of routine details. Have
-a clear set of logical standards, systematically follow them
-and want others to also. Forceful in implementing their plans.
-(68, 1C) : 0 cp, 0 sp, 0 ep, 600 gp, 60 pp, hidden(no monster encounter): 17, Clue to treasure1: (17, Nature)
-(68, 1F) : 0 cp, 0 sp, 0 ep, 500 gp, 10 pp, hidden(no monster encounter): 19, Clue to goal: (15, Nature)
-(68, 25) : 0 cp, 0 sp, 0 ep, 800 gp, 60 pp, hidden(no monster encounter): 15, Clue to goal: (17, Religion)
-(68, 3D) : 0 cp, 1300 sp, 0 ep, 600 gp, 0 pp, hidden(no monster encounter): 19, Clue to treasure1: (16, Religion)
-(68, 42) : 0 cp, 0 sp, 0 ep, 60 gp, 4 pp, hidden(no monster encounter): 18, Clue to treasure2: (18, Arcana)
-(68, 5B) : 0 cp, 0 sp, 0 ep, 600 gp, 20 pp, hidden(no monster encounter): 19, Clue to treasure2: (17, Religion)
-(68, 60) : 0 cp, 1700 sp, 0 ep, 100 gp, 0 pp, hidden(no monster encounter): 18, Clue to treasure1: (15, Nature)
-(69,  6) : 0 cp, 0 sp, 0 ep, 120 gp, 0 pp, hidden(no monster encounter): 17, Clue to treasure2: (16, Investigation)
-(69, 35) : 0 cp, 1900 sp, 0 ep, 600 gp, 0 pp, hidden(no monster encounter): 17, Clue to treasure2: (17, Religion)
-(69, 58) : 0 cp, 0 sp, 0 ep, 150 gp, 0 pp, hidden(no monster encounter): 17, Clue to treasure2: (15, Investigation)
-(69, 76) : 0 cp, 0 sp, 0 ep, 1000 gp, 50 pp, hidden(no monster encounter): 15, Clue to goal: (15, History)
-(6A, 57) : 1 Ice devil
-(6B, 3F) : 1 Stone golem
-(6B, 44) : 2 Young green dragon
-(6B, 5D) : 1 Death tyrant (in lair)
-(6C, 16) : 0 cp, 0 sp, 0 ep, 70 gp, 12 pp, hidden(no monster encounter): 16, Clue to treasure1: (16, Investigation)
-(6C, 25) : 0 cp, 0 sp, 600 ep, 200 gp, 0 pp, hidden(no monster encounter): 15, Clue to goal: (16, Investigation)
-(6C, 2B) : 1 Arcanaloth
-(6C, 38) : 1 Horned devil
-(6C, 3D) : 0 cp, 1400 sp, 0 ep, 600 gp, 0 pp, hidden(no monster encounter): 18, Clue to treasure1: (15, Investigation)
-(6C, 60) : 0 cp, 0 sp, 0 ep, 70 gp, 0 pp, hidden(no monster encounter): 16, Clue to goal: (17, History)
-(6F,  8) : 2 Young blue dragon
-(6F,  C) : 1 Ultroloth
-(6F, 10) : 1 Bone devil
-(6F, 15) : 4 Cambion
-(6F, 1A) : 1 Mummy lord (not in lair)
-(6F, 21) : Encounter: Delmirev Kriv is a male Dragonborn who doesn't speak
-common, DC 13, this commoner is currently lost. alignment: LG.
-he isn't evil. he is Tolerant and flexible, quiet observers
-until a problem appears, then act quickly to find workable solutions.
-Analyze what makes things work and readily get through large
-amounts of data to isolate the core of practical problems. Interested
-in cause and effect, organize facts using logical principles,
-value efficiency.
-(6F, 44) : 6 Ogre zombie
-(6F, 49) : Encounter: Akmenos is a male Tiefling who doesn't speak common,
-DC 14, this merchant is currently restrained. alignment: LG.
-he isn't evil. he is Practical, realistic, matter-of-fact. Decisive,
-quickly move to implement decisions. Organize projects and people
-to get things done, focus on getting results in the most efficient
-way possible. Take care of routine details. Have a clear set
-of logical standards, systematically follow them and want others
-to also. Forceful in implementing their plans.
-(6F, 4D) : 2 Galeb duhr
-(6F, 55) : Encounter: Frath Bersk is a male Human who speaks common, DC
-17, this scout is currently restrained. alignment: NN. he isn't
-evil. he is Idealistic, loyal to their values and to people
-who are important to them. Want an external life that is congruent
-with their values. Curious, quick to see possibilities, can
-be catalysts for implementing ideas. Seek to understand people
-and to help them fulfill their potential. Adaptable, flexible,
-and accepting unless a value is threatened.
-(6F, 5E) : 1 Mummy lord (in lair)
-(6F, 6B) : 2 Drow mage
-(6F, 6F) : Encounter: Bruenor Battlehammer is a male Dwarf who speaks common,
-DC 10, this commoner is currently restrained. alignment: CN.
-he isn't evil. he is Outgoing, friendly, and accepting. Exuberant
-lovers of life, people, and material comforts. Enjoy working
-with others to make things happen. Bring common sense and a
-realistic approach to their work, and make work fun. Flexible
-and spontaneous, adapt readily to new people and environments.
-Learn best by trying a new skill with other people.
-(6F, 74) : 1 Djinni
-(70, 3D) : 0 cp, 0 sp, 0 ep, 500 gp, 10 pp, hidden(no monster encounter): 17, Clue to treasure1: (16, History)
-(71,  F) : 0 cp, 0 sp, 100 ep, 400 gp, 0 pp, hidden(no monster encounter): 15, Clue to treasure2: (17, Nature)
-(71, 68) : 0 cp, 0 sp, 0 ep, 500 gp, 60 pp, hidden(no monster encounter): 19, Clue to treasure1: (17, Religion)
-(71, 6C) : 0 cp, 1200 sp, 0 ep, 300 gp, 0 pp, hidden(no monster encounter): 15, Clue to goal: (19, Arcana)
-(71, 76) : 0 cp, 0 sp, 500 ep, 200 gp, 0 pp, hidden(no monster encounter): 17, Clue to treasure1: (15, Nature)
-(72,  7) : 0 cp, 1200 sp, 0 ep, 200 gp, 0 pp, hidden(no monster encounter): 19, Clue to treasure1: (18, Investigation)
-(72, 4E) : 0 cp, 0 sp, 0 ep, 140 gp, 0 pp, hidden(no monster encounter): 17, Clue to treasure2: (17, History)
-(72, 52) : 0 cp, 0 sp, 200 ep, 200 gp, 0 pp, hidden(no monster encounter): 18, Clue to goal: (19, Religion)
-(72, 5B) : 0 cp, 0 sp, 200 ep, 500 gp, 0 pp, hidden(no monster encounter): 19, Clue to treasure1: (15, Arcana)
-(72, 61) : 0 cp, 0 sp, 0 ep, 1100 gp, 30 pp, hidden(no monster encounter): 18, Clue to treasure2: (18, Religion)
-(74,  C) : 1 Gray slaad
-(74, 10) : 3 Young black dragon
-(74, 15) : 1 Adult brass dragon
-(74, 1A) : 1 Ice devil
-(74, 67) : 5 Ankylosaurus
-(74, 6B) : 1 Storm giant
-(74, 6F) : 2 Fomorian
-(75, 4D) : 2 Young gold dragon
-(75, 51) : 1 Horned devil
-(75, 5E) : 1 Adult green dragon
-(76,  1) : 0 cp, 0 sp, 0 ep, 70 gp, 9 pp, hidden(no monster encounter): 16, Clue to treasure1: (19, History)
-(76,  7) : 0 cp, 0 sp, 0 ep, 110 gp, 0 pp, hidden(no monster encounter): 15, Clue to goal: (18, History)
-(76,  F) : 0 cp, 1300 sp, 0 ep, 100 gp, 0 pp, hidden(no monster encounter): 19, Clue to goal: (19, Religion)
-(76, 17) : 0 cp, 1500 sp, 0 ep, 100 gp, 0 pp, hidden(no monster encounter): 16, Clue to treasure2: (15, Arcana)
-(76, 1C) : 0 cp, 0 sp, 0 ep, 1000 gp, 10 pp, hidden(no monster encounter): 15, Clue to goal: (15, Religion)
-(76, 1F) : 0 cp, 0 sp, 0 ep, 800 gp, 40 pp, hidden(no monster encounter): 15, Clue to goal: (19, Investigation)
-(76, 35) : 0 cp, 0 sp, 0 ep, 700 gp, 40 pp, hidden(no monster encounter): 15, Clue to treasure2: (16, History)
-(76, 3A) : 0 cp, 0 sp, 0 ep, 600 gp, 40 pp, hidden(no monster encounter): 17, Clue to goal: (19, Nature)
-(76, 3D) : 0 cp, 0 sp, 0 ep, 900 gp, 10 pp, hidden(no monster encounter): 16, Clue to goal: (19, Investigation)
-(76, 4A) : 0 cp, 0 sp, 0 ep, 110 gp, 7 pp, hidden(no monster encounter): 19, Clue to treasure1: (15, Investigation)
-(76, 52) : 0 cp, 0 sp, 0 ep, 100 gp, 0 pp, hidden(no monster encounter): 19, Clue to goal: (19, Religion)
-(76, 5B) : 0 cp, 0 sp, 400 ep, 400 gp, 0 pp, hidden(no monster encounter): 15, Clue to treasure1: (16, Investigation)
-(76, 61) : 0 cp, 0 sp, 0 ep, 300 gp, 10 pp, hidden(no monster encounter): 15, Clue to goal: (18, History)
-(76, 71) : 0 cp, 0 sp, 0 ep, 500 gp, 30 pp, hidden(no monster encounter): 19, Clue to treasure2: (18, Nature)
-(76, 76) : 0 cp, 0 sp, 500 ep, 500 gp, 0 pp, hidden(no monster encounter): 16, Clue to goal: (16, History)
+(68, 1F) : 0 cp, 0 sp, 0 ep, 800 gp, 30 pp, hidden(no monster encounter): 16, Clue to goal: (15, Nature)
+(68, 23) : 0 cp, 0 sp, 0 ep, 110 gp, 0 pp, hidden(no monster encounter): 16, Clue to treasure2: (19, Nature)
+(68, 4A) : 0 cp, 0 sp, 0 ep, 150 gp, 0 pp, hidden(no monster encounter): 17, Clue to treasure2: (19, Investigation)
+(68, 68) : 1 Arcanaloth
+(69, 5B) : 0 cp, 0 sp, 0 ep, 900 gp, 30 pp, hidden(no monster encounter): 15, Clue to treasure2: (18, Investigation)
+(69, 61) : 0 cp, 0 sp, 100 ep, 200 gp, 0 pp, hidden(no monster encounter): 15, Clue to goal: (19, History)
+(6A, 5E) : 1 Adult white dragon
+(6A, 62) : 2 Mind flayer arcanist
+(6B, 1A) : 4 Weretiger
+(6B, 20) : 1 Young gold dragon
+(6B, 43) : 1 Guardian naga
+(6B, 48) : 2 Yuan-ti abomination
+(6B, 53) : 1 Bone devil
+(6C, 17) : 0 cp, 0 sp, 0 ep, 700 gp, 20 pp, hidden(no monster encounter): 17, Clue to treasure1: (19, History)
+(6C, 1F) : 0 cp, 0 sp, 0 ep, 600 gp, 10 pp, hidden(no monster encounter): 19, Clue to treasure1: (16, Arcana)
+(6C, 23) : 0 cp, 1400 sp, 0 ep, 200 gp, 0 pp, hidden(no monster encounter): 16, Clue to treasure1: (18, Arcana)
+(6C, 34) : 0 cp, 0 sp, 200 ep, 100 gp, 0 pp, hidden(no monster encounter): 19, Clue to treasure1: (19, History)
+(6E, 46) : 0 cp, 0 sp, 100 ep, 300 gp, 0 pp, hidden(no monster encounter): 15, Clue to goal: (15, Arcana)
+(6F,  1) : 0 cp, 0 sp, 400 ep, 100 gp, 0 pp, hidden(no monster encounter): 15, Clue to treasure1: (18, Investigation)
+(6F,  F) : 0 cp, 0 sp, 0 ep, 80 gp, 0 pp, hidden(no monster encounter): 17, Clue to treasure2: (19, Religion)
+(6F, 19) : 1 Frost Giant
+(6F, 22) : 2 Young black dragon
+(6F, 26) : 1 Green slaad
+(6F, 2B) : 1 Cloaker
+(6F, 62) : 1 Marid
+(6F, 66) : 1 Mummy lord (not in lair)
+(6F, 6A) : 2 Wereboar
+(6F, 6F) : 1 Death tyrant (not in lair)
+(70, 65) : 0 cp, 1500 sp, 0 ep, 500 gp, 0 pp, hidden(no monster encounter): 17, Clue to treasure1: (18, Nature)
+(71, 1F) : 0 cp, 0 sp, 0 ep, 70 gp, 5 pp, hidden(no monster encounter): 16, Clue to goal: (15, Religion)
+(71, 25) : 0 cp, 0 sp, 0 ep, 700 gp, 50 pp, hidden(no monster encounter): 15, Clue to goal: (15, Nature)
+(71, 5B) : 0 cp, 0 sp, 0 ep, 800 gp, 40 pp, hidden(no monster encounter): 17, Clue to goal: (18, Religion)
+(72, 10) : 1 Death tyrant (not in lair)
+(72, 1C) : 0 cp, 1700 sp, 0 ep, 600 gp, 0 pp, hidden(no monster encounter): 17, Clue to treasure2: (15, Arcana)
+(72, 46) : 0 cp, 0 sp, 300 ep, 400 gp, 0 pp, hidden(no monster encounter): 15, Clue to treasure1: (18, Investigation)
+(72, 50) : 0 cp, 0 sp, 0 ep, 600 gp, 60 pp, hidden(no monster encounter): 16, Clue to treasure1: (16, Investigation)
+(72, 54) : 0 cp, 0 sp, 200 ep, 200 gp, 0 pp, hidden(no monster encounter): 16, Clue to treasure2: (19, History)
+(73, 6A) : 1 Purple worm
+(74, 22) : 5 Couatl
+(74, 26) : 1 Djinni
+(74, 5C) : 1 Adult bronze dragon
+(74, 62) : 2 Chain devil
+(74, 6F) : 5 Bugbear chief
+(76,  1) : 0 cp, 0 sp, 0 ep, 120 gp, 0 pp, hidden(no monster encounter): 19, Clue to goal: (16, Religion)
+(76,  F) : 0 cp, 0 sp, 0 ep, 300 gp, 40 pp, hidden(no monster encounter): 18, Clue to treasure2: (18, Religion)
+(76, 16) : 0 cp, 0 sp, 0 ep, 500 gp, 20 pp, hidden(no monster encounter): 19, Clue to goal: (17, History)
+(76, 25) : 0 cp, 0 sp, 300 ep, 500 gp, 0 pp, hidden(no monster encounter): 19, Clue to goal: (17, Arcana)
+(76, 34) : 0 cp, 0 sp, 0 ep, 110 gp, 0 pp, hidden(no monster encounter): 18, Clue to treasure1: (16, History)
+(76, 3A) : 0 cp, 1200 sp, 0 ep, 600 gp, 0 pp, hidden(no monster encounter): 19, Clue to treasure1: (19, History)
+(76, 3D) : 2 Barlgura
+(76, 5B) : 0 cp, 0 sp, 0 ep, 90 gp, 13 pp, hidden(no monster encounter): 17, Clue to goal: (16, History)
+(76, 70) : 0 cp, 1000 sp, 0 ep, 400 gp, 0 pp, hidden(no monster encounter): 19, Clue to goal: (19, Investigation)

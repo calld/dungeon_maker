@@ -7,7 +7,7 @@ from random import randrange
 from util import randdiff
 from personality import randPersonEcounter
 
-def spaceInfo(lvl, state, string):
+def spaceInfo(lvl, state, string, player_count = 4):
     if(state == 4):
         hrd = trsr.getHoard(lvl)
         return trsr.cashToString(hrd['cash']) + ' and ' + hrd['loot']
@@ -19,13 +19,13 @@ def spaceInfo(lvl, state, string):
         return trsr.cashToString(trsr.getTreasure(lvl)['cash']) + ', hidden(no monster encounter): {}, Clue to {}: ({}, {})'.format(randdiff(lvl), ['goal', 'treasure1', 'treasure2'][randrange(3)], randdiff(lvl),
                                                                                                                                     ['Arcana', 'History', 'Investigation', 'Nature', 'Religion'][randrange(5)])
     elif(state == 9):
-        e = mf.get_encounter(lvl)
+        e = mf.get_encounter(lvl, num = player_count)
         return '{} {}'.format(e[1], e[0])
     elif(state == 10):
-        e = mf.get_encounter(lvl, diff = 0)
+        e = mf.get_encounter(lvl, diff = 0, num = player_count)
         return '{} {}'.format(e[1], e[0])
     elif(state == 11):
-        e = mf.get_encounter(lvl, diff = 2)
+        e = mf.get_encounter(lvl, diff = 2, num = player_count)
         return '{} {}'.format(e[1], e[0])
     elif(state == 12):
         return randPersonEcounter(lvl)
@@ -56,7 +56,7 @@ def edgeInfo(lvl, state, string):
 
 def genInfo(lvl, mp):
     s = 'floor lvl ' + str(lvl)
-    return {'space': [[spaceInfo(lvl, mp['space'][r][c], s) for c in range(mp['c_len'])] for r in range(mp['r_len'])],
+    return {'space': [[spaceInfo(lvl, mp['space'][r][c], s, 3) for c in range(mp['c_len'])] for r in range(mp['r_len'])],
             'hor': [[edgeInfo(lvl, mp['hor'][r][c], s) for c in range(mp['c_len'])] for r in range(mp['r_len']+1)],
             'ver': [[edgeInfo(lvl, mp['ver'][r][c], s) for c in range(mp['c_len']+1)] for r in range(mp['r_len'])]}
 
