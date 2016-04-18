@@ -156,4 +156,4 @@ def make_txt(dun, name = './temp'):
 
     os.chdir(cwd)
 
-make_txt(makeDun(), name = './dungeon')
+make_txt(makeDun(), name = './dungeontest')
