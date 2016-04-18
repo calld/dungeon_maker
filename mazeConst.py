@@ -91,7 +91,7 @@ def make_txt(dun, name = './temp'):
     save(dun, name = "Full.dun")
 
     for floor in range(len(dun['floor'])):
-        lines = ['   ' + ''.join(['+{: ^3X}'.format(c//16) for c in range(dun['floor'][floor]['c_len'])]) + '+\n']
+        lines = ['   ' + ''.join(['+{:0>3X}'.format(c) for c in range(dun['floor'][floor]['c_len'])]) + '+\n']
 
         for r in range(dun['floor'][floor]['r_len']):
             lines.append('{:0>3X}'.format(r))
@@ -152,7 +152,23 @@ def make_txt(dun, name = './temp'):
         dref.writelines(lines)
         dref.close()
 
+        pref = open('Floor{:0>2d}PrintMap.txt'.format(floor+1), 'w')
+        lines = []
+        for majorC in range(dun['floor'][floor]['c_len']//30):
+            for majorR in range(dun['floor'][floor]['r_len']//30):
+                lines.append('   ' + ''.join(['+{:0>3X}'.format(c) for c in range(majorC*30, (majorC+1)*30)]) + '+\n')
+                for r in range(majorR*30, (majorR+1)*30):
+                    lines.append('{:0>3X}+'.format(r) + '+'.join([' {} '.format(ch[dun['floor'][floor]['hor'][r][c]][1]) for c in range(majorC*30, (majorC+1)*30)]) + '+{:0>3X}\n'.format(r))
+                    lines.append('{:0>3X}'.format(r) + ''.join(['{} {} '.format(ch[dun['floor'][floor]['ver'][r][c]][0], ch[dun['floor'][floor]['space'][r][c]]) for c in range(majorC*30, (majorC+1)*30)]) + '{}{:0>3X}\n'.format(ch[dun['floor'][floor]['ver'][r][(majorC+1)*30]][0],r))
+                lines.append('{:0>3X}+'.format((majorR+1)*30) + '+'.join([' {} '.format(ch[dun['floor'][floor]['hor'][(majorR+1)*30][c]][1]) for c in range(majorC*30, (majorC+1)*30)]) + '+{:0>3X}\n'.format((majorR+1)*30))
+                lines.append('   ' + ''.join(['+{:0>3X}'.format(c) for c in range(majorC*30, (majorC+1)*30)]) + '+\n')
+                lines.append('\n\n')
 
+                #write to file
+                pref.writelines(lines)
+                lines = []
+
+        pref.close()
 
     os.chdir(cwd)
 
