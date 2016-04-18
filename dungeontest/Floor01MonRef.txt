@@ -1,0 +1,138 @@
+( 0, 1C) : 5 Giant rat
+( 0, 26) : 16 cp, 0 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 10, Clue to treasure1: (11, History)
+( 0, 33) : 8 cp, 0 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 10, Clue to treasure1: (15, Nature)
+( 1,  1) : 10 cp, 0 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 10, Clue to treasure1: (15, Investigation)
+( 1, 27) : 1 Giant hyena
+( 1, 2C) : 0 cp, 0 sp, 0 ep, 9 gp, 0 pp, hidden(no monster encounter): 14, Clue to treasure1: (14, Arcana)
+( 1, 32) : 1 Dryad
+( 8, 2F) : 2 Worg
+( 9, 1F) : Encounter: Peren Amakiir (Gemflower) is a male Elf who speaks
+common, DC 13, this knight is currently resting. alignment:
+NN. he isn't evil. he is Quiet, friendly, responsible, and conscientious.
+Committed and steady in meeting their obligations. Thorough,
+painstaking, and accurate. Loyal, considerate, notice and remember
+specifics about people who are important to them, concerned
+with how others feel. Strive to create an orderly and harmonious
+environment at work and at home.
+( 9, 3A) : 1 Thri-kreen
+( B, 24) : 19 cp, 0 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 14, Clue to treasure1: (13, History)
+( C,  A) : 1 Jackalwere
+( C, 10) : 1 Piercer
+( C, 21) : 2 Warhorse skeleton
+( D, 39) : 6 Raven
+( E, 2C) : 5 Giant rat
+( E, 36) : 18 cp, 0 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 14, Clue to goal: (12, Religion)
+( E, 3A) : 0 cp, 12 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 13, Clue to treasure1: (13, Investigation)
+( F,  1) : 0 cp, 0 sp, 9 ep, 0 gp, 0 pp, hidden(no monster encounter): 15, Clue to treasure2: (11, Arcana)
+(10, 10) : Encounter: Merric Tosscobble is a male Halfling who speaks common,
+DC 10, this merchant is currently lost. alignment: NN. he isn't
+evil. he is Warmhearted, conscientious, and cooperative. Want
+harmony in their environment, work with determination to establish
+it. Like to work with others to complete tasks accurately and
+on time. Loyal, follow through even in small matters. Notice
+what others need in their day-by-day lives and try to provide
+it. Want to be appreciated for who they are and for what they
+contribute.
+(10, 21) : 6 Giant fire beetle
+(11, 33) : 2 Vine blight
+(12, 36) : 16 cp, 0 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 13, Clue to treasure1: (15, Religion)
+(14,  8) : 0 cp, 17 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 14, Clue to treasure1: (14, Religion)
+(14, 15) : 0 cp, 12 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 11, Clue to treasure2: (11, Nature)
+(14, 1F) : 2 Piercer
+(14, 33) : 1 Giant hyena
+(15,  9) : 2 Giant centipede
+(15,  D) : stairs up
+(15, 14) : 1 Specter
+(15, 1E) : 0 cp, 0 sp, 14 ep, 0 gp, 0 pp, hidden(no monster encounter): 14, Clue to goal: (13, History)
+(15, 2A) : 1 Bugbear
+(15, 2E) : Encounter: Barendd Balderk is a male Dwarf who speaks common,
+DC 13, this knight is currently cursed. alignment: NG. he isn't
+evil. he is Flexible and tolerant, they take a pragmatic approach
+focused on immediate results. Theories and conceptual explanations
+bore them - they want to act energetically to solve the problem.
+Focus on the here-and-now, spontaneous, enjoy each moment that
+they can be active with others. Enjoy material comforts and
+style. Learn best through doing.
+(18,  E) : 21 cp, 0 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 13, Clue to treasure1: (13, Nature)
+(18, 12) : 19 cp, 0 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 11, Clue to goal: (13, Investigation)
+(1A, 2A) : Encounter: Myastan Daar is a female Dragonborn who speaks common,
+DC 11, this commoner is currently restrained. alignment: NN.
+she isn't evil. she is Warmly enthusiastic and imaginative.
+See life as full of possibilities. Make connections between
+events and information very quickly, and confidently proceed
+based on the patterns they see. Want a lot of affirmation from
+others, and readily give appreciation and support. Spontaneous
+and flexible, often rely on their ability to improvise and their
+verbal fluency.
+(1A, 2E) : 2 Swarm of insects
+(1B,  D) : 6 Merfolk
+(1B, 11) : 1 Warhorse
+(1C,  E) : 0 cp, 0 sp, 11 ep, 0 gp, 0 pp, hidden(no monster encounter): 14, Clue to treasure2: (11, Investigation)
+(1C, 12) : 2300 cp, 500 sp, 0 ep, 80 gp, 0 pp and 
+(1C, 1D) : 20 cp, 0 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 11, Clue to goal: (11, Nature)
+(1C, 27) : 1 Giant eagle
+(1C, 29) : 0 cp, 13 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 15, Clue to treasure1: (15, Religion)
+(1C, 2D) : 22 cp, 0 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 11, Clue to treasure2: (14, Investigation)
+(1D,  1) : 2 Sahuagin
+(1D, 26) : 21 cp, 0 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 12, Clue to treasure2: (11, Nature)
+(1D, 3A) : 15 cp, 0 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 14, Clue to treasure1: (10, History)
+(1E, 1F) : 27 cp, 0 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 10, Clue to treasure2: (15, History)
+(1E, 3A) : Encounter: Brocc Oneshoe Raulnor is a male Gnome who speaks common,
+DC 14, this knight is currently resting. alignment: CN. he isn't
+evil. he is Warmly enthusiastic and imaginative. See life as
+full of possibilities. Make connections between events and information
+very quickly, and confidently proceed based on the patterns
+they see. Want a lot of affirmation from others, and readily
+give appreciation and support. Spontaneous and flexible, often
+rely on their ability to improvise and their verbal fluency.
+(1F,  1) : 1 Giant spider
+(1F, 1C) : 2 Giant frog
+(1F, 2C) : 0 cp, 0 sp, 0 ep, 8 gp, 0 pp, hidden(no monster encounter): 11, Clue to treasure1: (14, Religion)
+(1F, 30) : 16 cp, 0 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 10, Clue to treasure1: (12, History)
+(1F, 3B) : 20 cp, 0 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 14, Clue to goal: (13, Religion)
+(21, 2B) : 1 Giant spider
+(21, 2F) : 1 Bugbear
+(22, 18) : 0 cp, 16 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 10, Clue to treasure2: (10, Nature)
+(23,  D) : 1 Darkmantle
+(24, 2C) : 20 cp, 0 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 13, Clue to goal: (12, History)
+(26, 27) : 17 cp, 0 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 13, Clue to treasure2: (14, Arcana)
+(26, 2B) : 3 Constrictor snake
+(26, 2F) : stairs down
+(26, 32) : 3 Pony
+(27, 33) : 21 cp, 0 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 12, Clue to treasure2: (12, Arcana)
+(29, 1F) : 0 cp, 14 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 11, Clue to treasure2: (13, Religion)
+(2A,  4) : 14 cp, 0 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 11, Clue to treasure2: (11, Religion)
+(2A, 10) : 0 cp, 19 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 14, Clue to treasure1: (10, History)
+(2A, 22) : 1 Dust mephit
+(2A, 26) : 5 Cultist
+(2B,  5) : 5 Flumph
+(2B, 38) : 1 Dire wolf
+(2C,  E) : 14 cp, 0 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 10, Clue to treasure2: (13, Nature)
+(2C, 2C) : 1 Half-ogre
+(2C, 35) : 2500 cp, 1100 sp, 0 ep, 60 gp, 0 pp and 
+(2C, 3A) : 0 cp, 0 sp, 8 ep, 0 gp, 0 pp, hidden(no monster encounter): 11, Clue to goal: (15, Religion)
+(2D, 25) : 25 cp, 0 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 11, Clue to treasure2: (15, Investigation)
+(2F, 33) : 3 Steam mephit
+(2F, 38) : 1 Yuan-ti Pureblood
+(30, 3A) : 0 cp, 0 sp, 0 ep, 11 gp, 0 pp, hidden(no monster encounter): 13, Clue to goal: (11, History)
+(32, 1F) : 2 Bullywug
+(32, 3A) : 1 Vine blight
+(33, 2A) : Encounter: Khemed Lackman is a male Human who speaks common,
+DC 10, this commoner is currently restrained. alignment: NN.
+he isn't evil. he is Quick, ingenious, stimulating, alert, and
+outspoken. Resourceful in solving new and challenging problems.
+Adept at generating conceptual possibilities and then analyzing
+them strategically. Good at reading other people. Bored by routine,
+will seldom do the same thing the same way, apt to turn to one
+new interest after another.
+(33, 2E) : 3 Mastiff
+(34, 29) : 0 cp, 13 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 15, Clue to treasure1: (15, History)
+(36,  D) : 1 Magma mephit
+(36, 10) : 24 cp, 0 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 14, Clue to treasure2: (10, Investigation)
+(37,  C) : 0 cp, 0 sp, 0 ep, 13 gp, 0 pp, hidden(no monster encounter): 12, Clue to goal: (11, Arcana)
+(37, 11) : 1 Bugbear
+(37, 2A) : 2 Zombie
+(37, 2E) : 3 Dretch
+(3A, 1C) : 6 Deer
+(3A, 32) : 3 Slaad tadpole
+(3B, 33) : 0 cp, 0 sp, 10 ep, 0 gp, 0 pp, hidden(no monster encounter): 12, Clue to treasure1: (14, Religion)

@@ -1,0 +1,87 @@
+( 0,  1) : 1 Myconid sovereign
+( 0, 1C) : 0 cp, 11 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 15, Clue to goal: (15, Investigation)
+( 0, 1F) : 3 Jackalwere
+( 0, 3A) : 12 cp, 0 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 11, Clue to treasure1: (14, History)
+( 1,  0) : 0 cp, 0 sp, 0 ep, 0 gp, 4 pp, hidden(no monster encounter): 12, Clue to treasure1: (13, History)
+( 1,  F) : 17 cp, 0 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 15, Clue to treasure1: (11, Arcana)
+( 1, 1D) : 1 Mummy
+( 1, 29) : 14 cp, 0 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 12, Clue to goal: (15, Nature)
+( 1, 2D) : 0 cp, 0 sp, 0 ep, 14 gp, 0 pp, hidden(no monster encounter): 13, Clue to treasure1: (12, Nature)
+( 1, 3B) : 1 Giant vulture
+( 3, 2A) : 1 Nightmare
+( 6, 2D) : 0 cp, 11 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 12, Clue to goal: (14, Investigation)
+( 7,  B) : 0 cp, 13 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 12, Clue to treasure2: (13, History)
+( 7,  F) : 24 cp, 0 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 14, Clue to treasure1: (14, Religion)
+( 8,  9) : 2 Deep gnome
+( 8,  C) : 2 Tridrone
+( 8, 27) : 2 Magma mephit
+( 8, 2E) : 1 Myconid sovereign
+( 8, 32) : 0 cp, 0 sp, 9 ep, 0 gp, 0 pp, hidden(no monster encounter): 12, Clue to goal: (15, Investigation)
+( 9,  8) : 16 cp, 0 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 13, Clue to goal: (12, Religion)
+( 9, 15) : 1 Harpy
+( B, 1C) : 18 cp, 0 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 13, Clue to treasure2: (12, Investigation)
+( B, 36) : 15 cp, 0 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 12, Clue to treasure1: (15, Arcana)
+( B, 3A) : 0 cp, 0 sp, 0 ep, 0 gp, 6 pp, hidden(no monster encounter): 13, Clue to treasure2: (12, Nature)
+( C, 1B) : 2 Darkmantle
+( C, 33) : 5 Constrictor snake
+( D,  8) : 2 Reef shark
+( E,  1) : 2400 cp, 700 sp, 0 ep, 70 gp, 0 pp and 3 50 gp gems and 3 Magic Items(table A)
+( E,  6) : 22 cp, 0 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 14, Clue to goal: (11, Arcana)
+( E, 24) : 0 cp, 0 sp, 0 ep, 0 gp, 6 pp, hidden(no monster encounter): 14, Clue to treasure2: (11, Arcana)
+( F, 1C) : 17 cp, 0 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 11, Clue to treasure1: (14, History)
+(10, 1B) : 2 Crocodile
+(10, 33) : 1 Kuo-toa whip
+(10, 39) : 1 Duergar
+(11,  3) : 3 Pteranodon
+(11, 26) : 2 Orc
+(12,  1) : 0 cp, 21 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 15, Clue to treasure2: (14, History)
+(12,  6) : 0 cp, 12 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 14, Clue to treasure2: (13, Nature)
+(12, 1F) : 0 cp, 11 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 14, Clue to goal: (11, Arcana)
+(14,  1) : 5 Violet fungus
+(14, 1C) : 1 Ettercap
+(14, 26) : stairs down
+(15,  0) : 16 cp, 0 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 14, Clue to treasure2: (12, Arcana)
+(15,  D) : 1 Ettercap
+(15, 11) : 1 Ankheg
+(15, 2B) : 3 Rust Monster
+(15, 32) : 2 Giant eagle
+(17, 12) : 11 cp, 0 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 13, Clue to goal: (12, Investigation)
+(18, 2C) : 19 cp, 0 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 15, Clue to treasure2: (14, Religion)
+(18, 30) : 0 cp, 16 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 15, Clue to treasure2: (14, History)
+(1A,  D) : 1 Black dragon wyrmling
+(1A, 11) : 2 Gray ooze
+(1B, 2F) : 2 Kuo-toa whip
+(1C,  9) : 3 Blink dog
+(1C, 1E) : 6 Manes
+(1C, 2C) : 19 cp, 0 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 15, Clue to treasure2: (15, Investigation)
+(1C, 30) : 0 cp, 15 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 11, Clue to treasure1: (11, Investigation)
+(1C, 3B) : 0 cp, 19 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 13, Clue to goal: (11, Nature)
+(1D, 15) : 0 cp, 16 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 14, Clue to treasure1: (13, Religion)
+(1D, 1F) : 0 cp, 0 sp, 16 ep, 0 gp, 0 pp, hidden(no monster encounter): 13, Clue to treasure2: (14, Arcana)
+(1E, 1F) : 0 cp, 14 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 12, Clue to goal: (15, Religion)
+(1F, 1E) : 2 Giant hyena
+(1F, 35) : 21 cp, 0 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 12, Clue to goal: (12, Nature)
+(1F, 3A) : 0 cp, 0 sp, 0 ep, 0 gp, 1 pp, hidden(no monster encounter): 11, Clue to treasure2: (13, Religion)
+(22, 18) : 1 Yeti
+(23,  D) : 1 Copper dragon wyrmling
+(24, 2B) : 1 Awakened tree
+(24, 38) : 1 Displacer beast
+(27, 35) : 0 cp, 0 sp, 0 ep, 8 gp, 0 pp, hidden(no monster encounter): 15, Clue to treasure1: (12, Religion)
+(27, 3A) : 0 cp, 0 sp, 0 ep, 8 gp, 0 pp, hidden(no monster encounter): 15, Clue to treasure2: (13, Investigation)
+(2B,  5) : 2 Yuan-ti Pureblood
+(2B, 11) : 0 cp, 10 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 15, Clue to treasure1: (15, History)
+(2E,  C) : 5 Sprite
+(2E, 38) : stairs up
+(2F,  D) : 2300 cp, 1100 sp, 0 ep, 60 gp, 0 pp and 11 50 gp gems and 4 Magic Items(table A)
+(2F, 19) : 0 cp, 0 sp, 8 ep, 0 gp, 0 pp, hidden(no monster encounter): 12, Clue to treasure2: (14, Arcana)
+(33, 1E) : 0 cp, 15 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 14, Clue to treasure2: (15, Nature)
+(33, 2A) : 2 Scarecrow
+(33, 2E) : 2 Sahuagin
+(33, 32) : 0 cp, 9 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 14, Clue to goal: (12, Arcana)
+(36, 29) : 24 cp, 0 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 11, Clue to goal: (15, Nature)
+(36, 2D) : 0 cp, 15 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 11, Clue to goal: (15, Investigation)
+(37, 11) : 0 cp, 19 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 15, Clue to goal: (13, Arcana)
+(39, 2E) : 1 Brass dragon wyrmling
+(3A, 2D) : 0 cp, 0 sp, 13 ep, 0 gp, 0 pp, hidden(no monster encounter): 15, Clue to treasure2: (14, History)
+(3A, 3B) : 1 Hell hound
+(3B, 26) : 0 cp, 0 sp, 15 ep, 0 gp, 0 pp, hidden(no monster encounter): 15, Clue to treasure1: (15, Investigation)
