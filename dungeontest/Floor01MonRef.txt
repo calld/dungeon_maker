@@ -1,85 +1,107 @@
-( 0,  8) : 0 cp, 16 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 11, Clue to treasure1: (14, Investigation)
-( 1,  E) : 0 cp, 9 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 10, Clue to treasure1: (14, Arcana)
-( 1, 1F) : 1 Giant eagle
-( 3,  D) : stairs down
-( 3, 11) : 5 Deer
-( 5, 17) : 0 cp, 0 sp, 0 ep, 9 gp, 0 pp, hidden(no monster encounter): 12, Clue to treasure1: (10, Investigation)
-( 6,  E) : 19 cp, 0 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 14, Clue to goal: (10, Investigation)
-( 6, 29) : 13 cp, 0 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 14, Clue to goal: (10, Arcana)
-( 8,  D) : 1 Vine blight
-( 9, 2A) : 5 Mule
-( B,  1) : 0 cp, 12 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 15, Clue to treasure2: (14, Investigation)
-( B,  7) : 18 cp, 0 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 10, Clue to treasure2: (11, Nature)
-( C,  4) : 2 Poisonous snake
-( C,  8) : 1 Harpy
-( C, 34) : 1 Myconid adult
-( D, 15) : 5 Cultist
-( E,  E) : 1 Ice mephit
-( E, 1C) : 0 cp, 14 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 11, Clue to treasure2: (10, Arcana)
-( E, 2C) : 0 cp, 12 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 15, Clue to treasure2: (11, Religion)
-( F,  7) : 0 cp, 14 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 14, Clue to treasure1: (11, History)
-(10,  4) : 1 Piercer
-(10,  8) : 2 Swarm of bats
-(10, 2A) : 0 cp, 15 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 14, Clue to treasure2: (11, Nature)
-(12, 18) : 15 cp, 0 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 14, Clue to treasure1: (14, Investigation)
-(12, 1C) : 0 cp, 0 sp, 10 ep, 0 gp, 0 pp, hidden(no monster encounter): 14, Clue to treasure2: (11, Nature)
-(13, 35) : 2 Dretch
-(15, 15) : 5 Pony
-(16, 18) : 0 cp, 0 sp, 10 ep, 0 gp, 0 pp, hidden(no monster encounter): 12, Clue to goal: (10, Arcana)
-(16, 36) : 19 cp, 0 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 12, Clue to treasure1: (13, Religion)
-(17,  F) : 0 cp, 0 sp, 0 ep, 8 gp, 0 pp, hidden(no monster encounter): 10, Clue to treasure2: (10, Religion)
-(18, 35) : 2 Kobold
-(19, 23) : 1 Harpy
-(1A, 10) : 1 Hobgoblin
-(1C,  1) : 0 cp, 19 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 13, Clue to goal: (12, Nature)
-(1C,  F) : 18 cp, 0 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 11, Clue to treasure2: (11, Investigation)
-(1C, 18) : 0 cp, 7 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 11, Clue to treasure1: (15, History)
-(1C, 3A) : 2 Giant weasel
-(1F, 16) : 24 cp, 0 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 13, Clue to treasure1: (11, Arcana)
-(1F, 1C) : 22 cp, 0 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 11, Clue to treasure2: (14, Nature)
-(1F, 1F) : 0 cp, 0 sp, 13 ep, 0 gp, 0 pp, hidden(no monster encounter): 15, Clue to goal: (11, Religion)
-(21, 2E) : 1 Giant toad
-(24, 1F) : 23 cp, 0 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 15, Clue to treasure2: (13, Religion)
-(24, 2D) : 18 cp, 0 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 10, Clue to goal: (14, Religion)
-(29, 16) : 0 cp, 9 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 13, Clue to treasure2: (11, Religion)
-(29, 1C) : 1900 cp, 1400 sp, 0 ep, 80 gp, 0 pp and 11 10 gp gems and 4 Magic Items(table A)
-(29, 3A) : 0 cp, 15 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 13, Clue to treasure1: (10, Nature)
-(2A, 19) : 1 Giant wasp
-(2C,  5) : 2800 cp, 1100 sp, 0 ep, 110 gp, 0 pp and 7 10 gp gems
-(2D, 16) : 0 cp, 12 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 12, Clue to treasure1: (13, Nature)
-(2D, 3A) : 0 cp, 8 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 10, Clue to treasure1: (12, Arcana)
-(2E,  2) : 5 Camel
-(2E, 10) : 2 Monodrone
-(2E, 2E) : Encounter: Tana Shemov is a female Human who speaks common, DC
-12, this druid is currently resting. alignment: NG. she isn't
-evil. she is Flexible and tolerant, they take a pragmatic approach
-focused on immediate results. Theories and conceptual explanations
-bore them - they want to act energetically to solve the problem.
-Focus on the here-and-now, spontaneous, enjoy each moment that
-they can be active with others. Enjoy material comforts and
-style. Learn best through doing.
-(2E, 33) : 1 Hippogriff
-(2E, 39) : 5 Flying snake
-(33,  0) : 13 cp, 0 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 12, Clue to treasure1: (10, Nature)
-(33,  C) : 1 Giant octopus
-(33, 1A) : 1 Giant wasp
-(33, 2A) : 2 Duodrone
-(33, 2E) : 1 Darkmantle
-(34, 1C) : 0 cp, 9 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 10, Clue to treasure1: (12, History)
-(35, 25) : 0 cp, 0 sp, 0 ep, 11 gp, 0 pp, hidden(no monster encounter): 11, Clue to treasure2: (12, Investigation)
-(36,  B) : 0 cp, 0 sp, 0 ep, 10 gp, 0 pp, hidden(no monster encounter): 15, Clue to treasure1: (14, Nature)
-(36,  F) : 0 cp, 12 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 15, Clue to treasure1: (14, History)
-(36, 29) : 0 cp, 19 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 14, Clue to treasure2: (13, Arcana)
-(37, 15) : 1 Orc
-(38, 26) : 1 Ape
-(39,  C) : 2 Flying snake
-(39, 10) : 1 Hobgoblin
-(39, 2A) : 1 Copper dragon wyrmling
-(39, 2E) : stairs up
-(39, 39) : 2 Acolyte
-(3A,  B) : 0 cp, 15 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 15, Clue to treasure1: (14, Investigation)
-(3A, 17) : 16 cp, 0 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 15, Clue to treasure2: (10, Arcana)
-(3A, 25) : 0 cp, 0 sp, 12 ep, 0 gp, 0 pp, hidden(no monster encounter): 14, Clue to treasure2: (10, Investigation)
-(3A, 2D) : 0 cp, 13 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 12, Clue to treasure2: (14, Arcana)
-(3A, 3A) : 0 cp, 17 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 11, Clue to treasure1: (15, Investigation)
-(3B,  8) : 0 cp, 14 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 11, Clue to treasure1: (14, History)
+( 0,  1) : 0 cp, 0 sp, 0 ep, 14 gp, 0 pp, hidden(no monster encounter): 14, Clue to goal: (14, Investigation)
+( 0, 15) : 19 cp, 0 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 14, Clue to goal: (15, Arcana)
+( 1,  0) : stairs up
+( 1,  E) : 16 cp, 0 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 15, Clue to treasure2: (13, Religion)
+( 1, 14) : 2 Giant weasel
+( 1, 3A) : 0 cp, 20 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 10, Clue to treasure1: (14, Arcana)
+( 4, 2B) : 2 Twig blight
+( 4, 30) : 1 Ape
+( 5,  E) : 20 cp, 0 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 10, Clue to treasure2: (14, Arcana)
+( 5, 12) : 0 cp, 21 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 12, Clue to goal: (14, Religion)
+( 6, 25) : 2000 cp, 900 sp, 0 ep, 60 gp, 0 pp and 10 10 gp gems
+( 7, 3A) : 18 cp, 0 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 10, Clue to treasure1: (12, Nature)
+( 8,  9) : 0 cp, 0 sp, 9 ep, 0 gp, 0 pp, hidden(no monster encounter): 13, Clue to treasure2: (14, Religion)
+( 9,  8) : 5 Guard
+( 9, 1C) : 1 Duergar
+( D, 20) : 2 Swarm of bats
+( E,  E) : 1 Darkmantle
+( E, 16) : 0 cp, 0 sp, 0 ep, 14 gp, 0 pp, hidden(no monster encounter): 11, Clue to treasure1: (11, Arcana)
+( E, 1F) : 14 cp, 0 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 12, Clue to treasure2: (13, Religion)
+( E, 23) : 0 cp, 0 sp, 7 ep, 0 gp, 0 pp, hidden(no monster encounter): 13, Clue to treasure1: (13, Arcana)
+( F,  7) : 0 cp, 0 sp, 7 ep, 0 gp, 0 pp, hidden(no monster encounter): 11, Clue to treasure2: (12, Arcana)
+(10,  8) : 1 Lizardfolk
+(10, 2B) : 2 Aarakocra
+(11, 15) : 5 Mule
+(11, 19) : 5 Blood hawk
+(11, 20) : 5 Rat
+(11, 26) : 5 Mastiff
+(12, 16) : 19 cp, 0 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 15, Clue to treasure2: (14, History)
+(12, 1C) : 0 cp, 0 sp, 0 ep, 15 gp, 0 pp, hidden(no monster encounter): 15, Clue to treasure2: (12, Nature)
+(12, 1F) : 15 cp, 0 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 11, Clue to treasure1: (10, History)
+(12, 23) : 20 cp, 0 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 15, Clue to treasure1: (13, History)
+(15,  C) : 1 Satyr
+(15, 10) : 1 Ice mephit
+(15, 15) : Encounter: Esvele Pashar is a female Human who speaks common,
+DC 13, this commoner is currently resting. alignment: NN. she
+isn't evil. she is Idealistic, loyal to their values and to
+people who are important to them. Want an external life that
+is congruent with their values. Curious, quick to see possibilities,
+can be catalysts for implementing ideas. Seek to understand
+people and to help them fulfill their potential. Adaptable,
+flexible, and accepting unless a value is threatened.
+(15, 1E) : 0 cp, 19 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 12, Clue to treasure1: (15, Nature)
+(15, 37) : 5 Merfolk
+(16,  6) : 17 cp, 0 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 12, Clue to treasure2: (15, Arcana)
+(17,  B) : 0 cp, 23 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 12, Clue to goal: (15, Religion)
+(17,  F) : 18 cp, 0 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 13, Clue to goal: (12, Nature)
+(17, 18) : 26 cp, 0 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 15, Clue to goal: (13, Nature)
+(17, 3A) : 0 cp, 8 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 13, Clue to goal: (14, History)
+(1A, 10) : 1 Black bear
+(1A, 15) : 5 Cultist
+(1C,  6) : 15 cp, 0 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 15, Clue to goal: (14, History)
+(1C,  B) : 0 cp, 0 sp, 9 ep, 0 gp, 0 pp, hidden(no monster encounter): 14, Clue to treasure2: (13, Nature)
+(1C,  F) : 18 cp, 0 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 12, Clue to treasure2: (13, Arcana)
+(1E,  8) : 0 cp, 0 sp, 0 ep, 11 gp, 0 pp, hidden(no monster encounter): 11, Clue to treasure1: (14, History)
+(1E, 1F) : 0 cp, 16 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 13, Clue to goal: (13, Nature)
+(1F,  9) : 4 Stirge
+(1F,  E) : 0 cp, 0 sp, 12 ep, 0 gp, 0 pp, hidden(no monster encounter): 11, Clue to goal: (14, Arcana)
+(1F, 12) : 0 cp, 0 sp, 7 ep, 0 gp, 0 pp, hidden(no monster encounter): 14, Clue to goal: (12, Investigation)
+(1F, 1C) : 18 cp, 0 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 10, Clue to treasure1: (10, Religion)
+(1F, 1E) : 1 Giant wasp
+(1F, 36) : 19 cp, 0 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 13, Clue to treasure2: (13, Arcana)
+(21, 19) : Encounter: Haseid Chernin is a male Human who speaks common,
+DC 12, this commoner is currently restrained. alignment: LN.
+he isn't evil. he is Quiet, friendly, responsible, and conscientious.
+Committed and steady in meeting their obligations. Thorough,
+painstaking, and accurate. Loyal, considerate, notice and remember
+specifics about people who are important to them, concerned
+with how others feel. Strive to create an orderly and harmonious
+environment at work and at home.
+(23, 12) : 18 cp, 0 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 13, Clue to treasure1: (13, Arcana)
+(24, 39) : 1 Copper dragon wyrmling
+(26,  0) : 15 cp, 0 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 11, Clue to goal: (13, Nature)
+(26,  D) : 2 Wolf
+(26, 11) : 1 Brass dragon wyrmling
+(26, 27) : 17 cp, 0 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 15, Clue to treasure2: (15, Religion)
+(27,  1) : 5 Mule
+(27, 36) : 23 cp, 0 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 13, Clue to treasure2: (12, History)
+(29,  1) : 14 cp, 0 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 15, Clue to treasure1: (14, Investigation)
+(2A,  8) : 1 Ghoul
+(2B, 15) : 1 Myconid adult
+(2B, 19) : 5 Manes
+(2C,  E) : 1 Vine blight
+(2C, 1C) : 26 cp, 0 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 15, Clue to treasure1: (14, Arcana)
+(2D,  1) : 1600 cp, 1000 sp, 0 ep, 80 gp, 0 pp and 8 50 gp gems
+(2D,  7) : 0 cp, 0 sp, 0 ep, 14 gp, 0 pp, hidden(no monster encounter): 11, Clue to treasure2: (13, Religion)
+(2E,  4) : 1 Satyr
+(2E,  8) : 1 Yuan-ti Pureblood
+(2E, 2B) : stairs down
+(2F, 15) : 1 Black bear
+(30, 1C) : 19 cp, 0 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 13, Clue to treasure1: (12, Investigation)
+(32, 26) : 0 cp, 0 sp, 0 ep, 14 gp, 0 pp, hidden(no monster encounter): 10, Clue to treasure1: (15, Arcana)
+(33,  C) : 5 Merfolk
+(33, 10) : 2 Blood hawk
+(33, 27) : 1 Scout
+(33, 33) : 5 Stirge
+(34,  F) : 17 cp, 0 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 15, Clue to treasure1: (15, Arcana)
+(34, 2D) : 16 cp, 0 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 12, Clue to treasure1: (10, History)
+(35, 1C) : 0 cp, 0 sp, 0 ep, 9 gp, 0 pp, hidden(no monster encounter): 13, Clue to goal: (11, Investigation)
+(37,  C) : 5 Noble
+(37, 2A) : 4 Pony
+(38, 15) : 1 Quadrone
+(39, 37) : 5 Giant fire beetle
+(3A,  0) : 0 cp, 16 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 13, Clue to treasure2: (11, Arcana)
+(3A,  B) : 0 cp, 0 sp, 10 ep, 0 gp, 0 pp, hidden(no monster encounter): 10, Clue to goal: (10, History)
+(3A, 1E) : 0 cp, 0 sp, 12 ep, 0 gp, 0 pp, hidden(no monster encounter): 14, Clue to treasure2: (11, History)
+(3A, 29) : 22 cp, 0 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 15, Clue to goal: (14, Religion)
+(3A, 3A) : 0 cp, 0 sp, 9 ep, 0 gp, 0 pp, hidden(no monster encounter): 15, Clue to treasure2: (10, History)
