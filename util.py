@@ -7,7 +7,7 @@ def randdiff(lvl):
 def roll(n, s):
     """rolls nds"""
     return sum([randrange(1, s+1) for x in range(n)])
-    
+
 
 def rotateright(m):
     temp = [[0 for r in range(len(m))] for c in range(len(m[0]))]
@@ -44,6 +44,12 @@ def mirror(m):
 # 7 = reward,
 # 8 = empty,
 # 9 = monster
+def make_p(m, coor):
+    for r, c in coor:
+        m['hor'][r][c] = 1
+        m['hor'][r+1][c] = 1
+        m['ver'][r][c] = 1
+        m['ver'][r][c+1] = 1
 
 def make_small_section():
     m = {'hor': [[0 for c in range(10)] for r in range(11)],
@@ -62,7 +68,7 @@ def make_small_section():
 
     t = random()
 
-    if (t < 0.4):
+    if (t < 0.2):
         temp = [[(r, c) for c in range(1, 9)] for r in range(1, 9)]
         squares = [temp[x//8][x%8] for x in range(len(temp)*len(temp[0]))]
 
@@ -92,8 +98,31 @@ def make_small_section():
 
         if(door%2 < 1):
             m['ver'][randrange(1,9)][10] = 2
-        
+
         return m
+    elif(t < 0.6):
+        make_p(m, [(2, 2), (2, 7), (7, 2), (7, 7), (4, 4), (4, 5), (5, 4), (5, 5)])
+
+        if(random() < .5):
+            m['space'][1][2] = 9
+            m['space'][2][1] = 7
+            m['space'][8][7] = 9
+            m['space'][7][8] = 7
+        else:
+            m['space'][8][2] = 9
+            m['space'][7][1] = 7
+            m['space'][1][7] = 9
+            m['space'][2][8] = 7
+
+        door = randrange(3)
+        if(door < 2):
+            m['hor'][10][randrange(1,9)] = 2
+
+        if(door%2 < 1):
+            m['ver'][randrange(1,9)][10] = 2
+
+        return m
+
     else:
         cross = (randrange(4, 7), randrange(4, 7))
         # upper left
@@ -164,7 +193,6 @@ def make_small_section():
         return m
 
 def make_long_section():
-    s = make_small_section()
     m = {'hor': [[0 for c in range(10)] for r in range(19)],
          'ver': [[0 for c in range(11)] for r in range(18)],
          'space': [[8 for c in range(10)] for r in range(18)],
@@ -172,73 +200,138 @@ def make_long_section():
          'c_len': 10
         }
 
-    for r in range(10):
-        for c in range(10):
-            m['hor'][r][c] = s['hor'][r][c]
-            m['ver'][r][c] = s['ver'][r][c]
-            m['space'][r][c] = s['space'][r][c]
     for x in range(10):
-        m['hor'][10][x] = s['hor'][10][x]
-        m['ver'][x][10] = s['ver'][x][10]
+        m['hor'][0][x] = 1
+        m['hor'][18][x] = 1
+
+    for x in range(18):
+        m['ver'][x][0] = 1
+        m['ver'][x][10] = 1
 
     m['ver'][10][0] = 2
     m['ver'][11][0] = 2
-    for x in range(12, 18):
-        m['ver'][x][0] = 1
 
-    cross = (14, randrange(4, 7))
-    for c in range(10):
-        m['hor'][cross[0]][c] = 1
-        m['hor'][18][c] = 1
-    for r in range(10, 18):
-        m['ver'][r][cross[1]] = 1
-        m['ver'][r][10] = 1
+    t = random()
+    if(t < .2):
+        make_p(m, [(2, 2), (2, 7), (6, 2), (11, 2), (15, 2), (6, 7), (11, 7), (15, 7)])
 
-    ro = random()
-    # upper left room
-    # -- right side
-    if(ro > 1/3):
-        m['ver'][randrange(11, cross[0])][cross[1]] = 2
-    # -- down side
-    if(ro < 2/3):
-        m['hor'][cross[0]][randrange(1, cross[1])] = 2
-    m['space'][11][1] = 7
-    m['space'][cross[0]-2][cross[1]-2] = 9
+        if(random() < .5):
+            m['space'][2][3] = 9
+            m['space'][1][2] = 7
+            m['space'][8][7] = 9
+            m['space'][9][7] = 7
+            m['space'][15][3] = 9
+            m['space'][14][2] = 7
+        else:
+            m['space'][2][6] = 9
+            m['space'][1][7] = 7
+            m['space'][9][2] = 9
+            m['space'][8][2] = 7
+            m['space'][15][6] = 9
+            m['space'][14][7] = 7
 
-    ro = random()
-    # bottom left room
-    # -- right side
-    if(ro > 1/3):
-        m['ver'][randrange(cross[0], 17)][cross[1]] = 2
-    # -- down side
-    if(ro < 2/3):
-        m['hor'][18][randrange(0, cross[1])] = 2
-    m['space'][cross[0]+1][1] = 7
-    m['space'][16][cross[1]-2] = 9
+        door = randrange(3)
+        if(door < 2):
+            m['hor'][18][randrange(1,9)] = 2
 
-    ro = random()
-    # upper right room
-    # -- right side
-    if(ro > 1/3):
-        m['ver'][randrange(11, cross[0])][10] = 2
-    # -- down side
-    if(ro < 2/3):
-        m['hor'][cross[0]][randrange(cross[1], 10)] = 2
-    m['space'][11][cross[1]+1] = 7
-    m['space'][cross[0]-2][8] = 9
+        if(door%2 < 1):
+            m['ver'][randrange(1,17)][10] = 2
 
-    ro = random()
-    # bottom right room
-    # -- right side
-    if(ro > 1/3):
-        m['ver'][randrange(cross[0], 17)][10] = 2
-    # -- down side
-    if(ro < 2/3):
-        m['hor'][18][randrange(cross[1], 10)] = 2
-    m['space'][cross[0]+1][cross[1]+1] = 7
-    m['space'][16][8] = 9
+        return m
+    elif(t < .6):
+        s = make_small_section()
+        for r in range(10):
+            for c in range(10):
+                m['hor'][r][c] = s['hor'][r][c]
+                m['ver'][r][c] = s['ver'][r][c]
+                m['space'][r][c] = s['space'][r][c]
+        for x in range(10):
+            m['hor'][10][x] = s['hor'][10][x]
+            m['ver'][x][10] = s['ver'][x][10]
 
-    return m
+        make_p(m, [(12, 2), (15, 2), (12, 7), (15, 7)])
+
+        m['space'][13][4] = 9
+        m['space'][14][5] = 7
+
+        door = randrange(3)
+        if(door < 2):
+            m['hor'][18][randrange(1,9)] = 2
+
+        if(door%2 < 1):
+            m['ver'][randrange(11,17)][10] = 2
+
+        return m
+
+    else:
+        s = make_small_section()
+        for r in range(10):
+            for c in range(10):
+                m['hor'][r][c] = s['hor'][r][c]
+                m['ver'][r][c] = s['ver'][r][c]
+                m['space'][r][c] = s['space'][r][c]
+        for x in range(10):
+            m['hor'][10][x] = s['hor'][10][x]
+            m['ver'][x][10] = s['ver'][x][10]
+
+        cross = (14, randrange(4, 7))
+        for c in range(10):
+            m['hor'][cross[0]][c] = 1
+            m['hor'][18][c] = 1
+        for r in range(10, 18):
+            m['ver'][r][cross[1]] = 1
+            m['ver'][r][10] = 1
+
+        ro = random()
+        d = randrange(4)
+        # upper left room
+        # -- right side
+        if(ro > 1/3):
+            m['ver'][randrange(11, cross[0])][cross[1]] = 2
+        # -- down side
+        if(ro < 2/3):
+            m['hor'][cross[0]][randrange(1, cross[1])] = 2
+        if(d == 0):
+            m['space'][11][1] = 7
+            m['space'][cross[0]-2][cross[1]-2] = 9
+
+        ro = random()
+        # bottom left room
+        # -- right side
+        if(ro > 1/3):
+            m['ver'][randrange(cross[0], 17)][cross[1]] = 2
+        # -- down side
+        if(ro < 2/3):
+            m['hor'][18][randrange(0, cross[1])] = 2
+        if(d == 1):
+            m['space'][cross[0]+1][1] = 7
+            m['space'][16][cross[1]-2] = 9
+
+        ro = random()
+        # upper right room
+        # -- right side
+        if(ro > 1/3):
+            m['ver'][randrange(11, cross[0])][10] = 2
+        # -- down side
+        if(ro < 2/3):
+            m['hor'][cross[0]][randrange(cross[1], 10)] = 2
+        if(d == 2):
+            m['space'][11][cross[1]+1] = 7
+            m['space'][cross[0]-2][8] = 9
+
+        ro = random()
+        # bottom right room
+        # -- right side
+        if(ro > 1/3):
+            m['ver'][randrange(cross[0], 17)][10] = 2
+        # -- down side
+        if(ro < 2/3):
+            m['hor'][18][randrange(cross[1], 10)] = 2
+        if(d == 3):
+            m['space'][cross[0]+1][cross[1]+1] = 7
+            m['space'][16][8] = 9
+
+        return m
 
 def make_wide_section():
     m = make_long_section()

@@ -1,111 +1,64 @@
-( 0,  8) : 0 cp, 0 sp, 14 ep, 0 gp, 0 pp, hidden(no monster encounter): 15, Clue to goal: (15, Religion)
-( 0, 1C) : 5 Mastiff
-( 0, 1F) : 0 cp, 0 sp, 0 ep, 15 gp, 0 pp, hidden(no monster encounter): 14, Clue to treasure1: (13, History)
-( 1, 12) : 0 cp, 0 sp, 0 ep, 9 gp, 0 pp, hidden(no monster encounter): 11, Clue to treasure2: (13, History)
-( 1, 1D) : 0 cp, 0 sp, 0 ep, 8 gp, 0 pp, hidden(no monster encounter): 13, Clue to treasure1: (15, Religion)
-( 1, 1E) : 2 Swarm of insects
-( 1, 2C) : 0 cp, 0 sp, 0 ep, 13 gp, 0 pp, hidden(no monster encounter): 11, Clue to treasure1: (15, Nature)
-( 1, 3A) : 0 cp, 0 sp, 9 ep, 0 gp, 0 pp, hidden(no monster encounter): 13, Clue to treasure2: (14, Investigation)
-( 2, 2B) : 2 Jackalwere
-( 4,  D) : Encounter: Roscoe Thorngage is a male Halfling who speaks common,
-DC 14, this merchant is currently restrained. alignment: LG.
-he isn't evil. he is Idealistic, loyal to their values and to
-people who are important to them. Want an external life that
-is congruent with their values. Curious, quick to see possibilities,
-can be catalysts for implementing ideas. Seek to understand
-people and to help them fulfill their potential. Adaptable,
-flexible, and accepting unless a value is threatened.
-( 4, 11) : 2 Magma mephit
-( 5, 2C) : 24 cp, 0 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 13, Clue to treasure1: (13, Arcana)
-( 5, 3A) : 17 cp, 0 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 15, Clue to treasure2: (15, Religion)
-( 7,  E) : 0 cp, 0 sp, 10 ep, 0 gp, 0 pp, hidden(no monster encounter): 14, Clue to treasure1: (12, Investigation)
-( 7, 12) : 0 cp, 0 sp, 0 ep, 0 gp, 2 pp, hidden(no monster encounter): 12, Clue to treasure2: (11, Religion)
-( 8,  D) : 1 Ghoul
-( 8, 14) : 2 Skeleton
-( 9,  1) : Encounter: Portia Brushgather is a female Halfling who speaks
-common, DC 11, this commoner is currently resting. alignment:
-LG. she isn't evil. she is Warmhearted, conscientious, and cooperative.
-Want harmony in their environment, work with determination to
-establish it. Like to work with others to complete tasks accurately
-and on time. Loyal, follow through even in small matters. Notice
-what others need in their day-by-day lives and try to provide
-it. Want to be appreciated for who they are and for what they
-contribute.
-( 9, 26) : 1 Black dragon wyrmling
-( A,  A) : 1 Peryton
-( D,  8) : stairs up
-( D,  D) : 1 Fire snake
-( D, 17) : 2 Cockatrice
-( D, 26) : 1 Priest
-( E,  6) : 0 cp, 19 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 11, Clue to treasure1: (13, Investigation)
-(10, 2B) : 2 Deep gnome
-(10, 2F) : 1 Yuan-ti Pureblood
-(11,  3) : 5 Tribal Warrior
-(12,  6) : 12 cp, 0 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 13, Clue to treasure1: (14, Religion)
-(12, 14) : 0 cp, 0 sp, 0 ep, 0 gp, 5 pp, hidden(no monster encounter): 14, Clue to treasure1: (13, History)
-(14,  8) : 1 Bugbear
-(15, 17) : 2 Winged kobold
-(15, 20) : 2 Sahuagin
-(15, 2A) : 1 Bronze dragon wyrmling
-(15, 2E) : 1 Giant vulture
-(15, 38) : 5 Camel
-(17, 29) : 2400 cp, 1400 sp, 0 ep, 60 gp, 0 pp and 6 50 gp gems and 3 Magic Items(table F)
-(17, 2D) : 0 cp, 0 sp, 0 ep, 12 gp, 0 pp, hidden(no monster encounter): 13, Clue to treasure2: (12, Arcana)
-(1A, 20) : 2 Acolyte
-(1A, 2A) : 4 Drow
-(1A, 2E) : 1 Giant spider
-(1A, 33) : 5 Giant rat
-(1C,  0) : 2 Warhorse skeleton
-(1C, 14) : 0 cp, 19 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 11, Clue to treasure1: (12, Religion)
-(1C, 29) : 20 cp, 0 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 11, Clue to goal: (15, Religion)
-(1C, 2D) : 0 cp, 18 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 13, Clue to treasure1: (11, Religion)
-(1F, 1F) : 21 cp, 0 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 14, Clue to treasure1: (15, Arcana)
-(1F, 2D) : 0 cp, 0 sp, 0 ep, 10 gp, 0 pp, hidden(no monster encounter): 15, Clue to goal: (15, Religion)
-(1F, 34) : 0 cp, 0 sp, 0 ep, 9 gp, 0 pp, hidden(no monster encounter): 12, Clue to treasure1: (13, Religion)
-(1F, 3A) : 0 cp, 11 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 12, Clue to treasure2: (11, Investigation)
-(20, 20) : 5 Draft horse
-(20, 2A) : 2 Steam mephit
-(20, 2E) : stairs down
-(22, 11) : 0 cp, 0 sp, 0 ep, 11 gp, 0 pp, hidden(no monster encounter): 14, Clue to goal: (15, Religion)
-(22, 33) : 2 Cockatrice
-(23,  9) : 16 cp, 0 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 14, Clue to goal: (15, Religion)
-(23, 10) : 4 Flying sword
-(23, 1F) : 0 cp, 0 sp, 0 ep, 0 gp, 5 pp, hidden(no monster encounter): 12, Clue to treasure2: (11, Nature)
-(23, 29) : 0 cp, 17 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 12, Clue to treasure1: (12, History)
-(23, 2D) : 21 cp, 0 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 14, Clue to treasure1: (11, Investigation)
-(26, 20) : 1 Wererat
-(26, 2A) : 2 Lizardfolk
-(29, 3A) : 0 cp, 0 sp, 0 ep, 11 gp, 0 pp, hidden(no monster encounter): 12, Clue to treasure1: (15, Investigation)
-(2A, 33) : 5 Stirge
-(2B, 26) : 5 Merfolk
-(2C,  E) : 0 cp, 13 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 11, Clue to treasure1: (11, Nature)
-(2C, 2C) : 1 Bugbear
-(2D, 3A) : 14 cp, 0 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 11, Clue to treasure2: (13, Investigation)
-(2E, 33) : 2 Zombie
-(2E, 37) : Encounter: Mardnab Ashhearlh Scheppen is a female Gnome who speaks
-common, DC 12, this druid is currently resting. alignment: NG.
-she isn't evil. she is Outgoing, friendly, and accepting. Exuberant
-lovers of life, people, and material comforts. Enjoy working
-with others to make things happen. Bring common sense and a
-realistic approach to their work, and make work fun. Flexible
-and spontaneous, adapt readily to new people and environments.
-Learn best by trying a new skill with other people.
-(2F,  6) : 0 cp, 0 sp, 0 ep, 12 gp, 0 pp, hidden(no monster encounter): 11, Clue to treasure1: (14, Investigation)
-(2F, 21) : 5 Pony
-(2F, 26) : 1 Scarecrow
-(30, 11) : 0 cp, 17 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 14, Clue to treasure1: (15, History)
-(30, 1F) : 0 cp, 0 sp, 15 ep, 0 gp, 0 pp, hidden(no monster encounter): 11, Clue to treasure2: (15, History)
-(33, 21) : 1 Giant octopus
-(33, 2B) : 2 Swarm of bats
-(33, 2F) : 2 Myconid adult
-(34,  C) : 26 cp, 0 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 11, Clue to treasure2: (15, Religion)
-(36,  9) : 2 Black bear
-(36, 2C) : 24 cp, 0 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 11, Clue to goal: (12, Nature)
-(36, 30) : 20 cp, 0 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 11, Clue to goal: (11, Religion)
-(39, 2B) : 4 Aarakocra
-(39, 2F) : 4 Giant bat
-(39, 39) : 2 Violet fungus
-(3A,  1) : 5 Flumph
-(3A, 2C) : 16 cp, 0 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 14, Clue to treasure1: (12, Nature)
-(3A, 30) : 2100 cp, 1500 sp, 0 ep, 40 gp, 0 pp and 12 10 gp gems and 3 Magic Items(table C)
-(3A, 3A) : 0 cp, 0 sp, 11 ep, 0 gp, 0 pp, hidden(no monster encounter): 12, Clue to treasure2: (13, Investigation)
+( 1, 20) : 1 Gargoyle
+( 2, 15) : 1400 cp, 900 sp, 0 ep, 70 gp, 0 pp and 7 50 gp gems
+( 2, 1F) : 16 cp, 0 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 15, Clue to goal: (14, History)
+( 2, 32) : 2 Gas spore
+( 5,  1) : 19 cp, 0 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 13, Clue to treasure1: (11, Arcana)
+( 5,  6) : 16 cp, 0 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 11, Clue to treasure1: (14, Religion)
+( 6,  E) : 1 Polar bear
+( 6, 39) : 1 Dire wolf
+( 7,  F) : 0 cp, 0 sp, 0 ep, 7 gp, 0 pp, hidden(no monster encounter): 14, Clue to treasure1: (14, Religion)
+( 7, 3A) : 0 cp, 12 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 12, Clue to goal: (12, Arcana)
+( 8,  3) : 2 Giant goat
+( 8,  8) : 2 Ice mephit
+( D,  A) : 2 Grimlock
+( D, 10) : 2 Giant centipede
+( D, 21) : 1 Grick
+( D, 2E) : stairs down
+(10, 33) : 1 Giant boar
+(16,  D) : 17 cp, 0 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 14, Clue to treasure2: (12, Religion)
+(17, 35) : 15 cp, 0 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 13, Clue to treasure2: (15, Religion)
+(18, 21) : 1 Ogre zombie
+(18, 2E) : 5 Pteranodon
+(19,  A) : 4 Winged kobold
+(1B, 15) : 0 cp, 12 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 13, Clue to treasure2: (11, Nature)
+(1C,  1) : 0 cp, 9 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 14, Clue to treasure1: (14, Nature)
+(1C, 24) : 0 cp, 18 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 11, Clue to goal: (12, Nature)
+(1F, 16) : 0 cp, 0 sp, 8 ep, 0 gp, 0 pp, hidden(no monster encounter): 11, Clue to goal: (12, Arcana)
+(1F, 20) : 20 cp, 0 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 13, Clue to treasure1: (12, Religion)
+(1F, 34) : 0 cp, 0 sp, 0 ep, 13 gp, 0 pp, hidden(no monster encounter): 11, Clue to goal: (14, Religion)
+(20, 15) : 2 Hobgoblin
+(20, 33) : 2 Magma mephit
+(22, 2E) : 2 Black bear
+(23,  1) : 19 cp, 0 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 12, Clue to goal: (14, Arcana)
+(24,  F) : 15 cp, 0 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 14, Clue to treasure1: (11, Nature)
+(25, 1C) : 2 Bullywug
+(25, 3A) : 1 Tiger
+(26,  2) : 1 Giant spider
+(26, 10) : 2 Boar
+(26, 25) : Encounter: Lidda Greenbottle is a female Halfling who speaks
+common, DC 15, this merchant is currently resting. alignment:
+LN. she isn't evil. she is Quiet, serious, earn success by thoroughness
+and dependability. Practical, matter-of-fact, realistic, and
+responsible. Decide logically what should be done and work toward
+it steadily, regardless of distractions. Take pleasure in making
+everything orderly and organized - their work, their home, their
+life. Value traditions and loyalty.
+(26, 39) : 19 cp, 0 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 11, Clue to treasure2: (11, Investigation)
+(27, 25) : 0 cp, 11 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 14, Clue to treasure1: (13, Investigation)
+(2B,  B) : 1 Giant eagle
+(2B, 10) : 5 Pteranodon
+(2B, 1A) : 2 Ape
+(2C, 20) : 1800 cp, 600 sp, 0 ep, 70 gp, 0 pp and 3 25 gp art objects and 1 Magic Items(table C)
+(2C, 2C) : 2 Giant frog
+(2F, 38) : 4 Axe beak
+(32, 1C) : 1 Harpy
+(33, 25) : 0 cp, 14 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 14, Clue to treasure2: (15, Arcana)
+(34, 26) : stairs up
+(34, 3A) : 0 cp, 16 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 13, Clue to treasure1: (12, History)
+(35,  1) : 0 cp, 10 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 12, Clue to goal: (15, History)
+(35,  E) : 0 cp, 0 sp, 6 ep, 0 gp, 0 pp, hidden(no monster encounter): 11, Clue to treasure1: (13, Investigation)
+(36, 2C) : 0 cp, 0 sp, 0 ep, 0 gp, 6 pp, hidden(no monster encounter): 12, Clue to goal: (11, Nature)
+(37, 2B) : 2 Worg
+(39, 1F) : 1 Animated Armor
+(39, 33) : 0 cp, 0 sp, 0 ep, 9 gp, 0 pp, hidden(no monster encounter): 15, Clue to treasure1: (15, Religion)
+(3A,  1) : 0 cp, 18 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 12, Clue to treasure2: (13, Arcana)
