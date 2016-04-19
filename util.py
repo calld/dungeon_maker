@@ -81,6 +81,8 @@ def make_small_section():
             m['ver'][sq[0]][sq[1]] = 1
             m['ver'][sq[0]][sq[1]+1] = 1
 
+        make_p(m, [(0, 0), (0, 9), (9, 0), (9, 9)])
+
         if(random() < .5):
             m['space'][1][0] = 9
             m['space'][0][1] = 7
@@ -365,51 +367,146 @@ def make_large_section():
         m['hor'][0][x] = 2
         m['ver'][x][0] = 2
 
-    cross = (cross_ind[randrange(len(cross_ind))], cross_ind[randrange(len(cross_ind))])
-
     for x in range(18):
         m['hor'][18][x] = 1
-        m['hor'][cross[0]][x] = 1
         m['ver'][x][18] = 1
-        m['ver'][x][cross[1]] = 1
 
-    # upper left
-    rand = random()
-    if(rand > 1/3):
-        m['ver'][randrange(0, cross[0])][cross[1]] = 2
-    if(rand < 2/3):
-        m['hor'][cross[0]][randrange(0, cross[1])] = 2
-    m['space'][1][1] = 7
-    m['space'][cross[0]-2][cross[1]-2] = 9
+    t = random()
+    if(t < 0.2):
+        s = make_small_section();
 
-    # bottom left
-    rand = random()
-    if(rand > 1/3):
-        m['ver'][randrange(cross[0], 18)][cross[1]] = 2
-    if(rand < 2/3):
-        m['hor'][18][randrange(0, cross[1])] = 2
-    m['space'][cross[0]+1][1] = 7
-    m['space'][16][cross[1]-2] = 9
+        for c in range(10):
+            for r in range(10):
+                m['hor'][r+4][c+4] = s['hor'][r][c]
+                m['ver'][r+4][c+4] = s['ver'][r][c]
+                m['space'][r+4][c+4] = s['space'][r][c]
 
-    # upper right
-    rand = random()
-    if(rand > 1/3):
-        m['ver'][randrange(0, cross[0])][18] = 2
-    if(rand < 2/3):
-        m['hor'][cross[0]][randrange(cross[1], 18)] = 2
-    m['space'][1][cross[1]+1] = 7
-    m['space'][cross[0]-2][16] = 9
+        for x in range(10):
+            m['hor'][14][x+4] = s['hor'][10][x]
+            m['ver'][x+4][14] = s['ver'][x][10]
 
-    #bottom right
-    rand = random()
-    if(rand > 1/3):
-        m['ver'][randrange(cross[0], 18)][18] = 2
-    if(rand < 2/3):
-        m['hor'][18][randrange(cross[1], 18)] = 2
-    m['space'][cross[0]+1][cross[1]+1] = 7
-    m['space'][16][16] = 9
+        m['hor'][4][randrange(5, 13)] = 2
+        m['ver'][randrange(5, 13)][4] = 2
 
-    return m
+        if(random() < .5):
+            m['space'][2][2] = 9
+            m['space'][1][1] = 7
+            m['space'][15][15] = 7
+            m['space'][16][16] = 9
+        else:
+            m['space'][16][1] = 9
+            m['space'][15][2] = 7
+            m['space'][1][16] = 7
+            m['space'][2][15] = 9
+
+        m['hor'][18][randrange(2, 16)] = 2
+        m['ver'][randrange(2, 16)][18] = 2
+
+        return m
+    
+    elif(t < 0.6):
+        make_p(m, [(0, 0), (1, 1), (0, 17), (1, 16), (17, 0), (16, 1), (17, 17), (16, 16)])
+
+        maze_rows = [[(r, c) for c in range(2, 16)] for r in range(2, 16)]
+
+        make_p(m, [maze_rows[x//14][x%14] for x in range(len(maze_rows)*len(maze_rows[0]))])
+
+        crp = []
+        # [upper, left, down, right]
+        if(random() < .5):
+            cross = [(randrange(3, 8), randrange(3, 8)), (randrange(9, 14), randrange(9, 14))]
+            crp.append(cross[1])
+            crp.append(cross[1])
+            crp.append(cross[0])
+            crp.append(cross[0])
+        else:
+            cross = [(randrange(3, 8), randrange(9, 14)), (randrange(9, 14), randrange(3, 8))]
+            crp.append(cross[1])
+            crp.append(cross[0])
+            crp.append(cross[0])
+            crp.append(cross[1])
+
+        #upper
+        for r in range(2, crp[0][0]+2):
+            m['hor'][r][crp[0][1]] = 0
+            m['hor'][r][crp[0][1]+1] = 0
+            m['ver'][r][crp[0][1]+1] = 0
+
+        #left
+        for c in range(2, crp[1][1]+2):
+            m['ver'][crp[1][0]][c] = 0
+            m['ver'][crp[1][0]+1][c] = 0
+            m['hor'][crp[1][0]+1][c] = 0
+
+        #down
+        for r in range(crp[2][0]+1, 17):
+            m['hor'][r][crp[2][1]] = 0
+            m['hor'][r][crp[2][1]+1] = 0
+            m['ver'][r-1][crp[2][1]+1] = 0
+
+        #right
+        for c in range(crp[3][1]+1, 17):
+            m['ver'][crp[3][0]][c] = 0
+            m['ver'][crp[3][0]+1][c] = 0
+            m['hor'][crp[3][0]+1][c-1] = 0
+
+        m['hor'][18][randrange(2, 16)] = 2
+        m['ver'][randrange(2, 16)][18] = 2
+
+        m['space'][1][10] = 9
+        m['space'][1][7] = 7
+        m['space'][7][1] = 9
+        m['space'][10][1] = 7
+        m['space'][16][7] = 9
+        m['space'][16][10] = 7
+        m['space'][7][16] = 7
+        m['space'][10][16] = 9
+
+        return m
+    else:
+        cross = (cross_ind[randrange(len(cross_ind))], cross_ind[randrange(len(cross_ind))])
+
+        for x in range(18):
+            m['hor'][cross[0]][x] = 1
+            m['ver'][x][cross[1]] = 1
+
+        # upper left
+        rand = random()
+        if(rand > 1/3):
+            m['ver'][randrange(0, cross[0])][cross[1]] = 2
+        if(rand < 2/3):
+            m['hor'][cross[0]][randrange(0, cross[1])] = 2
+        m['space'][1][1] = 7
+        m['space'][cross[0]-2][cross[1]-2] = 9
+
+        # bottom left
+        rand = random()
+        if(rand > 1/3):
+            m['ver'][randrange(cross[0], 18)][cross[1]] = 2
+        if(rand < 2/3):
+            m['hor'][18][randrange(0, cross[1])] = 2
+        m['space'][cross[0]+1][1] = 7
+        m['space'][16][cross[1]-2] = 9
+
+        # upper right
+        rand = random()
+        if(rand > 1/3):
+            m['ver'][randrange(0, cross[0])][18] = 2
+        if(rand < 2/3):
+            m['hor'][cross[0]][randrange(cross[1], 18)] = 2
+        m['space'][1][cross[1]+1] = 7
+        m['space'][cross[0]-2][16] = 9
+
+        #bottom right
+        rand = random()
+        if(rand > 1/3):
+            m['ver'][randrange(cross[0], 18)][18] = 2
+        if(rand < 2/3):
+            m['hor'][18][randrange(cross[1], 18)] = 2
+        m['space'][cross[0]+1][cross[1]+1] = 7
+        m['space'][16][16] = 9
+
+        return m
 
 """
 ch = [(' ', ' '), ('|', '-'), ('-', '\\'), ' ', ' ', ' ', ' ', 't', ' ', 'M']

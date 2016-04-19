@@ -7,7 +7,7 @@ from random import randrange
 from util import randdiff
 from personality import randPersonEcounter
 
-def spaceInfo(lvl, state, string, player_count = 4):
+def spaceInfo(lvl, state, string, player_count):
     if(state == 4):
         hrd = trsr.getHoard(lvl)
         return trsr.cashToString(hrd['cash']) + ' and ' + hrd['loot']
@@ -54,16 +54,16 @@ def edgeInfo(lvl, state, string):
 
 #need to mark secret doors as spectial
 
-def genInfo(lvl, mp):
+def genInfo(lvl, mp, pc):
     s = 'floor lvl ' + str(lvl)
-    return {'space': [[spaceInfo(lvl, mp['space'][r][c], s, 3) for c in range(mp['c_len'])] for r in range(mp['r_len'])],
+    return {'space': [[spaceInfo(lvl, mp['space'][r][c], s, pc) for c in range(mp['c_len'])] for r in range(mp['r_len'])],
             'hor': [[edgeInfo(lvl, mp['hor'][r][c], s) for c in range(mp['c_len'])] for r in range(mp['r_len']+1)],
             'ver': [[edgeInfo(lvl, mp['ver'][r][c], s) for c in range(mp['c_len']+1)] for r in range(mp['r_len'])]}
 
 def makeDun(strength = [x for x in range(1, 21)], size = [(2, 2)]*4 + [(3, 3)]*7 + [(4, 4)]*5 + [(5,5)]*4, pc = 4):
     dun = {'floor': [mg.make_floor(x[0], x[1]) for x in size]}
     dun['desc'] = 'dungeon'
-    dun['info'] = [genInfo(strength[x], dun['floor'][x]) for x in range(len(strength))]
+    dun['info'] = [genInfo(strength[x], dun['floor'][x], pc) for x in range(len(strength))]
     return dun
 
 def save(ob, name = 'temp.psav'):
@@ -147,7 +147,6 @@ def make_txt(dun, name = './temp'):
                 break
             spacesize = len(lines[0][:-9]) - len(lines[i])
             temp = ' '*spacesize + lines2[i]
-            #lines[i] = '{{:s}}{{: >{:d}s}}'.format(50 - frontsize).format(lines[i], lines2[i])
             lines[i] = '{}{}'.format(lines[i][:-1], temp)
 
         dref = open('Floor{:0>2d}DoorRef.txt'.format(floor+1), 'w')
@@ -166,7 +165,6 @@ def make_txt(dun, name = './temp'):
                 lines.append('   ' + ''.join(['+{:0>3X}'.format(c) for c in range(majorC*30, (majorC+1)*30)]) + '+\n')
                 lines.append('\n\n')
 
-                #write to file
                 pref.writelines(lines)
                 lines = []
 
@@ -184,7 +182,6 @@ def make_txt(dun, name = './temp'):
                 lines.append('   ' + ''.join(['+{:0>3X}'.format(c) for c in range(majorC*30, (majorC+1)*30)]) + '+\n')
                 lines.append('\n\n')
 
-                #write to file
                 pref.writelines(lines)
                 lines = []
 
@@ -192,4 +189,4 @@ def make_txt(dun, name = './temp'):
 
     os.chdir(cwd)
 
-make_txt(makeDun(), name = './dungeontest')
+make_txt(makeDun(pc = 5), name = './dungeontest')

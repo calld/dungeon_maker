@@ -1,68 +1,71 @@
-( 0, 1C) : 2 Darkmantle
-( 1,  2) : 1 Lamia
-( 1, 1D) : 0 cp, 0 sp, 0 ep, 10 gp, 0 pp, hidden(no monster encounter): 12, Clue to treasure2: (14, Religion)
-( 1, 25) : 0 cp, 0 sp, 0 ep, 13 gp, 0 pp, hidden(no monster encounter): 13, Clue to treasure1: (12, Investigation)
-( 1, 39) : 5 Axe beak
-( 2,  1) : 0 cp, 0 sp, 0 ep, 8 gp, 0 pp, hidden(no monster encounter): 13, Clue to goal: (11, Religion)
-( 2, 26) : 1 Kuo-toa monitor
-( 2, 3A) : 0 cp, 0 sp, 0 ep, 13 gp, 0 pp, hidden(no monster encounter): 15, Clue to treasure2: (13, Arcana)
-( 4, 10) : Encounter: Soveliss Nailo (Nightbreeze) is a male Elf who speaks
-common, DC 14, this commoner is currently lost. alignment: NG.
-he isn't evil. he is Quiet, friendly, sensitive, and kind. Enjoy
-the present moment, what's going on around them. Like to have
-their own space and to work within their own time frame. Loyal
-and committed to their values and to people who are important
-to them. Dislike disagreements and conflicts, do not force their
-opinions or values on others.
-( 4, 2B) : stairs up
-( 5, 2C) : 0 cp, 13 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 12, Clue to treasure1: (12, History)
-( 7, 33) : 0 cp, 0 sp, 0 ep, 10 gp, 0 pp, hidden(no monster encounter): 11, Clue to treasure1: (13, Investigation)
-( 8,  7) : 2 Lizardfolk
-( 8, 34) : 2 Swarm of quippers
-( A,  A) : 2 Swarm of insects
-( B, 3A) : 0 cp, 0 sp, 0 ep, 13 gp, 0 pp, hidden(no monster encounter): 12, Clue to treasure2: (15, Arcana)
-( D,  D) : 1 Orc war chief
-( F, 23) : 0 cp, 0 sp, 9 ep, 0 gp, 0 pp, hidden(no monster encounter): 14, Clue to treasure2: (13, Investigation)
-(10, 22) : 1 Carrion crawler
-(11,  4) : 2 Dust mephit
-(14, 1C) : 2700 cp, 1300 sp, 0 ep, 70 gp, 0 pp and 7 10 gp gems and 3 Magic Items(table C)
-(15,  0) : 0 cp, 0 sp, 0 ep, 17 gp, 0 pp, hidden(no monster encounter): 12, Clue to treasure2: (14, Investigation)
-(15, 1E) : 0 cp, 0 sp, 0 ep, 6 gp, 0 pp, hidden(no monster encounter): 12, Clue to treasure1: (13, Religion)
-(18, 2D) : 1000 cp, 0 sp, 30 ep, 0 gp, 0 pp, hidden(no monster encounter): 12, Clue to treasure1: (15, Arcana)
-(1C,  F) : 1500 cp, 0 sp, 40 ep, 0 gp, 0 pp, hidden(no monster encounter): 13, Clue to goal: (13, Nature)
-(1C, 34) : 0 cp, 0 sp, 13 ep, 0 gp, 0 pp, hidden(no monster encounter): 13, Clue to treasure1: (13, Religion)
-(1F,  7) : 5 Giant poisonous snake
-(1F, 16) : 0 cp, 17 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 13, Clue to treasure2: (11, Nature)
-(20, 3A) : 1 Wereboar
-(21, 15) : 1 Weretiger
-(22, 10) : 4 Giant bat
-(22, 2E) : stairs down
-(25,  1) : 2000 cp, 900 sp, 0 ep, 100 gp, 0 pp and 7 50 gp gems and 3 Magic Items(table F)
-(25, 1F) : 0 cp, 20 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 12, Clue to treasure1: (13, Nature)
-(26,  2) : Encounter: Turnuroth Jheri is a female Dragonborn who speaks
-common, DC 14, this merchant is currently resting. alignment:
-LG. she isn't evil. she is Practical, realistic, matter-of-fact.
-Decisive, quickly move to implement decisions. Organize projects
-and people to get things done, focus on getting results in the
-most efficient way possible. Take care of routine details. Have
-a clear set of logical standards, systematically follow them
-and want others to also. Forceful in implementing their plans.
-(26, 21) : 1 Awakened tree
-(2B,  4) : 2 Copper dragon wyrmling
-(2B, 2B) : 2 Shadow
-(2C,  5) : 14 cp, 0 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 12, Clue to treasure1: (12, History)
-(2D, 18) : 0 cp, 0 sp, 0 ep, 0 gp, 3 pp, hidden(no monster encounter): 13, Clue to treasure2: (12, Arcana)
-(2D, 23) : 0 cp, 0 sp, 0 ep, 12 gp, 0 pp, hidden(no monster encounter): 12, Clue to goal: (12, Religion)
-(2E, 19) : 1 Basilisk
-(32, 1F) : 3 Tridrone
-(32, 31) : 0 cp, 15 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 13, Clue to treasure2: (13, History)
-(33, 1E) : 0 cp, 0 sp, 12 ep, 0 gp, 0 pp, hidden(no monster encounter): 12, Clue to treasure1: (14, History)
-(34,  8) : 1 Orc Eye of Gruumsh
-(34,  9) : 24 cp, 0 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 13, Clue to treasure2: (12, History)
-(35, 34) : 1 Banshee
-(38,  2) : 5 Deep gnome
-(38,  F) : 4 Pseudodragon
-(39,  1) : 0 cp, 20 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 14, Clue to goal: (11, Arcana)
-(39, 1C) : 0 cp, 0 sp, 0 ep, 11 gp, 0 pp, hidden(no monster encounter): 14, Clue to goal: (14, Arcana)
-(3A, 1B) : 1 Faerie dragon (old)
-(3B, 26) : 0 cp, 18 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 12, Clue to treasure1: (14, History)
+( 0, 3A) : 1 Black pudding
+( 1, 1C) : 5 Shadow
+( 1, 23) : 20 cp, 0 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 14, Clue to goal: (13, Arcana)
+( 3, 26) : 1 Berserker
+( 5,  D) : 1 Elephant
+( 8, 26) : 1 Unicorn
+( 9, 33) : 0 cp, 0 sp, 0 ep, 8 gp, 0 pp, hidden(no monster encounter): 15, Clue to treasure2: (11, History)
+( A, 12) : Encounter: Bree Goodbarrel is a female Halfling who speaks common,
+DC 15, this priest is currently resting. alignment: CN. she
+isn't evil. she is Warmly enthusiastic and imaginative. See
+life as full of possibilities. Make connections between events
+and information very quickly, and confidently proceed based
+on the patterns they see. Want a lot of affirmation from others,
+and readily give appreciation and support. Spontaneous and flexible,
+often rely on their ability to improvise and their verbal fluency.
+( A, 28) : 1 Succubus
+( C,  4) : 0 cp, 0 sp, 7 ep, 0 gp, 0 pp, hidden(no monster encounter): 15, Clue to goal: (12, Arcana)
+( C, 11) : 2000 cp, 1300 sp, 0 ep, 60 gp, 0 pp and 5 25 gp art objects and 4 Magic Items(table B)
+( D, 34) : 1 Ettin
+( E,  E) : 0 cp, 0 sp, 0 ep, 8 gp, 0 pp, hidden(no monster encounter): 11, Clue to treasure2: (13, Arcana)
+( E, 21) : 1 Gnoll fang of Yeenoghu
+(10, 11) : 0 cp, 0 sp, 0 ep, 9 gp, 0 pp, hidden(no monster encounter): 11, Clue to goal: (14, Religion)
+(11,  7) : 18 cp, 0 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 12, Clue to goal: (13, History)
+(13, 3A) : 0 cp, 0 sp, 0 ep, 13 gp, 0 pp, hidden(no monster encounter): 14, Clue to treasure2: (12, History)
+(14,  5) : 1 Air Elemental
+(14,  A) : 2 Tiger
+(14, 25) : 0 cp, 0 sp, 0 ep, 0 gp, 6 pp, hidden(no monster encounter): 12, Clue to treasure1: (11, Investigation)
+(15, 25) : 7 Slaad tadpole
+(16, 3A) : 1 Bugbear chief
+(18, 19) : 0 cp, 16 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 13, Clue to treasure2: (14, Nature)
+(1C,  1) : 1 Elephant
+(1C, 1C) : 4 Thri-kreen
+(1F,  2) : 0 cp, 0 sp, 9 ep, 0 gp, 0 pp, hidden(no monster encounter): 14, Clue to treasure1: (11, Religion)
+(1F,  F) : 2400 cp, 1000 sp, 0 ep, 100 gp, 0 pp and 10 50 gp gems
+(1F, 34) : 1900 cp, 0 sp, 40 ep, 0 gp, 0 pp, hidden(no monster encounter): 12, Clue to goal: (15, History)
+(20,  1) : 3 Magmin
+(20, 24) : 5 Gas spore
+(20, 33) : 1 Spectator
+(21, 10) : 1 Chuul
+(23, 34) : 17 cp, 0 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 14, Clue to treasure2: (12, Religion)
+(25,  8) : 1 Bone naga
+(26, 20) : 0 cp, 17 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 14, Clue to treasure2: (11, Nature)
+(26, 33) : 1 Yuan-ti malison
+(27, 1B) : stairs up
+(27, 20) : 2 Berserker
+(2B, 2B) : 2 Duergar
+(2C, 16) : 0 cp, 8 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 12, Clue to treasure2: (11, Arcana)
+(2C, 25) : 1400 cp, 0 sp, 10 ep, 0 gp, 0 pp, hidden(no monster encounter): 11, Clue to goal: (13, Religion)
+(2D,  5) : 0 cp, 0 sp, 0 ep, 9 gp, 0 pp, hidden(no monster encounter): 11, Clue to treasure2: (13, Arcana)
+(2D, 17) : 3 Worg
+(2D, 24) : 1 Otyugh
+(2E,  4) : 1 Black dragon wyrmling
+(31, 35) : 0 cp, 9 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 14, Clue to treasure1: (12, History)
+(31, 3A) : 1100 cp, 0 sp, 50 ep, 0 gp, 0 pp, hidden(no monster encounter): 12, Clue to treasure1: (14, Religion)
+(33,  7) : Encounter: Vistra Torunn is a female Dwarf who speaks common,
+DC 10, this merchant is currently cursed. alignment: NG. she
+isn't evil. she is Warmly enthusiastic and imaginative. See
+life as full of possibilities. Make connections between events
+and information very quickly, and confidently proceed based
+on the patterns they see. Want a lot of affirmation from others,
+and readily give appreciation and support. Spontaneous and flexible,
+often rely on their ability to improvise and their verbal fluency.
+(34, 1F) : 1 Helmed horror
+(34, 2B) : 1 Lizard king/queen
+(34, 38) : 2 Thri-kreen
+(36,  F) : 0 cp, 0 sp, 0 ep, 8 gp, 0 pp, hidden(no monster encounter): 12, Clue to treasure2: (13, Religion)
+(39,  1) : 0 cp, 14 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 15, Clue to treasure1: (14, History)
+(39, 15) : stairs down
+(3A, 16) : 0 cp, 12 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 15, Clue to goal: (12, Investigation)
+(3A, 1C) : 0 cp, 0 sp, 0 ep, 12 gp, 0 pp, hidden(no monster encounter): 11, Clue to treasure2: (11, Investigation)
+(3A, 25) : 0 cp, 0 sp, 16 ep, 0 gp, 0 pp, hidden(no monster encounter): 13, Clue to treasure1: (12, Religion)

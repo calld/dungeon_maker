@@ -1,82 +1,52 @@
-( 1,  1) : 0 cp, 15 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 16, Clue to treasure2: (15, Nature)
-( 1,  A) : 0 cp, 0 sp, 0 ep, 11 gp, 0 pp, hidden(no monster encounter): 12, Clue to goal: (15, Investigation)
-( 1, 16) : 3 Reef shark
-( 1, 29) : 0 cp, 13 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 16, Clue to treasure2: (14, Arcana)
-( 2, 15) : 0 cp, 16 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 12, Clue to goal: (16, Religion)
-( 2, 3A) : Encounter: Randal Evenwood is a male Human who speaks common,
-DC 14, this commoner is currently resting. alignment: LN. he
-isn't evil. he is Quiet, friendly, responsible, and conscientious.
-Committed and steady in meeting their obligations. Thorough,
-painstaking, and accurate. Loyal, considerate, notice and remember
-specifics about people who are important to them, concerned
-with how others feel. Strive to create an orderly and harmonious
-environment at work and at home.
-( 7,  7) : 1 Banshee
-( 7, 10) : 1 Intellect devourer
-( 8, 2E) : 1 Will-o'-wisp
-( 8, 34) : 1700 cp, 0 sp, 10 ep, 0 gp, 0 pp, hidden(no monster encounter): 12, Clue to treasure2: (14, History)
-( A,  1) : 0 cp, 0 sp, 5 ep, 0 gp, 0 pp, hidden(no monster encounter): 12, Clue to goal: (14, History)
-( B, 1F) : 0 cp, 7 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 14, Clue to goal: (14, Investigation)
-( B, 29) : 0 cp, 12 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 16, Clue to goal: (12, History)
-( D, 19) : 1 Helmed horror
-( D, 33) : 1 Orc Eye of Gruumsh
-( E, 18) : 0 cp, 0 sp, 0 ep, 12 gp, 0 pp, hidden(no monster encounter): 15, Clue to goal: (12, Arcana)
-(10,  7) : 1 Ghast
-(10, 10) : 3 Quasit
-(10, 26) : 1 Gold dragon wyrmling
-(15, 1B) : 1 Ettin
-(15, 1E) : 0 cp, 15 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 13, Clue to goal: (16, Nature)
-(15, 33) : 2 Orog
-(16,  5) : 1600 cp, 0 sp, 10 ep, 0 gp, 0 pp, hidden(no monster encounter): 15, Clue to treasure1: (12, Investigation)
-(16, 35) : 0 cp, 220 sp, 0 ep, 60 gp, 0 pp, hidden(no monster encounter): 16, Clue to treasure1: (14, Religion)
-(18,  E) : 0 cp, 210 sp, 0 ep, 70 gp, 0 pp, hidden(no monster encounter): 15, Clue to goal: (14, Nature)
-(18, 2D) : 1300 cp, 0 sp, 30 ep, 0 gp, 0 pp, hidden(no monster encounter): 15, Clue to treasure2: (14, Arcana)
-(19,  2) : 1 Ogre zombie
-(19, 2E) : 1 Basilisk
-(19, 33) : 2 Harpy
-(1B, 15) : 0 cp, 13 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 15, Clue to treasure1: (15, Religion)
-(1C,  1) : 2500 cp, 1600 sp, 0 ep, 80 gp, 0 pp and 4 25 gp art objects and 3 Magic Items(table F)
-(1C, 27) : 1 Couatl
-(1C, 35) : 0 cp, 17 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 15, Clue to treasure1: (16, Investigation)
-(1D, 26) : 0 cp, 240 sp, 0 ep, 90 gp, 0 pp, hidden(no monster encounter): 16, Clue to treasure1: (14, Investigation)
-(1E,  1) : 0 cp, 0 sp, 11 ep, 0 gp, 0 pp, hidden(no monster encounter): 13, Clue to treasure2: (14, Religion)
-(1F,  0) : 1 Black pudding
-(1F, 20) : 1400 cp, 0 sp, 60 ep, 0 gp, 0 pp, hidden(no monster encounter): 15, Clue to treasure1: (15, Nature)
-(1F, 2D) : 0 cp, 12 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 15, Clue to treasure1: (16, Investigation)
-(1F, 32) : 1 Green hag
-(20, 15) : 0 cp, 20 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 13, Clue to treasure1: (15, History)
-(20, 1F) : 1 Griffon
-(24,  E) : 1 Sea hag
-(24, 1B) : 1 Wight
-(25,  F) : 0 cp, 0 sp, 0 ep, 0 gp, 3 pp, hidden(no monster encounter): 14, Clue to goal: (14, Investigation)
-(25, 1C) : 1100 cp, 0 sp, 10 ep, 0 gp, 0 pp, hidden(no monster encounter): 16, Clue to treasure1: (16, Nature)
-(25, 26) : 1 Shadow demon
-(26,  9) : 0 cp, 10 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 15, Clue to goal: (16, Nature)
-(26, 25) : 1600 cp, 0 sp, 30 ep, 0 gp, 0 pp, hidden(no monster encounter): 14, Clue to treasure1: (13, History)
-(26, 3B) : 2100 cp, 0 sp, 50 ep, 0 gp, 0 pp, hidden(no monster encounter): 13, Clue to treasure2: (13, History)
-(27,  8) : 1 Spectator
-(27, 3A) : 1 Couatl
-(28,  A) : 2 Fire snake
-(28, 30) : 1 Wereboar
-(2B,  D) : 1 Water weird
-(2B, 17) : 1 Cult fanatic
-(2B, 21) : 1 Elephant
-(2D, 36) : 1000 cp, 0 sp, 30 ep, 0 gp, 0 pp, hidden(no monster encounter): 12, Clue to treasure2: (13, Investigation)
-(31, 1C) : 1100 cp, 0 sp, 60 ep, 0 gp, 0 pp, hidden(no monster encounter): 14, Clue to goal: (15, History)
-(32, 3A) : 1 Succubus
-(33,  2) : 3 Gnoll
-(33, 3B) : 1100 cp, 9000 sp, 0 ep, 2300 gp, 150 pp and 4 25 gp art objects
-(34,  D) : stairs up
-(34, 17) : 1 Weretiger
-(36, 24) : 0 cp, 0 sp, 0 ep, 14 gp, 0 pp, hidden(no monster encounter): 16, Clue to treasure1: (13, Religion)
-(39, 21) : Encounter: Frug Ku Timbers is a male Gnome who speaks common,
-DC 11, this royal is currently restrained. alignment: NG. he
-is evil. he is Quiet, friendly, sensitive, and kind. Enjoy the
-present moment, what's going on around them. Like to have their
-own space and to work within their own time frame. Loyal and
-committed to their values and to people who are important to
-them. Dislike disagreements and conflicts, do not force their
-opinions or values on others.
-(3A, 1C) : 1200 cp, 0 sp, 50 ep, 0 gp, 0 pp, hidden(no monster encounter): 14, Clue to treasure1: (12, Investigation)
-(3A, 1F) : 0 cp, 0 sp, 0 ep, 16 gp, 0 pp, hidden(no monster encounter): 15, Clue to treasure1: (14, Arcana)
-(3A, 32) : stairs down
+( 1,  1) : stairs down
+( 1, 1C) : 1 Veteran
+( 1, 20) : 1 Shadow demon
+( 1, 3A) : 1300 cp, 0 sp, 30 ep, 0 gp, 0 pp, hidden(no monster encounter): 16, Clue to goal: (14, Religion)
+( 2, 39) : 1 Shadow demon
+( 5,  B) : 4 Tiger
+( 5, 18) : 1 Water weird
+( 6,  C) : 0 cp, 0 sp, 0 ep, 6 gp, 0 pp, hidden(no monster encounter): 16, Clue to treasure1: (14, Investigation)
+( 7, 33) : 1 Orc war chief
+( 8, 25) : 1 Wyvern
+( A, 14) : 1 Gnoll fang of Yeenoghu
+( A, 30) : 800 cp, 0 sp, 10 ep, 0 gp, 0 pp, hidden(no monster encounter): 12, Clue to treasure1: (12, Arcana)
+( B,  5) : 2300 cp, 1100 sp, 0 ep, 70 gp, 0 pp and 3 10 gp gems and 1 Magic Items(table B)
+( C,  6) : 1 Elephant
+( C, 11) : 0 cp, 0 sp, 0 ep, 12 gp, 0 pp, hidden(no monster encounter): 14, Clue to treasure2: (14, History)
+(10, 11) : 0 cp, 16 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 16, Clue to goal: (12, Nature)
+(10, 26) : 3 Death dog
+(11,  8) : 7 Giant wolf spider
+(11, 10) : 1 Water elemental
+(12, 28) : 2 Doppelganger
+(15, 25) : 0 cp, 0 sp, 0 ep, 14 gp, 0 pp, hidden(no monster encounter): 15, Clue to goal: (14, Religion)
+(15, 38) : 3 Thri-kreen
+(18,  B) : 1900 cp, 0 sp, 30 ep, 0 gp, 0 pp, hidden(no monster encounter): 13, Clue to treasure1: (12, Investigation)
+(18, 19) : 1800 cp, 500 sp, 0 ep, 60 gp, 0 pp and 3 50 gp gems and 4 Magic Items(table B)
+(1A, 2B) : 3 Yuan-ti Pureblood
+(1B, 1F) : 1 Young remorhaz
+(1C, 2C) : 0 cp, 13 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 12, Clue to goal: (12, Nature)
+(1F,  1) : 0 cp, 0 sp, 0 ep, 9 gp, 0 pp, hidden(no monster encounter): 12, Clue to treasure2: (12, History)
+(1F,  5) : 2100 cp, 0 sp, 10 ep, 0 gp, 0 pp, hidden(no monster encounter): 15, Clue to treasure2: (14, History)
+(1F, 1F) : 1 Elephant
+(1F, 3A) : 1 Young white dragon
+(20, 19) : 2 Druid
+(23, 31) : 2 Ankheg
+(25, 2F) : 0 cp, 12 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 12, Clue to goal: (15, Arcana)
+(28, 36) : 6 Quadrone
+(2A, 10) : 3 Scarecrow
+(2A, 24) : stairs up
+(2A, 2A) : 2 Black dragon wyrmling
+(2A, 34) : 1200 cp, 0 sp, 40 ep, 0 gp, 0 pp, hidden(no monster encounter): 16, Clue to goal: (16, Religion)
+(2C, 18) : 0 cp, 21 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 15, Clue to treasure1: (16, Arcana)
+(2E,  2) : 3 Swarm of quippers
+(2E, 10) : 2 Hook horror
+(2E, 36) : 1500 cp, 0 sp, 20 ep, 0 gp, 0 pp, hidden(no monster encounter): 13, Clue to treasure2: (16, Nature)
+(2F, 37) : 1 Black pudding
+(30, 12) : 1 Weretiger
+(33,  7) : 0 cp, 0 sp, 9 ep, 0 gp, 0 pp, hidden(no monster encounter): 12, Clue to treasure1: (13, Religion)
+(34,  8) : 1 Killer whale
+(34, 2A) : 1100 cp, 0 sp, 10 ep, 0 gp, 0 pp, hidden(no monster encounter): 16, Clue to goal: (16, Investigation)
+(36,  E) : 0 cp, 0 sp, 6 ep, 0 gp, 0 pp, hidden(no monster encounter): 14, Clue to goal: (12, Religion)
+(36, 2E) : 0 cp, 9 sp, 0 ep, 0 gp, 0 pp, hidden(no monster encounter): 12, Clue to treasure2: (16, Investigation)
+(37, 2F) : 2 Saber-toothed tiger
+(3A, 3A) : 4 Yuan-ti Pureblood
