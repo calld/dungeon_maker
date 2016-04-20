@@ -47,6 +47,6 @@ Temporary Items
 .apdisk
 
 # generated dungeons
-dungeon/
-dungeontest/
-__pycache__/
+*dungeon/
+*dungeontest/
+*__pycache__/
