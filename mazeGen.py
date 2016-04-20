@@ -70,7 +70,7 @@ def make_layout():
     rotate.append(f)
     f = lambda x: rotate_section_left(x)
     rotate.append(f)
-    if(layType < .1):
+    if(layType < .15):
         f = lambda: util.make_small_section()
         #4 10s
         copy_section(m, rotate[randrange(4)](f()), 4, 4)
@@ -84,7 +84,7 @@ def make_layout():
         m['space'][28][28] = 9
         m['space'][14][14] = 7
         
-    elif(layType < .45):
+    elif(layType < .35):
         i = randrange(2)
         j = 1 - i
         f = [lambda: util.make_long_section(), lambda: util.make_wide_section()][i]
@@ -96,7 +96,7 @@ def make_layout():
 
         m['space'][14][14] = 9
         
-    elif(layType < .65):
+    elif(layType < .55):
         i = randrange(2)
         f = [lambda: util.make_long_section(), lambda: util.make_wide_section()][i]
         #30, 2 10s, 18
@@ -107,7 +107,36 @@ def make_layout():
 
         m['space'][(21,13)[i]][(13,21)[i]] = 9
 
-        m = rotate[randrange(4)](m) 
+        m = rotate[randrange(4)](m)
+    elif(layType < .75):
+        # 5 10's, checkerboard
+        i = randrange(4)
+        rotate = [lambda x: x, lambda x: rotate_section_right(x), lambda x: rotate_section_half(x), lambda x: rotate_section_left(x)]
+
+        copy_section(m, rotate[0](util.make_small_section()), 0, 0)
+        copy_section(m, rotate[1](util.make_small_section()), 0, 20)
+        copy_section(m, rotate[2](util.make_small_section()), 20, 20)
+        copy_section(m, rotate[3](util.make_small_section()), 20, 0)
+        copy_section(m, util.make_small_section(), 10, 10)
+
+        t = randrange(3)
+        if(t < 2):
+            m['hor'][10][randrange(11, 19)] = 2
+
+        if(t%2 == 0):
+            m['ver'][randrange(11, 19)][10] = 2
+
+        m['space'][3][13] = 9
+        m['space'][6][16] = 7
+        m['space'][13][3] = 9
+        m['space'][16][6] = 7
+        m['space'][13][23] = 9
+        m['space'][16][26] = 7
+        m['space'][23][13] = 9
+        m['space'][26][16] = 7
+
+        m = rotate[randrange(4)](m)
+        
     else:
         cross = (crxval[randrange(2)], crxval[randrange(2)])
         
@@ -178,17 +207,17 @@ def make_floor(l_r, l_c):
     m['space'][entrance[0]][entrance[1]] = 6
 
     c = randrange(0, len(spawn_points))
-    entrance = spawn_points[c]#
+    entrance = spawn_points[c]
     spawn_points = spawn_points[:c] + spawn_points[c+1:]
     m['space'][entrance[0]][entrance[1]] = 5
 
     for spot in spawn_points:
         rand = random()
-        if (rand < .4):
+        if (rand < .2):
             m['space'][spot[0]][spot[1]] = 8
-        elif(rand < .68):
+        elif(rand < .59):
             m['space'][spot[0]][spot[1]] = 10
-        elif(rand < .88):
+        elif(rand < .902):
             m['space'][spot[0]][spot[1]] = 9
         elif(rand < .98):
             m['space'][spot[0]][spot[1]] = 11
@@ -212,7 +241,7 @@ def make_floor(l_r, l_c):
     m['space'][horde[0]][horde[1]] = 4
 
     for spot in reSp:
-        if(random() < .4):
+        if(random() < .2):
             m['space'][spot[0]][spot[1]] = 8
 
     vdoors = []
