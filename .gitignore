@@ -49,4 +49,5 @@ Temporary Items
 # generated dungeons
 *dungeon/
 *dungeontest/
+*dun*/
 *__pycache__/
