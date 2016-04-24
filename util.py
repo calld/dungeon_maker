@@ -120,7 +120,7 @@ def make_small_section():
         if(door < 2):
             m['hor'][10][randrange(1,9)] = 2
 
-        if(door%2 < 1):
+        if(door%2 == 0):
             m['ver'][randrange(1,9)][10] = 2
 
         return m

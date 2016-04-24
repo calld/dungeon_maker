@@ -6,6 +6,7 @@ import os
 from random import randrange
 from util import randdiff
 from personality import randPersonEcounter
+import traps
 
 def spaceInfo(lvl, state, string, player_count):
     if(state == 4):
@@ -29,6 +30,8 @@ def spaceInfo(lvl, state, string, player_count):
         return '{} {}'.format(e[1], e[0])
     elif(state == 12):
         return randPersonEcounter(lvl)
+    elif(state == 13):
+        return traps.randtrap(lvl)
     else:
         return string
 
@@ -78,7 +81,7 @@ def load(name = 'temp.psav'):
     return res
 
 ch = [(' ', ' '), ('|', '-'), ('-', '\\'),
-      ('S','S'), 'T', 'G', 'E', 't', ' ', 'M', 'e', 'H', 'P']
+      ('S','S'), 'T', 'G', 'E', 't', ' ', 'm', 'e', 'h', 'P', 'R']
 
 ch2 = [(' ',' '), ('|', '-'), ('-', '\\'), ('|', '-')]
 
@@ -110,7 +113,7 @@ def make_txt(dun, name = './temp'):
             lines[-1] = lines[-1] + '+ {} '.format(ch[dun['floor'][floor]['hor'][dun['floor'][floor]['r_len']][c]][1])
         lines[-1] = lines[-1] + '+{:0>3X}\n'.format(dun['floor'][floor]['r_len'])
 
-        lines.append('   ' + ''.join(['+{: ^3X}'.format(c//16) for c in range(dun['floor'][floor]['c_len'])]) + '+\n')
+        lines.append('   ' + ''.join(['+{:0>3X}'.format(c) for c in range(dun['floor'][floor]['c_len'])]) + '+\n')
 
         dmap = open('Floor{:0>2d}Map.txt'.format(floor+1), 'w')
         dmap.writelines(lines)
@@ -189,4 +192,4 @@ def make_txt(dun, name = './temp'):
 
     os.chdir(cwd)
 
-make_txt(makeDun(pc = 5), name = './dungeontest')
+make_txt(makeDun(pc = 4), name = './dungeontest')

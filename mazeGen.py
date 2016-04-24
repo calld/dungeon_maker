@@ -70,9 +70,9 @@ def make_layout():
     rotate.append(f)
     f = lambda x: rotate_section_left(x)
     rotate.append(f)
-    if(layType < .15):
+    if(layType < .16666):
         f = lambda: util.make_small_section()
-        #4 10s
+        #4 10s, floating
         copy_section(m, rotate[randrange(4)](f()), 4, 4)
         copy_section(m, rotate[randrange(4)](f()), 4, 16)
         copy_section(m, rotate[randrange(4)](f()), 16, 4)
@@ -83,8 +83,63 @@ def make_layout():
         m['space'][28][1] = 9
         m['space'][28][28] = 9
         m['space'][14][14] = 7
+
+    elif(layType < .33333):
+        # 4 10s, inner cross
+        copy_section(m, rotate[0](util.make_small_section()), 0, 0)
+        copy_section(m, rotate[1](util.make_small_section()), 0, 20)
+        copy_section(m, rotate[2](util.make_small_section()), 20, 0)
+        copy_section(m, rotate[3](util.make_small_section()), 20, 20)
+
+        #inner hall edge
+        for x in range(12, 18):
+            m['hor'][2][x] = 1
+            m['hor'][28][x] = 1
+            m['ver'][x][2] = 1
+            m['ver'][x][28] = 1
+        for x in range(2, 12):
+            m['ver'][x][12] = 1
+            m['ver'][29-x][12] = 1
+            m['ver'][x][18] = 1
+            m['ver'][29-x][18] = 1
+            m['hor'][12][x] = 1
+            m['hor'][12][29-x] = 1
+            m['hor'][18][x] = 1
+            m['hor'][18][29-x] = 1
+
+        temp = [[(r, c) for c in range(13, 17)] for r in range(3, 11)] + [[(r, c) for c in range(3, 27)] for r in range(13, 17)] + [[(r, c) for c in range(13, 17)] for r in range(19, 27)]
+
+        points = []
+        for row in temp:
+            points.extend(row)
+
+        #random columns
+        util.make_p(m, [points.pop(randrange(len(points))) for x in range(randrange(10, 21))])
+
+        #spawn points
+        jump = len(points)//5
+
+        i = []
+        i.append(randrange(jump//2, jump))
+        i.append(i[-1] + randrange((jump*3)//4, (jump*3)//2) - 2)
+        i.append(i[-1] + randrange((jump*3)//4, jump) - 4)
+        i.append(i[-1] + randrange((jump*3)//4, (jump*3)//2) - 6)
         
-    elif(layType < .35):
+        for x in i:
+            m['space'][points[x][0]][points[x][1]] = 9
+            m['space'][points[x+2][0]][points[x+2][1]] = 7
+            points.pop(x)
+            points.pop(x+1)
+
+        #doors
+
+        fulldoors = [['ver', randrange(3, 11), 12], ['ver', randrange(3, 11), 18], ['ver', randrange(19, 27), 12], ['ver', randrange(19, 27), 18],
+                     ['hor', 12, randrange(3, 11)], ['hor', 18, randrange(3, 11)], ['hor', 12, randrange(19, 27)], ['hor', 18, randrange(19, 27)]]
+
+        for door in [fulldoors.pop(randrange(len(fulldoors))) for x in range(randrange(2, 5))]:
+            m[door[0]][door[1]][door[2]] = 2
+        
+    elif(layType < .5):
         i = randrange(2)
         j = 1 - i
         f = [lambda: util.make_long_section(), lambda: util.make_wide_section()][i]
@@ -96,7 +151,7 @@ def make_layout():
 
         m['space'][14][14] = 9
         
-    elif(layType < .55):
+    elif(layType < .66666):
         i = randrange(2)
         f = [lambda: util.make_long_section(), lambda: util.make_wide_section()][i]
         #30, 2 10s, 18
@@ -108,11 +163,9 @@ def make_layout():
         m['space'][(21,13)[i]][(13,21)[i]] = 9
 
         m = rotate[randrange(4)](m)
-    elif(layType < .75):
+    elif(layType < .83333):
         # 5 10's, checkerboard
         i = randrange(4)
-        rotate = [lambda x: x, lambda x: rotate_section_right(x), lambda x: rotate_section_half(x), lambda x: rotate_section_left(x)]
-
         copy_section(m, rotate[0](util.make_small_section()), 0, 0)
         copy_section(m, rotate[1](util.make_small_section()), 0, 20)
         copy_section(m, rotate[2](util.make_small_section()), 20, 20)
@@ -164,6 +217,18 @@ def make_layout():
                 copy_section(m, rotate_section_right(util.make_wide_section()), 0, cross[1]+2)
                 copy_section(m, rotate_section_left(util.make_long_section()), cross[0]+2, 0)
                 copy_section(m, rotate_section_half(util.make_small_section()), cross[0]+2, cross[1]+2)
+
+    opensp = []
+    for r in range(30):
+        opensp.append([])
+        for c in range(30):
+            if(m['space'][r][c] == 8):
+                opensp[r].append((r, c))
+    
+    for x in range(randrange(4)):
+        r = randrange(30)
+        m['space'][r][opensp[r][randrange(len(opensp[r]))][1]] = 13
+        #print('trap made')
 
     return m
 
