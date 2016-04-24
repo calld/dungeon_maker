@@ -159,14 +159,15 @@ def randWallLayout(edges = [[standardWall(y) for y in range(30)] for x in range(
 
     return m
 
-wallchar = [(' ', ' '), ('|', '-'), ('-', '\\')]
+wallchar = [(' ', ' '), ('|', '-'), ('-', '\\'),
+      ('S','S'), 'T', 'G', 'E', 't', ' ', 'm', 'e', 'h', 'P', 'R']
 
 def wallprint(m, filename = 'temp.txt'):
     lines = []
 
     for r in range(m['r_len']):
         lines.append('+ ' + ' + '.join([wallchar[m['hor'][r][c]][1] for c in range(m['c_len'])]) + ' +\n')
-        lines.append('   '.join([wallchar[m['ver'][r][c]][0] for c in range(m['c_len']+1)]) + '\n')
+        lines.append(''.join(['{} {} '.format(wallchar[m['ver'][r][c]][0], wallchar[m['space'][r][c]]) for c in range(m['c_len'])]) + wallchar[m['ver'][r][m['c_len']]][0] + '\n')
 
     lines.append('+ ' + ' + '.join([wallchar[m['hor'][m['r_len']][c]][1] for c in range(m['c_len'])]) + ' +\n')
 
