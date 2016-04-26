@@ -1,0 +1,56 @@
+	easy e
+1: Giant sea horse, 2
+2: Tridrone, 2
+3: Orc Eye of Gruumsh, 1
+4: Black dragon wyrmling, 1
+5: Swarm of ravens, 5
+6: Ankheg, 1
+7: Giant badger, 5
+8: Sea hag, 1
+9: Quaggoth, 1
+10: Gas spore, 2
+11: Lizardfolk, 2
+12: Violet fungus, 5
+
+	medium M
+1: Nightmare, 1
+2: Swarm of insects, 4
+3: Tiger, 2
+4: Gas spore, 4
+5: Rust Monster, 4
+6: Grell, 1
+7: Swarm of bats, 6
+8: Giant toad, 2
+9: Bearded devil, 1
+10: Pixie, 6
+11: Fire snake, 2
+12: Bugbear chief, 1
+
+	hard H
+1: Tiger, 3
+2: Carrion crawler, 2
+3: Imp, 3
+4: Scout, 6
+5: White dragon wyrmling, 2
+6: Faerie dragon (old), 2
+7: Orc war chief, 1
+8: Gnoll fang of Yeenoghu, 1
+9: Copper dragon wyrmling, 3
+10: Priest, 2
+11: Ochre jelly, 2
+12: Succubus, 1
+
+	doors
+1: strength 19,
+2: strength 20,
+3: strength 16,hidden 12,
+4: strength 16,lock 11,
+5: strength 20,
+6: strength 16,
+7: strength 18,
+8: strength 18,
+9: strength 19,
+10: strength 18,
+11: strength 18,
+12: strength 20,hidden 14,
+

@@ -1,0 +1,13 @@
+dungeon map symbol key:
+
+
+S = secret door
+T = treasure hoard
+G = goal
+E = entrance
+t = small treasure: monster drop or hidden coin with clue
+e = easy encounter
+m = medium encounter
+h = hard encounter
+P = NPC peaceful encounter
+R = trap, trigger area is within 3x3 square, that may be smaller due to walls, surrounding R

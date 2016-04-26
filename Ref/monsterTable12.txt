@@ -1,0 +1,56 @@
+	easy e
+1: Ghost, 3
+2: Yochlol, 1
+3: Basilisk, 5
+4: Abominable yeti, 1
+5: Ghost, 3
+6: Sahuagin Priestess, 6
+7: Marid, 1
+8: Djinni, 1
+9: Aboleth, 1
+10: Death slaad, 1
+11: Roc, 1
+12: Deva, 1
+
+	medium M
+1: Night hag (in coven), 2
+2: Adult brass dragon, 1
+3: Arcanaloth, 1
+4: Frost Giant, 2
+5: Stone giant, 2
+6: Erinyes, 1
+7: Ice devil, 1
+8: Young red shadow dragon, 1
+9: Beholder (not in lair), 1
+10: Werebear, 3
+11: Archmage, 1
+12: Drow mage, 2
+
+	hard H
+1: Planetar, 1
+2: Purple worm, 1
+3: Mummy lord (in lair), 1
+4: Gray slaad, 2
+5: Purple worm, 1
+6: Abominable yeti, 2
+7: Guardian naga, 2
+8: Planetar, 1
+9: Mummy lord (not in lair), 1
+10: Mummy lord (in lair), 1
+11: Blue slaad, 3
+12: Stone giant, 3
+
+	doors
+1: lock 18,strength 21,
+2: strength 21,
+3: strength 21,
+4: lock 17,strength 20,
+5: strength 21,
+6: strength 23,
+7: strength 21,
+8: strength 23,
+9: strength 20,
+10: strength 20,
+11: lock 16,strength 20,
+12: strength 22,
+
