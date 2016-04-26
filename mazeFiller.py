@@ -3,45 +3,46 @@ from util import randdiff
 import encounter
 import personality
 
-file = open('monster_list.txt', 'r')
-temp = []
-for line in file:
-    temp.append(line[:-1].split(', '))
+def initMonsters(fn = 'Ref/monster_list.txt'){
+    f = open(fn, 'r')
+    lines = [line.split(', ') in line in f]
+    f.close()
+    monsters = {0: lines[0],
+                 1/8: lines[1],
+                 1/4: lines[2],
+                 1/2: lines[3],
+                 1: lines[4],
+                 2: lines[5],
+                 3: lines[6],
+                 4: lines[7],
+                 5: lines[8],
+                 6: lines[9],
+                 7: lines[10],
+                 8: lines[11],
+                 9: lines[12],
+                 10: lines[13],
+                 11: lines[14],
+                 12: lines[15],
+                 13: lines[16],
+                 14: lines[17],
+                 15: lines[18],
+                 16: lines[19],
+                 17: lines[20],
+                 18: lines[21],
+                 19: lines[22],
+                 20: lines[23],
+                 21: lines[24],
+                 22: lines[25],
+                 23: lines[26],
+                 24: lines[27],
+                25: [''],
+                26: [''],
+                27: [''],
+                28: [''],
+                29: [''],
+                30: ['']}
 
-monsters = {0: temp[0],
-             1/8: temp[1],
-             1/4: temp[2],
-             1/2: temp[3],
-             1: temp[4],
-             2: temp[5],
-             3: temp[6],
-             4: temp[7],
-             5: temp[8],
-             6: temp[9],
-             7: temp[10],
-             8: temp[11],
-             9: temp[12],
-             10: temp[13],
-             11: temp[14],
-             12: temp[15],
-             13: temp[16],
-             14: temp[17],
-             15: temp[18],
-             16: temp[19],
-             17: temp[20],
-             18: temp[21],
-             19: temp[22],
-             20: temp[23],
-             21: temp[24],
-             22: temp[25],
-             23: temp[26],
-             24: temp[27],
-            25: [''],
-            26: [''],
-            27: [''],
-            28: [''],
-            29: [''],
-            30: ['']}
+}
 
 def randMonster(cr):
     return monsters[cr][randrange(0, len(monsters[cr]))]
@@ -62,6 +63,8 @@ def get_encounter(lvl, num = 4, diff = 1):
     """ get_encounter(lvl, num = 4, diff = 1): lvl = players' level, num = number of players, diff = (0 = easy, 1 = medium, 2 = hard)"""
     temp = encounter.randomEncounter(lvl, player_count = num, diff = diff)
     return (randMonster(temp[0]), temp[1])
+
+initMonsters()
 
 
 """lvl = 12
