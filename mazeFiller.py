@@ -3,46 +3,23 @@ from util import randdiff
 import encounter
 import personality
 
-def initMonsters(fn = 'Ref/monster_list.txt'){
-    f = open(fn, 'r')
-    lines = [line.split(', ') in line in f]
-    f.close()
-    monsters = {0: lines[0],
-                 1/8: lines[1],
-                 1/4: lines[2],
-                 1/2: lines[3],
-                 1: lines[4],
-                 2: lines[5],
-                 3: lines[6],
-                 4: lines[7],
-                 5: lines[8],
-                 6: lines[9],
-                 7: lines[10],
-                 8: lines[11],
-                 9: lines[12],
-                 10: lines[13],
-                 11: lines[14],
-                 12: lines[15],
-                 13: lines[16],
-                 14: lines[17],
-                 15: lines[18],
-                 16: lines[19],
-                 17: lines[20],
-                 18: lines[21],
-                 19: lines[22],
-                 20: lines[23],
-                 21: lines[24],
-                 22: lines[25],
-                 23: lines[26],
-                 24: lines[27],
-                25: [''],
-                26: [''],
-                27: [''],
-                28: [''],
-                29: [''],
-                30: ['']}
+monsters = {}
 
-}
+def initMonsters(fn = 'Ref/monster_list.txt', mon = monsters):
+    f = open(fn, 'r')
+    lines = [line.split(', ') for line in f]
+    f.close()
+    for x in range(1, 25):
+        mon[x] = lines[x+3]
+    for x in range(25, 31):
+        mon[x] = ['']
+    mon[0] = lines[0]
+    mon[1/8] = lines[1]
+    mon[1/4] = lines[2]
+    mon[1/2] = lines[3]
+				
+initMonsters()
+#print(monsters)
 
 def randMonster(cr):
     return monsters[cr][randrange(0, len(monsters[cr]))]
@@ -64,7 +41,7 @@ def get_encounter(lvl, num = 4, diff = 1):
     temp = encounter.randomEncounter(lvl, player_count = num, diff = diff)
     return (randMonster(temp[0]), temp[1])
 
-initMonsters()
+
 
 
 """lvl = 12

@@ -8,7 +8,7 @@ from random import random, randrange
 #types: pits, spikes, arrows,
 
 def randspell(lvl):
-    spellfile = open('attackspells.txt', 'r')
+    spellfile = open('Ref/attackspells.txt', 'r')
     lines = spellfile.readlines()
     spellfile.close()
     spells = [line.split(',') for line in lines]
