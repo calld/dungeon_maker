@@ -81,10 +81,10 @@ def load(name = 'temp.psav'):
     file.close()
     return res
 
-ch = [(' ', ' '), ('|', '-'), ('-', '\\'),
+ch = [(' ', ' '), ('|', '-'), ('/', '\\'),
       ('S','S'), 'T', 'G', 'E', 't', ' ', 'm', 'e', 'h', 'P', 'R']
 
-ch2 = [(' ',' '), ('|', '-'), ('-', '\\'), ('|', '-')]
+ch2 = [(' ',' '), ('|', '-'), ('/', '\\'), ('|', '-')]
 
 def make_txt(dun, name = './temp'):
     d = os.path.dirname(name)
@@ -193,4 +193,4 @@ def make_txt(dun, name = './temp'):
 
     os.chdir(cwd)
 
-make_txt(makeDun(pc = 5, monsterlistfilename = "Ref/GraceCampaignMonsters.txt", layoutType = 'cave'), name = './dungeontest')
+make_txt(makeDun(pc = 4, layoutType = 'cave'), name = './dungeontest')
