@@ -18,7 +18,7 @@ def initMonsters(fn = 'Ref/monster_list.txt', mon = monsters):
     mon[1/4] = lines[2]
     mon[1/2] = lines[3]
 				
-initMonsters()
+#initMonsters()
 #print(monsters)
 
 def randMonster(cr):

@@ -57,16 +57,17 @@ def edgeInfo(lvl, state, string):
 
 #need to mark secret doors as spectial
 
-def genInfo(lvl, mp, pc):
+def genInfo(lvl, mp, pc, moninit):
+    mf.initMonsters(fn = moninit)
     s = 'floor lvl ' + str(lvl)
     return {'space': [[spaceInfo(lvl, mp['space'][r][c], s, pc) for c in range(mp['c_len'])] for r in range(mp['r_len'])],
             'hor': [[edgeInfo(lvl, mp['hor'][r][c], s) for c in range(mp['c_len'])] for r in range(mp['r_len']+1)],
             'ver': [[edgeInfo(lvl, mp['ver'][r][c], s) for c in range(mp['c_len']+1)] for r in range(mp['r_len'])]}
 
-def makeDun(strength = [x for x in range(1, 21)], size = [(2, 2)]*4 + [(3, 3)]*7 + [(4, 4)]*5 + [(5,5)]*4, pc = 4):
-    dun = {'floor': [mg.make_floor(x[0], x[1]) for x in size]}
+def makeDun(strength = [x for x in range(1, 21)], size = [(2, 2)]*4 + [(3, 3)]*7 + [(4, 4)]*5 + [(5,5)]*4, pc = 4, monsterlistfilename = "Ref/monster_list.txt", layoutType = 'maze'):
+    dun = {'floor': [mg.make_floor(x[0], x[1], layoutType) for x in size]}
     dun['desc'] = 'dungeon'
-    dun['info'] = [genInfo(strength[x], dun['floor'][x], pc) for x in range(len(strength))]
+    dun['info'] = [genInfo(strength[x], dun['floor'][x], pc, monsterlistfilename) for x in range(len(strength))]
     return dun
 
 def save(ob, name = 'temp.psav'):
@@ -192,4 +193,4 @@ def make_txt(dun, name = './temp'):
 
     os.chdir(cwd)
 
-make_txt(makeDun(pc = 4), name = './dungeontest')
+make_txt(makeDun(pc = 5, monsterlistfilename = "Ref/GraceCampaignMonsters.txt", layoutType = 'cave'), name = './dungeontest')

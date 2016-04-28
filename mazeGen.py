@@ -1,4 +1,5 @@
 import util
+import randomRooms as rr
 from random import randrange, random
 
 crxval = [10, 18]
@@ -241,16 +242,21 @@ def make_layout():
 # 8 = empty,
 # 9 = monster
 
-def make_floor(l_r, l_c):
+def make_floor(l_r, l_c, layoutT):
     m = {'hor': [[0 for c in range(30*l_c)] for r in range(30*l_r+1)],
          'ver': [[0 for c in range(30*l_c+1)] for r in range(30*l_r)],
          'space': [[8 for c in range(30*l_c)] for r in range(30*l_r)],
          'r_len': 30*l_r,
          'c_len': 30*l_c}
 
-    for r in range(l_r):
-        for c in range(l_c):
-            copy_section(m, make_layout(), r*30, c*30)
+    if(layoutT == 'cave'):
+        for r in range(l_r):
+            for c in range(l_c):
+                copy_section(m, rr.randroomsLayout(), r*30, c*30)
+    else:
+        for r in range(l_r):
+            for c in range(l_c):
+                copy_section(m, make_layout(), r*30, c*30)
 
     for c in range(m['c_len']):
         m['hor'][0][c] = 1

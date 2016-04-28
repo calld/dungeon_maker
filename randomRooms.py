@@ -130,6 +130,7 @@ def randroomsLayout(density = 4, encounters = randrange(12, 15)):
 
     enroomc = [0 for room in roomlists]
 
+    keyspots = [(0, 10), (0, 18), (29, 10), (29, 18), (10, 0), (18, 0), (10, 29), (18, 29)]
     while(encounters > 0):
         if(len(roomlists) == 0):
             break
@@ -141,6 +142,7 @@ def randroomsLayout(density = 4, encounters = randrange(12, 15)):
             continue
         sp = room.pop(randrange(len(room)))
         m['space'][sp[0]][sp[1]] = 9
+        keyspots.append(sp)
         if(len(room) > 0):
             sp = room.pop(randrange(len(room)))
             m['space'][sp[0]][sp[1]] = 7
@@ -148,10 +150,10 @@ def randroomsLayout(density = 4, encounters = randrange(12, 15)):
         enroomc[i] = enroomc[i] + 1
         if(len(room)/enroomc[i] < 64):
             roomlists.pop(i)
-            enroomc.pop(i)         
+            enroomc.pop(i)
 
     return m
 
-wallprint(randroomsLayout())
+#wallprint(randroomsLayout())
 
     
